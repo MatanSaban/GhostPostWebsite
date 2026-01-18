@@ -1,0 +1,693 @@
+{
+  "metadata": {
+    "title": "Ghost Post - AI-Powered SEO Automation",
+    "description": "The first autonomous AI agent that optimizes, writes, and manages your site's SEO while you sleep."
+  },
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "pricing": "Pricing",
+    "howItWorks": "How It Works",
+    "blog": "Blog",
+    "about": "About",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "login": "Login",
+    "signUp": "Sign Up",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "badge": "AI-Powered SEO",
+    "title": "Your Website's SEO on",
+    "titleHighlight": "Autopilot",
+    "subtitle": "The first autonomous AI agent that optimizes, writes, and manages your site's SEO while you sleep. Set it and forget it.",
+    "cta": "Start Free Trial",
+    "secondaryCta": "Watch Demo",
+    "trustedBy": "Trusted by 500+ companies worldwide"
+  },
+  "features": {
+    "badge": "Powerful Features",
+    "titlePrefix": "Why Choose",
+    "titleHighlight": "Ghost Post",
+    "subtitle": "Powerful features that work together to dominate search rankings",
+    "items": [
+      {
+        "icon": "brain",
+        "title": "Autonomous AI Agent",
+        "description": "Ghost works 24/7 analyzing, optimizing, and implementing SEO strategies without human intervention.",
+        "color": "purple"
+      },
+      {
+        "icon": "sparkles",
+        "title": "Content Generation",
+        "description": "Automatically creates SEO-optimized content based on keyword research and competitor analysis.",
+        "color": "blue"
+      },
+      {
+        "icon": "trending",
+        "title": "Real-Time Optimization",
+        "description": "Continuously monitors rankings and adapts strategies to maintain top search positions.",
+        "color": "green"
+      },
+      {
+        "icon": "zap",
+        "title": "Smart Automations",
+        "description": "Automate meta tags, internal linking, image optimization, and technical SEO fixes.",
+        "color": "purple"
+      },
+      {
+        "icon": "clock",
+        "title": "Time Machine Mode",
+        "description": "Set it and forget it. Ghost handles everything from keyword research to content publishing.",
+        "color": "blue"
+      },
+      {
+        "icon": "shield",
+        "title": "Safe & Compliant",
+        "description": "Follows Google guidelines and best practices to ensure sustainable, penalty-free growth.",
+        "color": "green"
+      }
+    ],
+    "metaTitle": "Features - Ghost Post",
+    "metaDescription": "Explore 100+ automated SEO features powered by AI",
+    "badge": "100+ Automated Features",
+    "title": "Complete",
+    "titleHighlight": "Ghost Post",
+    "subtitle": "Everything you need to dominate search rankings, powered by autonomous AI that works 24/7.",
+    "pageBadge": "100+ Automated Features",
+    "pageTitle": "All Features of",
+    "pageTitleHighlight": "Ghost Post",
+    "pageSubtitle": "Everything you need to dominate search rankings, powered by autonomous AI that works 24/7.",
+    "aiContent": "AI-Powered Content Generation",
+    "aiContentDesc": "Ghost analyzes your niche, competitors, and top-ranking content to automatically generate SEO-optimized articles, product descriptions, and landing pages that rank.",
+    "aiContentBenefits": [
+      "Natural language processing for human-quality content",
+      "Keyword optimization based on search intent",
+      "Automatic content scheduling and publishing",
+      "Competitor content gap analysis",
+      "Multi-format content (blogs, products, FAQs)",
+      "Brand voice customization"
+    ],
+    "articlesGenerated": "Articles Generated Daily",
+    "keywordResearch": "Intelligent Keyword Research",
+    "keywordResearchDesc": "Discover high-value keywords with low competition. Ghost continuously monitors search trends and identifies new opportunities before your competitors do.",
+    "keywordResearchBenefits": [
+      "Real-time keyword difficulty analysis",
+      "Long-tail keyword discovery",
+      "Search intent classification",
+      "Seasonal trend predictions",
+      "Keyword clustering and grouping",
+      "SERP feature opportunities"
+    ],
+    "keywordsAnalyzed": "Keywords Analyzed",
+    "linkBuilding": "Automated Link Building",
+    "linkBuildingDesc": "Ghost identifies link-building opportunities, reaches out to relevant websites, and secures high-quality backlinks for your site automatically.",
+    "linkBuildingBenefits": [
+      "AI-powered outreach email generation",
+      "Broken link opportunity detection",
+      "Internal linking optimization",
+      "Backlink quality monitoring",
+      "Guest post opportunity finder",
+      "Link reclamation"
+    ],
+    "backlinksBuilt": "Backlinks Built",
+    "technicalSeo": "Technical SEO Automation",
+    "technicalSeoDesc": "Automatically fix technical issues that hurt your rankings. Ghost handles meta tags, sitemaps, robots.txt, structured data, and more.",
+    "technicalSeoBenefits": [
+      "Auto-generated meta descriptions",
+      "Schema markup implementation",
+      "XML sitemap automatic updates",
+      "Page speed optimization",
+      "Mobile usability fixes",
+      "Canonical tag management"
+    ],
+    "issueDetection": "Issue Detection Rate",
+    "mediaOptimization": "Image & Media Optimization",
+    "mediaOptimizationDesc": "Compress images, generate alt text, and optimize media files for faster loading and better SEO without manual intervention.",
+    "mediaOptimizationBenefits": [
+      "Automatic image compression",
+      "AI-generated alt text",
+      "Lazy loading implementation",
+      "WebP format conversion",
+      "Responsive image sizing",
+      "Image sitemap generation"
+    ],
+    "imagesOptimized": "Images Optimized",
+    "analytics": "Advanced Analytics & Reporting",
+    "analyticsDesc": "Track your SEO performance with detailed analytics, competitor comparisons, and actionable insights delivered to your inbox.",
+    "analyticsBenefits": [
+      "Real-time ranking tracking",
+      "Traffic source analysis",
+      "ROI measurement",
+      "Custom report generation",
+      "Competitor traffic estimation",
+      "Conversion funnel analysis"
+    ],
+    "dataPointsTracked": "Data Points Tracked",
+    "ctaTitle": "Ready to automate your SEO?",
+    "ctaDescription": "Start your 14-day free trial and experience the power of AI-driven SEO.",
+    "ctaButton": "Start Free Trial"
+  },
+  "howItWorks": {
+    "badge": "Simple Process",
+    "titlePrefix": "How Ghost",
+    "titleHighlight": "Works",
+    "title": "How Ghost Post",
+    "subtitle": "From setup to results, Ghost handles everything automatically",
+    "metaTitle": "How It Works - Ghost Post",
+    "metaDescription": "From setup to success in 6 simple steps",
+    "step1Title": "Connect Your Site",
+    "step1Description": "Simple one-click integration with your website. Ghost analyzes your current SEO state and identifies opportunities.",
+    "step1Duration": "5 minutes",
+    "step1Details": [
+      "Secure connection to your website",
+      "Automatic site structure analysis",
+      "Existing content scanning",
+      "Technical issues identification"
+    ],
+    "step2Title": "Comprehensive SEO Analysis",
+    "step2Description": "Ghost deep-scans your site and identifies all available SEO opportunities.",
+    "step2Duration": "24 hours",
+    "step2Details": [
+      "Full site crawl",
+      "Speed and performance check",
+      "Competitor analysis",
+      "Initial keyword research"
+    ],
+    "step3Title": "Strategy Building",
+    "step3Description": "Ghost builds a customized SEO strategy for your business based on collected data.",
+    "step3Duration": "Automatic",
+    "step3Details": [
+      "Detailed content plan",
+      "Keyword strategy",
+      "Task prioritization",
+      "Implementation timeline"
+    ],
+    "step4Title": "Automatic Content Creation",
+    "step4Description": "Ghost generates SEO-optimized content automatically based on the strategy.",
+    "step4Duration": "Continuous",
+    "step4Details": [
+      "Optimized article creation",
+      "Meta description optimization",
+      "Alt text generation for images",
+      "Internal link building"
+    ],
+    "step5Title": "Automatic Implementation",
+    "step5Description": "Ghost implements changes and technical fixes automatically and safely.",
+    "step5Duration": "Continuous",
+    "step5Details": [
+      "New content publishing",
+      "Technical error fixes",
+      "Meta tag updates",
+      "Image optimization"
+    ],
+    "step6Title": "Monitoring & Growth",
+    "step6Description": "Track your rankings improve in real-time. Ghost continues to optimize.",
+    "step6Duration": "24/7",
+    "step6Details": [
+      "Real-time ranking tracking",
+      "Weekly performance reports",
+      "Automatic strategy adjustment",
+      "Significant change alerts"
+    ],
+    "ctaTitle": "Ready to get started?",
+    "ctaDescription": "Connect your website and let Ghost handle your SEO automatically.",
+    "ctaButton": "Start Free Trial",
+    "steps": [
+      {
+        "step": "01",
+        "title": "Connect Your Site",
+        "description": "Simple one-click integration with your website. Ghost analyzes your current SEO state and identifies opportunities."
+      },
+      {
+        "step": "02",
+        "title": "AI Takes Over",
+        "description": "Ghost creates a comprehensive SEO strategy, generates optimized content, and implements technical fixes automatically."
+      },
+      {
+        "step": "03",
+        "title": "Watch Growth",
+        "description": "Monitor your rankings improve in real-time. Ghost continuously optimizes based on performance data."
+      }
+    ]
+  },
+  "pricing": {
+    "badge": "14-Day Free Trial",
+    "titlePrefix": "Simple,",
+    "titleHighlight": "Transparent Pricing",
+    "subtitle": "Choose the plan that fits your business. No hidden fees, cancel anytime.",
+    "monthly": "Monthly",
+    "annual": "Annual",
+    "save": "Save 20%",
+    "perMonth": "/month",
+    "billedAnnually": "Billed ${amount}/year",
+    "custom": "Custom",
+    "popularBadge": "Most Popular",
+    "startFreeTrial": "Start Free Trial",
+    "contactSales": "Contact Sales",
+    "faqTitle": "Frequently Asked Questions",
+    "starterName": "Starter",
+    "starterCta": "Start Free Trial",
+    "starterDescription": "Perfect for small businesses and startups",
+    "starterFeatures": [
+      "Up to 10,000 monthly visitors",
+      "5 content pieces per month",
+      "Basic keyword tracking",
+      "Technical SEO automation",
+      "Email support"
+    ],
+    "proName": "Professional",
+    "proCta": "Start Free Trial",
+    "proDescription": "For growing businesses serious about SEO",
+    "proFeatures": [
+      "Up to 100,000 monthly visitors",
+      "20 content pieces per month",
+      "Advanced keyword strategy",
+      "Full SEO automation",
+      "Link building assistance",
+      "Priority support"
+    ],
+    "enterpriseName": "Enterprise",
+    "enterpriseCta": "Contact Sales",
+    "enterpriseDescription": "For large organizations with complex needs",
+    "enterpriseFeatures": [
+      "Unlimited traffic",
+      "Unlimited content",
+      "Multi-site support",
+      "Custom integrations",
+      "Dedicated account manager",
+      "24/7 phone support"
+    ],
+    "faqs": [
+      {
+        "question": "How does the free trial work?",
+        "answer": "Start with a 14-day free trial on any plan. No credit card required. Experience the full power of Ghost Post with all features unlocked."
+      },
+      {
+        "question": "Can I change plans later?",
+        "answer": "Yes! You can upgrade or downgrade your plan at any time. Upgrades take effect immediately with prorated billing."
+      },
+      {
+        "question": "What happens if I exceed my visitor limit?",
+        "answer": "We'll send you a notification when you're approaching 80% of your limit. You can either upgrade or continue with a small overage fee."
+      },
+      {
+        "question": "Is Ghost Post safe for my website?",
+        "answer": "Absolutely. Ghost follows all Google Webmaster Guidelines and uses only white-hat, approved SEO techniques."
+      },
+      {
+        "question": "Do you offer refunds?",
+        "answer": "Yes, we offer a 30-day money-back guarantee on all plans. If you're not satisfied, we'll refund your payment in full."
+      }
+    ],
+    "plans": [
+      {
+        "name": "Starter",
+        "price": "$99",
+        "period": "/month",
+        "description": "Perfect for small businesses and startups",
+        "features": [
+          "Up to 10,000 monthly visitors",
+          "5 content pieces per month",
+          "Basic keyword tracking",
+          "Technical SEO automation",
+          "Email support"
+        ],
+        "cta": "Start Free Trial",
+        "popular": false
+      },
+      {
+        "name": "Professional",
+        "price": "$299",
+        "period": "/month",
+        "description": "For growing businesses serious about SEO",
+        "features": [
+          "Up to 100,000 monthly visitors",
+          "20 content pieces per month",
+          "Advanced keyword strategy",
+          "Full SEO automation",
+          "Link building assistance",
+          "Priority support"
+        ],
+        "cta": "Start Free Trial",
+        "popular": true
+      },
+      {
+        "name": "Enterprise",
+        "price": "Custom",
+        "period": "",
+        "description": "For large organizations with complex needs",
+        "features": [
+          "Unlimited traffic",
+          "Unlimited content",
+          "Multi-site support",
+          "Custom integrations",
+          "Dedicated account manager",
+          "24/7 phone support"
+        ],
+        "cta": "Contact Sales",
+        "popular": false
+      }
+    ],
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "How does the free trial work?",
+          "answer": "Start with a 14-day free trial on any plan. No credit card required. Experience the full power of Ghost Post with all features unlocked."
+        },
+        {
+          "question": "Can I change plans later?",
+          "answer": "Yes! You can upgrade or downgrade your plan at any time. Upgrades take effect immediately with prorated billing."
+        },
+        {
+          "question": "What happens if I exceed my visitor limit?",
+          "answer": "We'll send you a notification when you're approaching 80% of your limit. You can either upgrade or continue with a small overage fee."
+        },
+        {
+          "question": "Is Ghost Post safe for my website?",
+          "answer": "Absolutely. Ghost follows all Google Webmaster Guidelines and uses only white-hat, approved SEO techniques."
+        },
+        {
+          "question": "Do you offer refunds?",
+          "answer": "Yes, we offer a 30-day money-back guarantee on all plans. If you're not satisfied, we'll refund your payment in full."
+        }
+      ]
+    }
+  },
+  "cta": {
+    "title": "Ready to Automate Your SEO?",
+    "description": "Join hundreds of businesses growing their organic traffic with Ghost Post",
+    "button": "Start Free Trial"
+  },
+  "about": {
+    "badge": "Our Story",
+    "title": "About",
+    "titleHighlight": "Ghost Post",
+    "subtitle": "We're on a mission to democratize SEO and make it accessible to businesses of all sizes.",
+    "metaTitle": "About - Ghost Post",
+    "metaDescription": "Learn about our mission to revolutionize SEO with AI",
+    "stat1Value": "500+",
+    "stat1Label": "Businesses Served",
+    "stat2Value": "50M+",
+    "stat2Label": "Keywords Ranked",
+    "stat3Value": "99.9%",
+    "stat3Label": "Uptime",
+    "stat4Value": "24/7",
+    "stat4Label": "AI Support",
+    "storyTitle": "Our Story",
+    "storyParagraph1": "Ghost Post was founded in 2024 by a team of AI researchers and SEO experts who saw an opportunity to revolutionize how businesses approach search engine optimization.",
+    "storyParagraph2": "We believed that the future of SEO wasn't about manual optimization or hiring expensive agencies—it was about building intelligent systems that could learn, adapt, and execute SEO strategies autonomously.",
+    "storyParagraph3": "Today, Ghost Post powers SEO for hundreds of businesses worldwide, from startups to enterprise companies, helping them achieve sustainable organic growth without the complexity and cost of traditional SEO.",
+    "valuesTitle": "Our Values",
+    "value1Title": "Innovation First",
+    "value1Description": "We're constantly pushing the boundaries of what's possible with AI-powered SEO.",
+    "value2Title": "Customer Obsessed",
+    "value2Description": "Your success is our success. We're not happy until you're ranking #1.",
+    "value3Title": "Transparency",
+    "value3Description": "We believe in honest, white-hat SEO practices. No tricks, no shortcuts.",
+    "value4Title": "Speed & Efficiency",
+    "value4Description": "We move fast and deliver results faster than any traditional agency.",
+    "teamTitle": "Leadership Team",
+    "member1Name": "Alex Chen",
+    "member1Role": "CEO & Co-Founder",
+    "member1Bio": "Former Google engineer with 15 years of experience in search and AI.",
+    "member2Name": "Sarah Johnson",
+    "member2Role": "CTO & Co-Founder",
+    "member2Bio": "PhD in Machine Learning from Stanford. Built AI systems at OpenAI.",
+    "member3Name": "Michael Park",
+    "member3Role": "VP of Product",
+    "member3Bio": "10+ years building SEO tools at Moz and Ahrefs.",
+    "member4Name": "Emily Davis",
+    "member4Role": "VP of Customer Success",
+    "member4Bio": "Passionate about helping businesses grow through organic search.",
+    "ctaTitle": "Join us on our mission",
+    "ctaDescription": "Ready to experience the future of SEO? Start your free trial today.",
+    "ctaButton": "Get Started Free",
+    "mission": {
+      "title": "Our Mission",
+      "description": "To empower every business owner to compete in organic search, regardless of their technical expertise or budget."
+    },
+    "story": {
+      "title": "Our Story",
+      "paragraphs": [
+        "Ghost Post was founded in 2024 by a team of SEO experts and AI engineers who were frustrated by how complex and expensive SEO had become.",
+        "We believed that AI could handle the heavy lifting of SEO while delivering better results than traditional agencies. After two years of development, Ghost Post was born.",
+        "Today, we help over 500 businesses automate their SEO and grow their organic traffic. Our AI has generated over 50,000 pieces of content and improved rankings for millions of keywords."
+      ]
+    },
+    "values": {
+      "title": "Our Values",
+      "items": [
+        {
+          "title": "Transparency",
+          "description": "We believe in honest, white-hat SEO practices. No tricks, no shortcuts."
+        },
+        {
+          "title": "Innovation",
+          "description": "We're constantly improving our AI to deliver better results for our customers."
+        },
+        {
+          "title": "Customer Success",
+          "description": "Your success is our success. We're not happy until you're ranking #1."
+        }
+      ]
+    }
+  },
+  "contact": {
+    "badge": "24/7 Support",
+    "title": "Get in",
+    "titleHighlight": "Touch",
+    "subtitle": "Have questions about GhostPost? We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
+    "metaTitle": "Contact - Ghost Post",
+    "metaDescription": "Get in touch with the Ghost Post team",
+    "infoTitle": "Contact Information",
+    "infoDescription": "Fill out the form and our team will get back to you within 24 hours.",
+    "emailTitle": "Email",
+    "emailValue": "hello@ghostpost.ai",
+    "phoneTitle": "Phone",
+    "phoneValue": "+1 (555) 123-4567",
+    "locationTitle": "Office",
+    "locationValue": "San Francisco, CA",
+    "followUs": "Follow us",
+    "name": "Name",
+    "namePlaceholder": "John Doe",
+    "email": "Email",
+    "emailPlaceholder": "john@example.com",
+    "company": "Company (Optional)",
+    "companyPlaceholder": "Your Company",
+    "subject": "Subject",
+    "selectSubject": "Select a subject",
+    "subjectGeneral": "General Inquiry",
+    "subjectSales": "Sales",
+    "subjectSupport": "Technical Support",
+    "subjectPartnership": "Partnership",
+    "subjectOther": "Other",
+    "message": "Message",
+    "messagePlaceholder": "Tell us how we can help...",
+    "submit": "Send Message",
+    "sending": "Sending...",
+    "successTitle": "Message Sent!",
+    "successMessage": "Thank you for reaching out. We'll get back to you within 24 hours.",
+    "sendAnother": "Send Another Message",
+    "info": {
+      "title": "Contact Information",
+      "description": "Fill out the form and our team will get back to you within 24 hours.",
+      "email": "Email",
+      "phone": "Phone",
+      "office": "Office",
+      "followUs": "Follow us"
+    },
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "John Doe",
+      "email": "Email",
+      "emailPlaceholder": "john@example.com",
+      "company": "Company (Optional)",
+      "companyPlaceholder": "Your Company",
+      "subject": "Subject",
+      "selectSubject": "Select a subject",
+      "subjects": {
+        "general": "General Inquiry",
+        "sales": "Sales",
+        "support": "Technical Support",
+        "partnership": "Partnership",
+        "other": "Other"
+      },
+      "message": "Message",
+      "messagePlaceholder": "Tell us how we can help...",
+      "submit": "Send Message",
+      "sending": "Sending..."
+    },
+    "success": {
+      "title": "Message Sent!",
+      "message": "Thank you for reaching out. We'll get back to you within 24 hours.",
+      "sendAnother": "Send Another Message"
+    }
+  },
+  "faq": {
+    "badge": "Got Questions?",
+    "title": "Frequently Asked",
+    "titleHighlight": "Questions",
+    "subtitle": "Find answers to common questions about GhostPost. Can't find what you're looking for? Contact our support team.",
+    "searchPlaceholder": "Search questions...",
+    "categories": {
+      "all": "All",
+      "general": "General",
+      "pricing": "Pricing",
+      "features": "Features",
+      "technical": "Technical"
+    },
+    "noResults": "No questions found matching your search.",
+    "clearFilters": "Clear filters",
+    "cta": {
+      "title": "Still have questions?",
+      "description": "Our support team is here to help. Reach out and we'll get back to you within 24 hours.",
+      "button": "Contact Support"
+    }
+  },
+  "blog": {
+    "badge": "Latest Updates",
+    "title": "The",
+    "titleHighlight": "Ghost Post",
+    "titleSuffix": "Blog",
+    "titleBefore": true,
+    "subtitle": "Insights, tips, and strategies to dominate search rankings",
+    "readMore": "Read More",
+    "readArticle": "Read Article",
+    "minRead": "min read",
+    "featured": "Featured",
+    "all": "All",
+    "categorySEO": "SEO",
+    "categoryContent": "Content",
+    "categoryTechnical": "Technical",
+    "categoryAI": "AI",
+    "categoryCaseStudies": "Case Studies",
+    "post1Title": "The Future of SEO: How AI is Revolutionizing Search",
+    "post1Excerpt": "Discover how artificial intelligence is transforming the way we approach search engine optimization and what it means for your business.",
+    "post2Title": "10 Essential SEO Strategies for 2026",
+    "post2Excerpt": "Stay ahead of the competition with these proven SEO strategies that will help you dominate search rankings this year.",
+    "post3Title": "Technical SEO: A Complete Guide",
+    "post3Excerpt": "Master the technical aspects of SEO with our comprehensive guide covering site speed, crawlability, and more.",
+    "post4Title": "Content Marketing Best Practices",
+    "post4Excerpt": "Learn how to create content that ranks, engages, and converts your target audience.",
+    "post5Title": "Case Study: 300% Traffic Increase in 6 Months",
+    "post5Excerpt": "See how one e-commerce company tripled their organic traffic using Ghost Post's AI-powered automation.",
+    "post6Title": "Understanding Core Web Vitals",
+    "post6Excerpt": "Everything you need to know about Google's Core Web Vitals and how to optimize for them.",
+    "post7Title": "Keyword Research in the Age of AI",
+    "post7Excerpt": "Traditional keyword research is evolving. Learn how AI is changing the game and how to adapt.",
+    "post8Title": "Building a Content Calendar That Works",
+    "post8Excerpt": "Plan your content strategy effectively with our guide to creating and maintaining a content calendar."
+  },
+  "blogPost": {
+    "backToBlog": "Back to Blog",
+    "notFound": "Post not found",
+    "bookmark": "Bookmark",
+    "share": "Share",
+    "shareArticle": "Share this article",
+    "relatedArticles": "Related Articles",
+    "headOfSEO": "Head of SEO",
+    "seoSpecialist": "SEO Specialist",
+    "technicalLead": "Technical Lead",
+    "contentStrategist": "Content Strategist",
+    "caseStudyAuthor": "Case Study Author",
+    "performanceExpert": "Performance Expert",
+    "seoResearcher": "SEO Researcher",
+    "contentManager": "Content Manager",
+    "tagAI": "AI",
+    "tagSEO": "SEO",
+    "tagAutomation": "Automation",
+    "tagFuture": "Future",
+    "tagStrategy": "Strategy",
+    "tagRankings": "Rankings",
+    "tagTechnical": "Technical",
+    "tagGuide": "Guide",
+    "tagContent": "Content",
+    "tagMarketing": "Marketing",
+    "tagCaseStudy": "Case Study",
+    "tagSuccess": "Success",
+    "tagGrowth": "Growth",
+    "tagPerformance": "Performance",
+    "tagGoogle": "Google",
+    "tagKeywords": "Keywords",
+    "tagResearch": "Research",
+    "tagPlanning": "Planning",
+    "contentPlaceholder": "This is where the full article content would be displayed. In a production environment, this content would be fetched from a CMS or database and rendered with proper formatting.",
+    "sectionTitle1": "Key Takeaways",
+    "sectionTitle2": "Conclusion",
+    "takeaway1": "AI-powered SEO tools are becoming essential for staying competitive",
+    "takeaway2": "Automation handles repetitive tasks while humans focus on strategy",
+    "takeaway3": "Data-driven decisions lead to better outcomes",
+    "takeaway4": "Continuous optimization is key to long-term success",
+    "conclusion": "The future of SEO is here, and it's powered by AI. By embracing these new tools and technologies, businesses can achieve better results with less manual effort."
+  },
+  "footer": {
+    "description": "The first autonomous AI agent that optimizes, writes, and manages your site's SEO while you sleep.",
+    "product": "Product",
+    "company": "Company",
+    "resources": "Resources",
+    "legal": "Legal",
+    "links": {
+      "features": "Features",
+      "pricing": "Pricing",
+      "howItWorks": "How It Works",
+      "integrations": "Integrations",
+      "about": "About",
+      "blog": "Blog",
+      "careers": "Careers",
+      "contact": "Contact",
+      "documentation": "Documentation",
+      "helpCenter": "Help Center",
+      "community": "Community",
+      "apiReference": "API Reference",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookie Policy"
+    },
+    "newsletter": {
+      "title": "Subscribe to our newsletter",
+      "placeholder": "Enter your email",
+      "button": "Subscribe"
+    },
+    "copyright": "© {year} Ghost Post. All rights reserved."
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome Back",
+      "subtitle": "Sign in to your Ghost Post account",
+      "email": "Email",
+      "password": "Password",
+      "forgotPassword": "Forgot password?",
+      "submit": "Sign In",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign up",
+      "orContinueWith": "Or continue with",
+      "google": "Google"
+    },
+    "register": {
+      "title": "Create Account",
+      "subtitle": "Start your 14-day free trial",
+      "name": "Full Name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "submit": "Create Account",
+      "hasAccount": "Already have an account?",
+      "signIn": "Sign in",
+      "orContinueWith": "Or continue with",
+      "google": "Google",
+      "terms": "By creating an account, you agree to our",
+      "termsLink": "Terms of Service",
+      "and": "and",
+      "privacyLink": "Privacy Policy"
+    }
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "startFreeTrial": "Start Free Trial",
+    "contactUs": "Contact Us",
+    "readMore": "Read More"
+  }
+}

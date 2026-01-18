@@ -1,0 +1,41 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(233, 213, 255, 1);
+  background-color: rgba(243, 232, 255, 0.5);
+  font-size: 0.8125rem;
+  font-family: 'Polin', 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #7c3aed;
+}
+
+.indicator {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 9999px;
+  background-color: #00FF9D;
+  box-shadow: 0 0 10px rgba(0, 255, 157, 0.8);
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+:global(.dark) .badge {
+  border-color: rgba(139, 92, 246, 0.4);
+  background-color: rgba(139, 92, 246, 0.15);
+  color: #a78bfa;
+}
+
+:global(.dark) .indicator {
+  box-shadow: 0 0 15px rgba(0, 255, 157, 1);
+}

@@ -182,6 +182,6 @@ export async function GET() {
   }
 }
 
-// Export for use in other files
-export { MODULES, getPermissionKey, getAllPermissions };
+// Note: MODULES, getPermissionKey, getAllPermissions are defined locally in this file
+// If needed elsewhere, import from @/lib/permissions.js instead
 

@@ -40,7 +40,7 @@
   .title {
     font-family: 'Polin', 'Poppins', sans-serif;
     font-size: clamp(2.5rem, 5vw, 3.75rem);
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 1.5rem;
     color: #111827;
   }
@@ -189,7 +189,7 @@
   .featuredTitle {
     font-family: 'Polin', 'Poppins', sans-serif;
     font-size: clamp(1.5rem, 3vw, 2rem);
-    font-weight: 700;
+    font-weight: 600;
     color: #111827;
     margin-bottom: 1rem;
   }
@@ -308,7 +308,7 @@
   .postTitle {
     font-family: 'Polin', 'Poppins', sans-serif;
     font-size: 1.0625rem;
-    font-weight: 700;
+    font-weight: 600;
     color: #111827;
     margin-bottom: 0.5rem;
     line-height: 1.4;

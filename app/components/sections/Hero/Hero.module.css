@@ -81,7 +81,7 @@
 
   .title {
     font-size: 2.1875rem;
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 1.5rem;
     line-height: 1.1;
     gap: 4px;
@@ -151,7 +151,7 @@
 
     .statValue {
       font-size: 1.8125rem;
-      font-weight: 700;
+      font-weight: 600;
       background: linear-gradient(to right, var(--color-purple-600), var(--color-blue-600));
       -webkit-background-clip: text;
       background-clip: text;

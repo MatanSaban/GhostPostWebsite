@@ -39,7 +39,7 @@
   .title {
     font-family: 'Polin', 'Poppins', sans-serif;
     font-size: clamp(2.5rem, 5vw, 3.75rem);
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 1.5rem;
     color: #111827;
   }
@@ -108,7 +108,7 @@
 .infoTitle {
   font-family: 'Polin', 'Poppins', sans-serif;
   font-size: 1.4375rem;
-  font-weight: 700;
+  font-weight: 600;
   color: #111827;
   margin-bottom: 0.75rem;
 }
@@ -425,7 +425,7 @@
 .successTitle {
   font-family: 'Polin', 'Poppins', sans-serif;
   font-size: 1.4375rem;
-  font-weight: 700;
+  font-weight: 600;
   color: #111827;
   margin-bottom: 0.75rem;
 }

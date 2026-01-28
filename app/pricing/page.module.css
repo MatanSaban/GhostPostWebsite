@@ -28,7 +28,7 @@
   .title {
     font-family: 'Polin', 'Poppins', sans-serif;
     font-size: clamp(2.5rem, 5vw, 3.75rem);
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 1.5rem;
     color: #111827;
   }
@@ -200,7 +200,7 @@
   .planName {
     font-family: 'Polin', 'Poppins', sans-serif;
     font-size: 1.4375rem;
-    font-weight: 700;
+    font-weight: 600;
     color: #111827;
     margin-bottom: 0.5rem;
   }
@@ -221,7 +221,7 @@
   .price {
     font-family: 'Polin', 'Poppins', sans-serif;
     font-size: 2.9375rem;
-    font-weight: 700;
+    font-weight: 600;
     color: #111827;
   }
 
@@ -338,7 +338,7 @@
   .faqTitle {
     font-family: 'Polin', 'Poppins', sans-serif;
     font-size: 1.9375rem;
-    font-weight: 700;
+    font-weight: 600;
     color: #111827;
     text-align: center;
     margin-bottom: 3rem;

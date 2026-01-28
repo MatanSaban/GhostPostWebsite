@@ -80,7 +80,7 @@
 .title {
   font-family: 'Polin', 'Poppins', sans-serif;
   font-size: 1.9375rem;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.2;
   color: #111827;
   margin-bottom: 2rem;
@@ -200,7 +200,7 @@
   h2 {
     font-family: 'Polin', 'Poppins', sans-serif;
     font-size: 1.6875rem;
-    font-weight: 700;
+    font-weight: 600;
     color: #111827;
     margin-top: 2.5rem;
     margin-bottom: 1rem;
@@ -337,7 +337,7 @@
 .relatedTitle {
   font-family: 'Polin', 'Poppins', sans-serif;
   font-size: 1.6875rem;
-  font-weight: 700;
+  font-weight: 600;
   color: #111827;
   margin-bottom: 2rem;
 }
@@ -402,7 +402,7 @@
 
 .relatedPostTitle {
   font-family: 'Polin', 'Poppins', sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   color: #111827;
   margin-top: 0.75rem;
   font-size: 0.8125rem;

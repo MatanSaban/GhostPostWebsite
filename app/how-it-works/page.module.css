@@ -28,7 +28,7 @@
   .title {
     font-family: 'Polin', 'Poppins', sans-serif;
     font-size: clamp(2.5rem, 5vw, 3.75rem);
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 1.5rem;
     color: #111827;
   }
@@ -85,7 +85,7 @@
   .stepNumber {
     font-family: 'Polin', 'Poppins', sans-serif;
     font-size: 2.9375rem;
-    font-weight: 700;
+    font-weight: 600;
     background: linear-gradient(135deg, #7c3aed, #2563eb);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -139,7 +139,7 @@
   .stepTitle {
     font-family: 'Polin', 'Poppins', sans-serif;
     font-size: 1.1875rem;
-    font-weight: 700;
+    font-weight: 600;
     color: #111827;
   }
 
@@ -238,7 +238,7 @@
   .ctaTitle {
     font-family: 'Polin', 'Poppins', sans-serif;
     font-size: clamp(1.5rem, 3vw, 2.5rem);
-    font-weight: 700;
+    font-weight: 600;
     color: #111827;
     margin-bottom: 1rem;
   }

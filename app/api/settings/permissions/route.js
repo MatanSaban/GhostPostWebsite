@@ -125,8 +125,8 @@ function getModulePermissions(module) {
 // Get all available permissions
 function getAllPermissions() {
   const all = [];
-  for (const module of MODULES) {
-    all.push(...getModulePermissions(module));
+  for (const mod of MODULES) {
+    all.push(...getModulePermissions(mod));
   }
   return all;
 }

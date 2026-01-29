@@ -134,7 +134,7 @@
 }
 
 .authSubtitle {
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   color: var(--muted-foreground);
 }
 
@@ -157,7 +157,7 @@
   flex: 1;
   padding: 0.625rem 1rem;
   border-radius: var(--radius-md);
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   font-weight: 600;
   color: var(--muted-foreground);
   transition: all var(--transition-fast);
@@ -195,7 +195,7 @@
 }
 
 .formLabel {
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   font-weight: 600;
   color: var(--foreground);
 
@@ -207,7 +207,7 @@
 .formInput {
   width: 100%;
   padding: 0.875rem 1rem;
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   color: var(--foreground);
   background: var(--input-background);
   border: 1px solid var(--input-border);
@@ -242,7 +242,7 @@
 }
 
 .forgotLink {
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   color: var(--primary);
   transition: color var(--transition-fast);
 
@@ -270,7 +270,7 @@
 }
 
 .termsLabel {
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   color: var(--muted-foreground);
   line-height: 1.5;
 
@@ -348,7 +348,7 @@
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   color: var(--muted-foreground);
   background: var(--card);
 
@@ -369,7 +369,7 @@
   justify-content: center;
   gap: 0.5rem;
   padding: 0.75rem 1rem;
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   font-weight: 500;
   color: var(--foreground);
   background: var(--muted);
@@ -401,7 +401,7 @@
 .authFooter {
   margin-top: 1.5rem;
   text-align: center;
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   color: var(--muted-foreground);
 
   a {
@@ -743,7 +743,7 @@
 }
 
 .otpMethodLabel {
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   font-weight: 600;
   color: var(--foreground);
 }
@@ -772,7 +772,7 @@
 }
 
 .otpSubtitle {
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   color: var(--muted-foreground);
   margin-bottom: 2rem;
 }
@@ -816,7 +816,7 @@
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   color: var(--primary);
   font-weight: 500;
   transition: all var(--transition-fast);
@@ -827,7 +827,7 @@
 }
 
 .resendTimer {
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   color: var(--muted-foreground);
 }
 
@@ -885,7 +885,7 @@
 }
 
 .otpResultMessage {
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   color: var(--muted-foreground);
   margin-bottom: 2rem;
 }
@@ -909,7 +909,7 @@
 }
 
 .interviewSubtitle {
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   color: var(--muted-foreground);
 }
 
@@ -1024,7 +1024,7 @@
 .interviewBubble {
   padding: 0.75rem 1rem;
   border-radius: var(--radius-lg);
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   line-height: 1.5;
 }
 
@@ -1097,7 +1097,7 @@
 .interviewInput {
   flex: 1;
   padding: 0.75rem 1rem;
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   background: var(--input-background);
   border: 1px solid var(--input-border);
   border-radius: var(--radius-lg);
@@ -1158,7 +1158,7 @@
   border: 1px solid rgba(239, 68, 68, 0.3);
   border-radius: var(--radius-md);
   color: #ef4444;
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -1171,7 +1171,7 @@
   border: 1px solid rgba(59, 130, 246, 0.3);
   border-radius: var(--radius-md);
   color: #3b82f6;
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -1200,7 +1200,7 @@
 }
 
 .planSelectionSubtitle {
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   color: var(--muted-foreground);
 }
 
@@ -1289,7 +1289,7 @@
 }
 
 .planPeriod {
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   color: var(--muted-foreground);
 }
 
@@ -1315,7 +1315,7 @@
 .planSelectBtn {
   width: 100%;
   padding: 0.75rem;
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   font-weight: 600;
   background: var(--muted);
   border: 1px solid var(--border);
@@ -1360,7 +1360,7 @@
 }
 
 .paymentSubtitle {
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   color: var(--muted-foreground);
 }
 
@@ -1406,7 +1406,7 @@
 .orderRow {
   display: flex;
   justify-content: space-between;
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   color: var(--muted-foreground);
 }
 
@@ -1651,7 +1651,7 @@
 
 .slugPrefix {
   padding: 0.875rem 0 0.875rem 1rem;
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   color: var(--muted-foreground);
   white-space: nowrap;
   user-select: none;
@@ -1660,7 +1660,7 @@
 .slugInput {
   flex: 1;
   padding: 0.875rem 0.5rem;
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   color: var(--foreground);
   background: transparent;
   border: none;
@@ -1754,7 +1754,7 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.75rem 1.25rem;
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   font-weight: 600;
   border-radius: var(--radius-lg);
   transition: all var(--transition-fast);
@@ -1928,7 +1928,7 @@
   }
 
   h3 {
-    font-size: 0.875rem;
+    font-size: 0.9375rem;
     font-weight: 600;
     color: var(--muted-foreground);
     text-transform: uppercase;
@@ -1971,7 +1971,7 @@
 }
 
 .formSectionSubtitle {
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   color: var(--muted-foreground);
   margin-bottom: 1rem;
 }
@@ -2051,7 +2051,7 @@
   border: 1px solid rgba(239, 68, 68, 0.3);
   border-radius: var(--radius-md);
   color: var(--error);
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   margin: 1rem 0;
 
   svg {
@@ -2067,7 +2067,7 @@
   input {
     width: 100%;
     padding: 0.875rem 1rem 0.875rem 2.75rem;
-    font-size: 0.875rem;
+    font-size: 0.9375rem;
     color: var(--foreground);
     background: var(--input-background);
     border: 1px solid var(--input-border);

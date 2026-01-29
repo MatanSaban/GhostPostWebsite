@@ -32,3 +32,6 @@ yarn-error.log*
 
 # prisma
 /prisma/generated
+
+# Prisma generated in app folder
+/app/generated

@@ -1,1 +1,0 @@
-export { RedirectForm } from './RedirectForm';

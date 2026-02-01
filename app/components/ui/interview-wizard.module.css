@@ -165,7 +165,7 @@
 }
 
 .headerSubtitle {
-  font-size: 0.75rem;
+  font-size: 0.8125rem;
   color: var(--muted-foreground);
 }
 
@@ -585,7 +585,7 @@
   border: 1px solid var(--border-subtle);
   background: var(--bg-primary);
   color: var(--text-primary);
-  font-size: 1rem;
+  font-size: 1.02rem;
   cursor: pointer;
   appearance: none;
   transition: all var(--transition-fast);
@@ -666,7 +666,7 @@
   border: 1px solid var(--border-subtle);
   background: var(--bg-primary);
   color: var(--text-primary);
-  font-size: 1rem;
+  font-size: 1.02rem;
   transition: all var(--transition-fast);
 
   &::placeholder {
@@ -691,7 +691,7 @@
   background: var(--bg-tertiary);
   color: var(--text-secondary);
   border-radius: 50%;
-  font-size: 1rem;
+  font-size: 1.02rem;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -784,7 +784,7 @@
 }
 
 .detectedIcon {
-  font-size: 1rem;
+  font-size: 1.02rem;
 }
 
 .searchableOption {
@@ -795,7 +795,7 @@
 }
 
 .detectedBadge {
-  font-size: 0.75rem;
+  font-size: 0.8125rem;
   margin-right: 0.25rem;
 }
 
@@ -928,7 +928,7 @@
   border: 1px solid var(--border-subtle);
   background: var(--bg-primary);
   color: var(--text-primary);
-  font-size: 1rem;
+  font-size: 1.02rem;
   resize: vertical;
   min-height: 80px;
   transition: all var(--transition-fast);
@@ -1006,7 +1006,7 @@
 }
 
 .dataCardLabel {
-  font-size: 0.75rem;
+  font-size: 0.8125rem;
   color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -1069,7 +1069,7 @@
 }
 
 .dataLabel {
-  font-size: 0.75rem;
+  font-size: 0.8125rem;
   font-weight: 500;
   color: var(--muted-foreground);
   text-transform: uppercase;
@@ -1141,7 +1141,7 @@
 }
 
 .seoLabel {
-  font-size: 0.75rem;
+  font-size: 0.8125rem;
   font-weight: 500;
   color: var(--text-muted);
   text-transform: uppercase;

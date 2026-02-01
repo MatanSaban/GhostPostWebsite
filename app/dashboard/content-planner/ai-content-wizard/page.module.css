@@ -101,7 +101,7 @@
 }
 
 .stepName {
-  font-size: 0.75rem;
+  font-size: 0.8125rem;
   font-weight: 600;
   text-align: center;
   color: var(--muted-foreground);
@@ -283,7 +283,7 @@
 }
 
 .formHint {
-  font-size: 0.75rem;
+  font-size: 0.8125rem;
   color: var(--muted-foreground);
   margin-top: 0.5rem;
 }
@@ -363,7 +363,7 @@
 }
 
 .contentTypeDesc {
-  font-size: 0.75rem;
+  font-size: 0.8125rem;
   color: var(--muted-foreground);
 }
 
@@ -456,7 +456,7 @@
 }
 
 .lengthWords {
-  font-size: 0.75rem;
+  font-size: 0.8125rem;
   color: var(--muted-foreground);
 }
 
@@ -513,7 +513,7 @@
 }
 
 .optionDescription {
-  font-size: 0.75rem;
+  font-size: 0.8125rem;
   color: var(--muted-foreground);
 }
 

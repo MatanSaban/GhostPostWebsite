@@ -92,14 +92,14 @@
 }
 
 .headerTitle {
-  font-size: 1rem;
+  font-size: 1.02rem;
   font-weight: 600;
   color: var(--foreground);
   margin: 0;
 }
 
 .headerProgress {
-  font-size: 0.75rem;
+  font-size: 0.8125rem;
   color: var(--muted-foreground);
 }
 
@@ -528,7 +528,7 @@
 .sliderLabels {
   display: flex;
   justify-content: space-between;
-  font-size: 0.75rem;
+  font-size: 0.8125rem;
   color: var(--muted-foreground);
 }
 

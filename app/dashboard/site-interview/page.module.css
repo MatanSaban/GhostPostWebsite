@@ -228,7 +228,7 @@
 }
 
 .stepStatus {
-  font-size: 0.75rem;
+  font-size: 0.8125rem;
   color: #6b7280;
 }
 
@@ -523,7 +523,7 @@
 .sectionStatus {
   padding: 0.25rem 0.75rem;
   border-radius: 9999px;
-  font-size: 0.75rem;
+  font-size: 0.8125rem;
   font-family: 'Poppins', sans-serif;
 }
 

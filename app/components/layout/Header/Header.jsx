@@ -15,7 +15,8 @@ export function Header({ locale, dict }) {
         <NavLinks locale={locale} dict={dict} />
 
         <div className={styles.actions}>
-          <LanguageSwitcher currentLocale={locale} />
+          {/* Language switcher hidden for MVP - Hebrew only */}
+          {/* <LanguageSwitcher currentLocale={locale} /> */}
           <ThemeToggle />
           <AuthButtons dict={dict} />
         </div>

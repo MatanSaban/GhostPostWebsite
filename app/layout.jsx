@@ -1,4 +1,5 @@
 import "./globals.css";
+import { ThemeProvider } from "./context/theme-context";
 
 export const metadata = {
   title: "Ghost Post - AI-Powered SEO Automation",
@@ -6,5 +7,13 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  return children;
+  return (
+    <html lang="en" suppressHydrationWarning>
+      <body suppressHydrationWarning>
+        <ThemeProvider>
+          {children}
+        </ThemeProvider>
+      </body>
+    </html>
+  );
 }

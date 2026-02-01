@@ -69,14 +69,30 @@ export function PricingCards({ plans, dict, locale = 'en' }) {
                   </p>
                 )}
                 <ul className={styles.featureList}>
-                  {plan.features.map((feature, i) => (
-                    <li key={i} className={styles.featureItem}>
-                      <svg className={styles.checkIcon} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
-                      {feature}
-                    </li>
-                  ))}
+                  {/* Limitations */}
+                  {plan.limitations?.map((limitation, i) => {
+                    const label = typeof limitation === 'string' ? limitation : limitation.label;
+                    return (
+                      <li key={`limit-${i}`} className={styles.featureItem}>
+                        <svg className={styles.checkIcon} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                        </svg>
+                        {label}
+                      </li>
+                    );
+                  })}
+                  {/* Features */}
+                  {plan.features?.map((feature, i) => {
+                    const label = typeof feature === 'string' ? feature : feature.label;
+                    return (
+                      <li key={`feature-${i}`} className={styles.featureItem}>
+                        <svg className={styles.checkIcon} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                        </svg>
+                        {label}
+                      </li>
+                    );
+                  })}
                 </ul>
                 <a
                   href={plan.popular ? `/${locale}/register` : plan.monthlyPrice ? `/${locale}/register` : `/${locale}/contact`}

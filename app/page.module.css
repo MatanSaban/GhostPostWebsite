@@ -1,7 +1,5 @@
 .page {
-  min-height: 100vh;
-}
-
-:global(.dark) .page {
-  /* Background handled by body in globals.css */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }

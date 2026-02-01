@@ -8,19 +8,7 @@ function getLocale(request) {
     return localeCookie;
   }
 
-  // Check Accept-Language header
-  const acceptLanguage = request.headers.get('Accept-Language');
-  if (acceptLanguage) {
-    const preferredLocale = acceptLanguage
-      .split(',')
-      .map((lang) => lang.split(';')[0].trim().substring(0, 2))
-      .find((lang) => locales.includes(lang));
-    
-    if (preferredLocale) {
-      return preferredLocale;
-    }
-  }
-
+  // For MVP: Always use Hebrew as default, ignore browser language
   return defaultLocale;
 }
 

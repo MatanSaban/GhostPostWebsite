@@ -1,39 +1,11 @@
 import { getDictionary } from '../../../i18n/get-dictionary';
+import { getPlans, getStaticPlans } from '../../../lib/get-plans';
 import { Badge } from '../../components/ui/Badge';
 import { PricingCards } from '../../pricing/PricingCards';
 import { PricingFAQ } from '../../pricing/PricingFAQ';
 import styles from '../../pricing/page.module.css';
 
-const pricingPlans = [
-  {
-    name: "Starter",
-    monthlyPrice: 99,
-    annualPrice: 948,
-    descriptionKey: "starterDescription",
-    featuresKey: "starterFeatures",
-    cta: "Start Free Trial",
-    popular: false,
-  },
-  {
-    name: "Professional",
-    monthlyPrice: 299,
-    annualPrice: 2870,
-    descriptionKey: "proDescription",
-    featuresKey: "proFeatures",
-    cta: "Start Free Trial",
-    popular: true,
-  },
-  {
-    name: "Enterprise",
-    monthlyPrice: null,
-    annualPrice: null,
-    descriptionKey: "enterpriseDescription",
-    featuresKey: "enterpriseFeatures",
-    cta: "Contact Sales",
-    popular: false,
-  },
-];
-
+// Fallback FAQs in case translations are missing
 const defaultFaqs = [
   {
     question: "How does the free trial work?",
@@ -70,21 +42,28 @@ export async function generateMetadata({ params }) {
 export default async function PricingPage({ params }) {
   const { locale } = await params;
   const dict = await getDictionary(locale);
+  
+  // Fetch plans from CMS API
+  const apiPlans = await getPlans(locale);
+  
+  // Use API plans or fallback to static plans
+  const plans = apiPlans || getStaticPlans();
 
   const t = dict.pricing || {};
 
-  // Build localized plans with translated names and CTAs
-  const localizedPlans = pricingPlans.map((plan, index) => {
-    const nameKeys = ['starterName', 'proName', 'enterpriseName'];
-    const ctaKeys = ['starterCta', 'proCta', 'enterpriseCta'];
-    return {
-      ...plan,
-      name: t[nameKeys[index]] || plan.name,
-      description: t[plan.descriptionKey] || plan.descriptionKey,
-      features: t[plan.featuresKey] || [],
-      cta: t[ctaKeys[index]] || plan.cta,
-    };
-  });
+  // Format plans for the PricingCards component
+  const formattedPlans = plans.map((plan) => ({
+    name: plan.name,
+    slug: plan.slug,
+    monthlyPrice: plan.monthlyPrice,
+    annualPrice: plan.yearlyPrice || (plan.monthlyPrice ? plan.monthlyPrice * 10 : null),
+    description: plan.description,
+    features: plan.features || [],
+    limitations: plan.limitations || [],
+    popular: plan.popular || false,
+    cta: plan.popular ? (t.startFreeTrial || "Start Free Trial") : 
+         (plan.monthlyPrice ? (t.startFreeTrial || "Start Free Trial") : (t.contactSales || "Contact Sales")),
+  }));
 
   // Get localized FAQs or use defaults
   const faqs = t.faqs || defaultFaqs;
@@ -105,7 +84,7 @@ export default async function PricingPage({ params }) {
       </section>
 
       {/* Pricing Cards with Billing Toggle */}
-      <PricingCards plans={localizedPlans} dict={t} locale={locale} />
+      <PricingCards plans={formattedPlans} dict={t} locale={locale} />
 
       {/* FAQ Section */}
       <section className={styles.faqSection}>

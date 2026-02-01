@@ -5,6 +5,11 @@
   cursor: pointer;
   text-decoration: none;
 
+  /* In RTL, reverse the order so icon is on left, text on right */
+  :global([dir="rtl"]) & {
+    flex-direction: row-reverse;
+  }
+
   .image {
     object-fit: contain;
   }

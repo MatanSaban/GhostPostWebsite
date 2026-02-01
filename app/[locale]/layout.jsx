@@ -1,5 +1,3 @@
-import "../globals.css";
-import { ThemeProvider } from "../context/theme-context";
 import { AuthModalProvider } from "../context/auth-modal-context";
 import { Header } from "../components/layout/Header";
 import { Footer } from "../components/layout/Footer";
@@ -27,17 +25,13 @@ export default async function LocaleLayout({ children, params }) {
   const isRtl = isRtlLocale(locale);
 
   return (
-    <html lang={locale} dir={isRtl ? 'rtl' : 'ltr'} suppressHydrationWarning>
-      <body suppressHydrationWarning>
-        <ThemeProvider>
-          <AuthModalProvider>
-            <Header locale={locale} dict={dict} />
-            <main>{children}</main>
-            <Footer locale={locale} dict={dict} />
-            <AuthModal locale={locale} dict={dict} />
-          </AuthModalProvider>
-        </ThemeProvider>
-      </body>
-    </html>
+    <div lang={locale} dir={isRtl ? 'rtl' : 'ltr'}>
+      <AuthModalProvider>
+        <Header locale={locale} dict={dict} />
+        <main>{children}</main>
+        <Footer locale={locale} dict={dict} />
+        <AuthModal locale={locale} dict={dict} />
+      </AuthModalProvider>
+    </div>
   );
 }

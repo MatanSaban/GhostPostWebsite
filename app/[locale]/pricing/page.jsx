@@ -43,13 +43,13 @@ export default async function PricingPage({ params }) {
   const { locale } = await params;
   const dict = await getDictionary(locale);
   
+  const t = dict.pricing || {};
+
   // Fetch plans from CMS API
   const apiPlans = await getPlans(locale);
   
-  // Use API plans or fallback to static plans
-  const plans = apiPlans || getStaticPlans();
-
-  const t = dict.pricing || {};
+  // Use API plans or fallback to static plans (with dictionary translations)
+  const plans = apiPlans || getStaticPlans(t);
 
   // Format plans for the PricingCards component
   const formattedPlans = plans.map((plan) => ({
@@ -61,8 +61,11 @@ export default async function PricingPage({ params }) {
     features: plan.features || [],
     limitations: plan.limitations || [],
     popular: plan.popular || false,
-    cta: plan.popular ? (t.startFreeTrial || "Start Free Trial") : 
-         (plan.monthlyPrice ? (t.startFreeTrial || "Start Free Trial") : (t.contactSales || "Contact Sales")),
+    formattedPrice: plan.formattedPrice || null,
+    period: plan.period || null,
+    currency: plan.currency || 'USD',
+    cta: plan.cta || (plan.popular ? (t.startFreeTrial || "Start Free Trial") : 
+         (plan.monthlyPrice ? (t.startFreeTrial || "Start Free Trial") : (t.contactSales || "Contact Sales"))),
   }));
 
   // Get localized FAQs or use defaults

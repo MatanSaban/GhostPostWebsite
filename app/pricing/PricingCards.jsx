@@ -6,14 +6,9 @@ import styles from "./page.module.css";
 export function PricingCards({ plans, dict, locale = 'en' }) {
   const [isAnnual, setIsAnnual] = useState(false);
 
-  // Currency settings based on locale
-  const currencySymbol = locale === 'he' ? '₪' : '$';
-  const currencyMultiplier = locale === 'he' ? 3.7 : 1; // Approximate USD to ILS
-
   const formatPrice = (price) => {
-    if (!price) return null;
-    const convertedPrice = Math.round(price * currencyMultiplier);
-    return locale === 'he' ? `${convertedPrice}₪` : `$${convertedPrice}`;
+    if (!price && price !== 0) return null;
+    return `$${price}`;
   };
 
   return (
@@ -55,12 +50,16 @@ export function PricingCards({ plans, dict, locale = 'en' }) {
                   {plan.monthlyPrice ? (
                     <>
                       <span className={styles.price}>
-                        {formatPrice(monthlyPrice)}
+                        {plan.formattedPrice && !isAnnual
+                          ? plan.formattedPrice
+                          : formatPrice(monthlyPrice)}
                       </span>
-                      <span className={styles.period}>{dict?.perMonth || "/month"}</span>
+                      <span className={styles.period}>{plan.period || dict?.perMonth || "/month"}</span>
                     </>
                   ) : (
-                    <span className={styles.price}>{dict?.custom || "Custom"}</span>
+                    <span className={styles.price}>
+                      {plan.formattedPrice || dict?.custom || "Custom"}
+                    </span>
                   )}
                 </div>
                 {isAnnual && plan.annualPrice && (

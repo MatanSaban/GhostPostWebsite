@@ -497,6 +497,123 @@
       "privacyLink": "Politique de confidentialité"
     }
   },
+  "terms": {
+    "metaTitle": "Conditions d'utilisation - Ghost Post",
+    "metaDescription": "Lisez les Conditions d'utilisation de Ghost Post. Comprenez vos droits et obligations lors de l'utilisation de notre plateforme SEO alimentée par l'IA.",
+    "badge": "Juridique",
+    "title": "Conditions",
+    "titleHighlight": "d'utilisation",
+    "lastUpdated": "Dernière mise à jour : février 2026",
+    "sections": [
+      {
+        "title": "1. Acceptation des conditions",
+        "content": "En accédant ou en utilisant les services de Ghost Post, le site Web ou toute application associée (collectivement, le 'Service'), vous acceptez d'être lié par ces Conditions d'utilisation ('Conditions'). Si vous n'acceptez pas ces Conditions, vous ne pouvez pas utiliser le Service. Nous nous réservons le droit de mettre à jour ces Conditions à tout moment, et votre utilisation continue du Service constitue une acceptation de tout changement."
+      },
+      {
+        "title": "2. Description du service",
+        "content": "Ghost Post fournit une plateforme d'automatisation SEO alimentée par l'intelligence artificielle qui aide les entreprises à optimiser leur présence en ligne grâce à la création de contenu automatisée, l'optimisation des mots-clés et les améliorations techniques du SEO. Le Service comprend, sans s'y limiter, la génération de contenu par IA, l'analyse de sites Web, les recommandations SEO et les outils de publication automatisés."
+      },
+      {
+        "title": "3. Inscription au compte",
+        "content": "Pour utiliser certaines fonctionnalités du Service, vous devez créer un compte. Vous acceptez de fournir des informations exactes, actuelles et complètes lors de l'inscription et de maintenir vos informations de compte à jour. Vous êtes responsable de la confidentialité de vos identifiants de compte et de toutes les activités sur votre compte. Vous devez nous informer immédiatement de toute utilisation non autorisée de votre compte."
+      },
+      {
+        "title": "4. Abonnement et paiements",
+        "content": "Certaines fonctionnalités du Service nécessitent un abonnement payant. En souscrivant à un forfait payant, vous acceptez de payer les frais applicables tels que décrits sur notre page de tarification. Tous les frais sont non remboursables sauf indication contraire. Nous nous réservons le droit de modifier nos tarifs à tout moment, avec un préavis raisonnable aux abonnés existants. Le non-paiement des frais peut entraîner la suspension ou la résiliation de votre compte."
+      },
+      {
+        "title": "5. Contenu généré par l'IA",
+        "content": "Le Service utilise l'intelligence artificielle pour générer du contenu et des recommandations SEO. Bien que nous nous efforcions d'assurer l'exactitude et la qualité, le contenu généré par l'IA peut contenir des erreurs ou des inexactitudes. Vous êtes seul responsable de la révision, de l'édition et de l'approbation de tout contenu avant publication. Ghost Post ne garantit pas de résultats SEO spécifiques, de classements ou d'améliorations du trafic."
+      },
+      {
+        "title": "6. Propriété intellectuelle",
+        "content": "Tout le contenu, les fonctionnalités et les fonctionnalités du Service, y compris, mais sans s'y limiter, le texte, les graphiques, les logos et les logiciels, sont la propriété de Ghost Post ou de ses concédants. Le contenu généré par l'IA pour votre usage devient votre propriété dès sa création, sous réserve des droits de tiers applicables. Vous ne pouvez pas copier, modifier, distribuer ou créer des œuvres dérivées de toute partie du Service sans notre consentement écrit exprès."
+      },
+      {
+        "title": "7. Utilisation acceptable",
+        "content": "Vous acceptez de ne pas utiliser le Service pour : (a) violer les lois ou réglementations applicables ; (b) générer du spam, du contenu trompeur ou nuisible ; (c) porter atteinte aux droits de propriété intellectuelle d'autrui ; (d) tenter d'accéder de manière non autorisée au Service ou à ses systèmes ; (e) interférer avec le Service ; (f) utiliser le Service à des fins illégales ou contraires à l'éthique. Nous nous réservons le droit de suspendre ou de résilier les comptes qui violent ces conditions."
+      },
+      {
+        "title": "8. Données et confidentialité",
+        "content": "Votre utilisation du Service est également régie par notre Politique de confidentialité, qui décrit comment nous collectons, utilisons et protégeons vos informations personnelles. En utilisant le Service, vous consentez aux pratiques de données décrites dans notre Politique de confidentialité. Nous mettons en œuvre des mesures de sécurité conformes aux normes de l'industrie pour protéger vos données, mais ne pouvons garantir une sécurité absolue."
+      },
+      {
+        "title": "9. Limitation de responsabilité",
+        "content": "Dans toute la mesure permise par la loi, Ghost Post ne sera pas responsable des dommages indirects, accessoires, spéciaux, consécutifs ou punitifs, y compris, mais sans s'y limiter, la perte de profits, de données ou d'opportunités commerciales, résultant de votre utilisation ou incapacité à utiliser le Service. Notre responsabilité totale pour toute réclamation découlant du Service ne dépassera pas le montant que vous nous avez payé au cours des douze mois précédant la réclamation."
+      },
+      {
+        "title": "10. Résiliation",
+        "content": "Nous pouvons résilier ou suspendre votre accès au Service à tout moment, avec ou sans motif, moyennant notification. Vous pouvez annuler votre compte à tout moment via les paramètres de votre compte. À la résiliation, votre droit d'utiliser le Service cessera immédiatement, et nous pourrons supprimer vos données après une période de conservation raisonnable."
+      },
+      {
+        "title": "11. Droit applicable",
+        "content": "Ces Conditions seront régies et interprétées conformément aux lois de l'État d'Israël, sans égard à ses dispositions en matière de conflit de lois. Tout litige découlant de ces Conditions ou du Service sera résolu devant les tribunaux de Tel Aviv-Jaffa, Israël."
+      },
+      {
+        "title": "12. Nous contacter",
+        "content": "Si vous avez des questions concernant ces Conditions d'utilisation, veuillez nous contacter à legal@ghostpost.ai ou via notre page de contact."
+      }
+    ]
+  },
+  "privacy": {
+    "metaTitle": "Politique de confidentialité - Ghost Post",
+    "metaDescription": "Découvrez comment Ghost Post collecte, utilise et protège vos informations personnelles. Votre vie privée nous tient à cœur.",
+    "badge": "Confidentialité",
+    "title": "Politique de",
+    "titleHighlight": "confidentialité",
+    "lastUpdated": "Dernière mise à jour : février 2026",
+    "intro": "Chez Ghost Post, votre vie privée est importante pour nous. Cette Politique de confidentialité explique comment nous collectons, utilisons, divulguons et protégeons vos informations lorsque vous utilisez notre plateforme SEO alimentée par l'IA et les services associés.",
+    "sections": [
+      {
+        "title": "1. Informations que nous collectons",
+        "content": "Nous collectons les informations que vous fournissez directement, telles que votre nom, adresse e-mail, nom de l'entreprise et informations de paiement lorsque vous créez un compte ou souscrivez à nos services. Nous collectons également automatiquement des données techniques, notamment les adresses IP, le type de navigateur, les informations sur l'appareil et les habitudes d'utilisation via des cookies et des technologies similaires. Lorsque vous connectez votre site Web à notre plateforme, nous pouvons accéder aux données de site Web accessibles au public à des fins d'analyse."
+      },
+      {
+        "title": "2. Comment nous utilisons vos informations",
+        "content": "Nous utilisons vos informations pour : fournir et maintenir le Service ; traiter les transactions et envoyer les informations associées ; analyser votre site Web et générer des recommandations SEO ; améliorer nos modèles d'IA et la qualité du service ; vous envoyer des avis techniques, des mises à jour et des messages d'assistance ; communiquer sur les produits, services et promotions ; respecter les obligations légales ; et protéger contre la fraude et les abus."
+      },
+      {
+        "title": "3. IA et traitement des données",
+        "content": "Nos systèmes d'IA traitent le contenu de votre site Web et les données analytiques pour générer des recommandations SEO et du contenu. Ce traitement est essentiel pour fournir notre Service. Nous n'utilisons pas votre contenu propriétaire pour entraîner des modèles d'IA pour d'autres clients sans votre consentement explicite. Les insights et contenus générés par l'IA sont produits spécifiquement pour votre compte et ne sont pas partagés avec d'autres utilisateurs."
+      },
+      {
+        "title": "4. Partage et divulgation des données",
+        "content": "Nous ne vendons pas vos informations personnelles. Nous pouvons partager vos données avec : des prestataires de services de confiance qui nous aident à exploiter notre plateforme (processeurs de paiement, fournisseurs d'hébergement, services d'analyse) ; les forces de l'ordre lorsque la loi l'exige ; des partenaires commerciaux avec votre consentement ; et dans le cadre d'une fusion, acquisition ou vente d'actifs. Tous les prestataires de services tiers sont contractuellement tenus de protéger vos données."
+      },
+      {
+        "title": "5. Sécurité des données",
+        "content": "Nous mettons en œuvre des mesures de sécurité conformes aux normes de l'industrie pour protéger vos informations, y compris le chiffrement en transit (TLS/SSL) et au repos, des audits de sécurité réguliers, des contrôles d'accès et un stockage sécurisé des données. Bien que nous nous efforcions de protéger vos informations, aucune méthode de transmission sur Internet n'est sécurisée à 100 %, et nous ne pouvons garantir une sécurité absolue."
+      },
+      {
+        "title": "6. Conservation des données",
+        "content": "Nous conservons vos informations personnelles tant que votre compte est actif ou selon les besoins pour fournir le Service. Après la suppression du compte, nous pouvons conserver certaines données jusqu'à 90 jours à des fins de sauvegarde, et pouvons conserver des données anonymisées ou agrégées indéfiniment pour l'analyse et l'amélioration du service. Vous pouvez demander la suppression de vos données à tout moment en nous contactant."
+      },
+      {
+        "title": "7. Cookies et suivi",
+        "content": "Nous utilisons des cookies et des technologies de suivi similaires pour améliorer votre expérience, analyser les habitudes d'utilisation et fournir du contenu personnalisé. Les cookies essentiels sont nécessaires au bon fonctionnement du Service. Les cookies analytiques nous aident à comprendre comment le Service est utilisé. Vous pouvez contrôler les préférences des cookies via les paramètres de votre navigateur, bien que la désactivation de certains cookies puisse affecter la fonctionnalité du Service."
+      },
+      {
+        "title": "8. Vos droits",
+        "content": "Selon votre localisation, vous pouvez avoir le droit de : accéder à vos données personnelles ; corriger des données inexactes ; supprimer vos données ; restreindre le traitement de vos données ; la portabilité des données ; vous opposer au traitement ; et retirer votre consentement. Pour exercer ces droits, veuillez nous contacter à privacy@ghostpost.ai. Nous répondrons à votre demande dans les 30 jours."
+      },
+      {
+        "title": "9. Transferts internationaux",
+        "content": "Vos données peuvent être transférées et traitées dans des pays autres que le vôtre. Nous veillons à ce que ces transferts soient effectués conformément aux lois applicables en matière de protection des données et que des garanties appropriées soient en place, y compris des clauses contractuelles types et des décisions d'adéquation le cas échéant."
+      },
+      {
+        "title": "10. Vie privée des enfants",
+        "content": "Le Service n'est pas destiné aux enfants de moins de 16 ans. Nous ne collectons pas sciemment d'informations personnelles auprès d'enfants. Si vous pensez que nous avons collecté des informations auprès d'un enfant, veuillez nous contacter immédiatement et nous prendrons des mesures pour supprimer ces informations."
+      },
+      {
+        "title": "11. Modifications de cette politique",
+        "content": "Nous pouvons mettre à jour cette Politique de confidentialité de temps à autre. Nous vous informerons de tout changement important en publiant la nouvelle politique sur cette page et en mettant à jour la date de 'dernière mise à jour'. Votre utilisation continue du Service après les modifications constitue une acceptation de la politique mise à jour."
+      },
+      {
+        "title": "12. Nous contacter",
+        "content": "Si vous avez des questions ou des préoccupations concernant cette Politique de confidentialité ou nos pratiques en matière de données, veuillez nous contacter à privacy@ghostpost.ai ou via notre page de contact."
+      }
+    ]
+  },
   "common": {
     "learnMore": "En savoir plus",
     "getStarted": "Commencer",

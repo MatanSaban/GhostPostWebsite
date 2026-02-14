@@ -1,0 +1,147 @@
+.page {
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Hero Section */
+.hero {
+  padding: 4rem 1rem 2rem;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    padding: 6rem 1.5rem 3rem;
+  }
+}
+
+.title {
+  font-family: 'Polin', 'Poppins', sans-serif;
+  font-size: clamp(1.75rem, 5vw, 3.75rem);
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #111827;
+
+  @media (min-width: 768px) {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.gradient {
+  background: linear-gradient(to right, #a78bfa, #60a5fa, #7c3aed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.lastUpdated {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-bottom: 0.5rem;
+  font-family: 'Polin', 'Poppins', sans-serif;
+}
+
+.intro {
+  font-size: 0.9375rem;
+  color: #4b5563;
+  max-width: 40rem;
+  margin: 1.5rem auto 0;
+  line-height: 1.7;
+
+  @media (min-width: 768px) {
+    font-size: 1.0625rem;
+  }
+}
+
+:global(.dark) .hero {
+  .title {
+    color: white;
+  }
+
+  .lastUpdated {
+    color: #9ca3af;
+  }
+
+  .intro {
+    color: #9ca3af;
+  }
+}
+
+/* Content Section */
+.content {
+  padding: 2rem 1rem 4rem;
+
+  @media (min-width: 768px) {
+    padding: 3rem 1.5rem 6rem;
+  }
+}
+
+.section {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  background: linear-gradient(135deg, rgba(243, 232, 255, 0.3), rgba(219, 234, 254, 0.3));
+  border: 1px solid rgba(233, 213, 255, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  @media (min-width: 768px) {
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(124, 58, 237, 0.08);
+  }
+}
+
+.sectionTitle {
+  font-family: 'Polin', 'Poppins', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #7c3aed;
+  margin-bottom: 0.75rem;
+
+  @media (min-width: 768px) {
+    font-size: 1.25rem;
+  }
+}
+
+.sectionContent {
+  font-size: 0.875rem;
+  color: #4b5563;
+  line-height: 1.8;
+
+  @media (min-width: 768px) {
+    font-size: 0.9375rem;
+  }
+}
+
+:global(.dark) .section {
+  background: linear-gradient(135deg, rgba(124, 58, 237, 0.08), rgba(37, 99, 235, 0.08));
+  border-color: rgba(124, 58, 237, 0.15);
+
+  &:hover {
+    box-shadow: 0 8px 25px rgba(124, 58, 237, 0.15);
+  }
+}
+
+:global(.dark) .sectionTitle {
+  color: #c4b5fd;
+}
+
+:global(.dark) .sectionContent {
+  color: #9ca3af;
+}
+
+/* RTL support */
+:global([dir="rtl"]) .section {
+  text-align: right;
+}
+
+:global([dir="rtl"]) .hero {
+  text-align: center;
+}

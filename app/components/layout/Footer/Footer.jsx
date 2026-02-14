@@ -21,6 +21,11 @@ export function Footer({ locale, dict }) {
     { href: "#", label: dict?.footer?.links?.documentation || "Documentation" },
   ];
 
+  const legalLinks = [
+    { href: `/${locale}/terms`, label: dict?.footer?.links?.terms || "Terms of Service" },
+    { href: `/${locale}/privacy`, label: dict?.footer?.links?.privacy || "Privacy Policy" },
+  ];
+
   return (
     <footer className={styles.footer}>
       <div className={styles.container}>
@@ -65,6 +70,19 @@ export function Footer({ locale, dict }) {
             <h4 className={styles.linkGroupTitle}>{dict?.footer?.resources || "Support"}</h4>
             <ul className={styles.linkList}>
               {supportLinks.map((link) => (
+                <li key={link.href}>
+                  <Link href={link.href} className={styles.link}>
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className={styles.linkGroup}>
+            <h4 className={styles.linkGroupTitle}>{dict?.footer?.legal || "Legal"}</h4>
+            <ul className={styles.linkList}>
+              {legalLinks.map((link) => (
                 <li key={link.href}>
                   <Link href={link.href} className={styles.link}>
                     {link.label}

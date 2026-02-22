@@ -1759,7 +1759,7 @@ export const InterviewWizard = forwardRef(function InterviewWizard({ onClose, on
             
             {isPlatformQuestion && platformValue && platformConfidence > 0.5 && (
               <div className={styles.aiRecommendationBanner}>
-                <span className={styles.aiRecommendationIcon}>🔍</span>
+                <span className={styles.aiRecommendationIcon}>✨</span>
                 <span>
                   {t('interviewWizard.messages.detectedPlatform', { 
                     platform: t(`registration.interview.platforms.${platformValue}`) || platformValue 
@@ -1768,6 +1768,20 @@ export const InterviewWizard = forwardRef(function InterviewWizard({ onClose, on
                 <span className={styles.confidenceBadge}>
                   {Math.round(platformConfidence * 100)}% {t('common.confident') || 'confident'}
                 </span>
+              </div>
+            )}
+
+            {isPlatformQuestion && platformValue && platformConfidence > 0.5 && (
+              <div className={styles.detectedPlatformConfirm}>
+                <button
+                  onClick={() => handleOptionSelect(platformValue)}
+                  className={styles.primaryButton}
+                  disabled={isProcessing}
+                >
+                  <Check size={16} />
+                  {t('interviewWizard.messages.confirmPlatform', { platform: t(`registration.interview.platforms.${platformValue}`) || platformValue })
+                    || `Confirm ${t(`registration.interview.platforms.${platformValue}`) || platformValue}`}
+                </button>
               </div>
             )}
             
@@ -1868,7 +1882,7 @@ export const InterviewWizard = forwardRef(function InterviewWizard({ onClose, on
                       className={`${styles.optionCard} ${isDetected ? styles.recommended : ''}`}
                       onClick={() => handleOptionSelect(opt.value)}
                     >
-                      {isDetected && <span className={styles.recommendedBadge}>🔍</span>}
+                      {isDetected && <span className={styles.recommendedBadge}>✨</span>}
                       <span>{t(opt.labelKey)}</span>
                     </button>
                   );

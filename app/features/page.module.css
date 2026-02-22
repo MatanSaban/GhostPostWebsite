@@ -27,7 +27,7 @@
 
   .title {
     font-family: 'Polin', 'Poppins', sans-serif;
-    font-size: clamp(2.5rem, 5vw, 3.75rem);
+    font-size: clamp(2.4375rem, 5vw, 3.6875rem);
     font-weight: 700;
     margin-bottom: 1.5rem;
     color: #111827;
@@ -41,7 +41,7 @@
   }
 
   .subtitle {
-    font-size: 1.1875rem;
+    font-size: 1.125rem;
     color: #4b5563;
     max-width: 48rem;
     margin: 0 auto;
@@ -128,7 +128,7 @@
 
   .featureTitle {
     font-family: 'Polin', 'Poppins', sans-serif;
-    font-size: 1.1875rem;
+    font-size: 1.125rem;
     font-weight: 700;
     color: #111827;
     margin: 0;
@@ -175,7 +175,7 @@
 
   .statsValue {
     font-family: 'Polin', 'Poppins', sans-serif;
-    font-size: 1.4375rem;
+    font-size: 1.375rem;
     font-weight: 700;
     background: linear-gradient(to right, #7c3aed, #2563eb);
     -webkit-background-clip: text;
@@ -229,14 +229,14 @@
 
   .ctaTitle {
     font-family: 'Polin', 'Poppins', sans-serif;
-    font-size: clamp(1.5rem, 3vw, 2.5rem);
+    font-size: clamp(1.4375rem, 3vw, 2.4375rem);
     font-weight: 700;
     color: #111827;
     margin-bottom: 1rem;
   }
 
   .ctaDescription {
-    font-size: 1.0625rem;
+    font-size: 1rem;
     color: #4b5563;
     margin-bottom: 2rem;
   }
@@ -251,7 +251,7 @@
     color: white;
     font-family: 'Polin', 'Poppins', sans-serif;
     font-weight: 600;
-    font-size: 1.0625rem;
+    font-size: 1rem;
     transition: opacity 0.2s;
 
     &:hover {

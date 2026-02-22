@@ -39,7 +39,7 @@
 
   .title {
     font-family: 'Polin', 'Poppins', sans-serif;
-    font-size: clamp(2.5rem, 5vw, 3.75rem);
+    font-size: clamp(2.4375rem, 5vw, 3.6875rem);
     font-weight: 700;
     margin-bottom: 1.5rem;
     color: #111827;
@@ -53,7 +53,7 @@
   }
 
   .subtitle {
-    font-size: 1.1875rem;
+    font-size: 1.125rem;
     color: #4b5563;
     max-width: 40rem;
     margin: 0 auto;
@@ -163,7 +163,7 @@
     border-radius: 9999px;
     background: linear-gradient(to right, #7c3aed, #2563eb);
     color: white;
-    font-size: 0.6875rem;
+    font-size: 0.625rem;
     font-weight: 600;
   }
 }
@@ -181,14 +181,14 @@
     border-radius: 9999px;
     background: rgba(243, 232, 255, 0.8);
     color: #7c3aed;
-    font-size: 0.6875rem;
+    font-size: 0.625rem;
     font-weight: 600;
     margin-bottom: 1rem;
   }
 
   .featuredTitle {
     font-family: 'Polin', 'Poppins', sans-serif;
-    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-size: clamp(1.4375rem, 3vw, 1.9375rem);
     font-weight: 700;
     color: #111827;
     margin-bottom: 1rem;
@@ -299,7 +299,7 @@
     border-radius: 9999px;
     background: rgba(243, 232, 255, 0.8);
     color: #7c3aed;
-    font-size: 0.6875rem;
+    font-size: 0.625rem;
     font-weight: 600;
     width: fit-content;
     margin-bottom: 0.75rem;
@@ -307,7 +307,7 @@
 
   .postTitle {
     font-family: 'Polin', 'Poppins', sans-serif;
-    font-size: 1.0625rem;
+    font-size: 1rem;
     font-weight: 700;
     color: #111827;
     margin-bottom: 0.5rem;
@@ -329,7 +329,7 @@
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    font-size: 0.6875rem;
+    font-size: 0.625rem;
     color: #6b7280;
     margin-top: auto;
     margin-bottom: 4px;
@@ -384,7 +384,7 @@
   text-align: center;
   padding: 4rem 2rem;
   color: #6b7280;
-  font-size: 1rem;
+  font-size: 0.9375rem;
 }
 
 :global(.dark) .noResults {

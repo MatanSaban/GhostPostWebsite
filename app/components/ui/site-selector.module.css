@@ -299,7 +299,7 @@
 }
 
 .modalTitle {
-  font-size: 1.125rem;
+  font-size: 1.0625rem;
   font-weight: 600;
   color: var(--foreground);
   margin: 0;
@@ -355,7 +355,7 @@
 
 .urlIcon {
   position: absolute;
-  left: 0.875rem;
+  left: 0.8125rem;
   top: 50%;
   transform: translateY(-50%);
   color: var(--muted-foreground);
@@ -364,7 +364,7 @@
 
 .urlInput {
   flex: 1;
-  padding: 0.75rem 0.875rem 0.75rem 2.75rem;
+  padding: 0.75rem 0.8125rem 0.75rem 2.75rem;
   background: var(--input-background);
   border: 1px solid var(--input-border);
   border-radius: var(--radius-md);
@@ -409,7 +409,7 @@
 }
 
 .nameInput {
-  padding: 0.75rem 0.875rem;
+  padding: 0.75rem 0.8125rem;
   background: var(--input-background);
   border: 1px solid var(--input-border);
   border-radius: var(--radius-md);
@@ -531,11 +531,11 @@
 /* RTL Modal Support */
 :global(html[dir="rtl"]) .urlIcon {
   left: auto;
-  right: 0.875rem;
+  right: 0.8125rem;
 }
 
 :global(html[dir="rtl"]) .urlInput {
-  padding-left: 0.875rem;
+  padding-left: 0.8125rem;
   padding-right: 2.75rem;
   text-align: right;
 }

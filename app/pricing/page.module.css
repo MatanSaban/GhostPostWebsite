@@ -27,7 +27,7 @@
 
   .title {
     font-family: 'Polin', 'Poppins', sans-serif;
-    font-size: clamp(2.5rem, 5vw, 3.75rem);
+    font-size: clamp(2.4375rem, 5vw, 3.6875rem);
     font-weight: 700;
     margin-bottom: 1.5rem;
     color: #111827;
@@ -41,7 +41,7 @@
   }
 
   .subtitle {
-    font-size: 1.1875rem;
+    font-size: 1.125rem;
     color: #4b5563;
     max-width: 48rem;
     margin: 0 auto 2rem;
@@ -66,7 +66,7 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.875rem 1.75rem;
+  padding: 0.8125rem 1.75rem;
   border: none;
   border-top: none;
   border-left: none;
@@ -98,7 +98,7 @@
   border-radius: 9999px;
   background: rgba(34, 197, 94, 0.15);
   color: #16a34a;
-  font-size: 0.75rem;
+  font-size: 0.8125rem;
   font-weight: 600;
 }
 
@@ -192,14 +192,14 @@
     border-radius: 9999px;
     background: linear-gradient(to right, #7c3aed, #2563eb);
     color: white;
-    font-size: 0.6875rem;
+    font-size: 0.625rem;
     font-weight: 600;
     font-family: 'Polin', 'Poppins', sans-serif;
   }
 
   .planName {
     font-family: 'Polin', 'Poppins', sans-serif;
-    font-size: 1.4375rem;
+    font-size: 1.375rem;
     font-weight: 700;
     color: #111827;
     margin-bottom: 0.5rem;
@@ -220,7 +220,7 @@
 
   .price {
     font-family: 'Polin', 'Poppins', sans-serif;
-    font-size: 2.9375rem;
+    font-size: 2.875rem;
     font-weight: 700;
     color: #111827;
   }
@@ -261,7 +261,7 @@
   .ctaButton {
     display: block;
     width: 100%;
-    padding: 0.875rem 1.5rem;
+    padding: 0.8125rem 1.5rem;
     border-radius: 0.5rem;
     font-family: 'Polin', 'Poppins', sans-serif;
     font-size: 0.8125rem;
@@ -337,7 +337,7 @@
 
   .faqTitle {
     font-family: 'Polin', 'Poppins', sans-serif;
-    font-size: 1.9375rem;
+    font-size: 1.875rem;
     font-weight: 700;
     color: #111827;
     text-align: center;

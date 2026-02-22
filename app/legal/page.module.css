@@ -20,7 +20,7 @@
 
 .title {
   font-family: 'Polin', 'Poppins', sans-serif;
-  font-size: clamp(1.75rem, 5vw, 3.75rem);
+  font-size: clamp(1.6875rem, 5vw, 3.6875rem);
   font-weight: 700;
   margin-bottom: 1rem;
   color: #111827;
@@ -38,7 +38,7 @@
 }
 
 .lastUpdated {
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   color: #6b7280;
   margin-bottom: 0.5rem;
   font-family: 'Polin', 'Poppins', sans-serif;
@@ -52,7 +52,7 @@
   line-height: 1.7;
 
   @media (min-width: 768px) {
-    font-size: 1.0625rem;
+    font-size: 1rem;
   }
 }
 
@@ -100,18 +100,18 @@
 
 .sectionTitle {
   font-family: 'Polin', 'Poppins', sans-serif;
-  font-size: 1.125rem;
+  font-size: 1.0625rem;
   font-weight: 600;
   color: #7c3aed;
   margin-bottom: 0.75rem;
 
   @media (min-width: 768px) {
-    font-size: 1.25rem;
+    font-size: 1.1875rem;
   }
 }
 
 .sectionContent {
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   color: #4b5563;
   line-height: 1.8;
 

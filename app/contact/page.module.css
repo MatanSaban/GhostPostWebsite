@@ -118,7 +118,7 @@
 }
 
 .infoDescription {
-  font-size: 0.9375rem;
+  font-size: 0.9rem;
   color: #4b5563;
   line-height: 1.6;
   margin-bottom: 2rem;
@@ -299,7 +299,7 @@
 .textarea {
   padding: 0.8125rem 1rem;
   border-radius: 0.75rem;
-  font-size: 0.9375rem;
+  font-size: 0.9rem;
   background: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(139, 92, 246, 0.2);
   color: #111827;
@@ -359,7 +359,7 @@
   color: white;
   font-family: 'Polin', 'Poppins', sans-serif;
   font-weight: 600;
-  font-size: 0.9375rem;
+  font-size: 0.9rem;
   cursor: pointer;
   border: none;
   transition: opacity 0.2s;
@@ -435,7 +435,7 @@
 }
 
 .successText {
-  font-size: 0.9375rem;
+  font-size: 0.9rem;
   color: #4b5563;
   margin-bottom: 1.5rem;
 }

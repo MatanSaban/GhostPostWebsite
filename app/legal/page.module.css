@@ -38,14 +38,14 @@
 }
 
 .lastUpdated {
-  font-size: 0.9375rem;
+  font-size: 0.9rem;
   color: #6b7280;
   margin-bottom: 0.5rem;
   font-family: 'Polin', 'Poppins', sans-serif;
 }
 
 .intro {
-  font-size: 0.9375rem;
+  font-size: 0.9rem;
   color: #4b5563;
   max-width: 40rem;
   margin: 1.5rem auto 0;
@@ -111,12 +111,12 @@
 }
 
 .sectionContent {
-  font-size: 0.9375rem;
+  font-size: 0.9rem;
   color: #4b5563;
   line-height: 1.8;
 
   @media (min-width: 768px) {
-    font-size: 0.9375rem;
+    font-size: 0.9rem;
   }
 }
 

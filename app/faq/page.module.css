@@ -100,7 +100,7 @@
   width: 100%;
   padding: 1rem 1rem 1rem 3rem;
   border-radius: 0.75rem;
-  font-size: 0.9375rem;
+  font-size: 0.9rem;
   background: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(139, 92, 246, 0.2);
   color: #111827;
@@ -239,7 +239,7 @@
   border: none;
   text-align: left;
   font-family: 'Polin', 'Poppins', sans-serif;
-  font-size: 0.9375rem;
+  font-size: 0.9rem;
   font-weight: 600;
   color: #111827;
   cursor: pointer;
@@ -281,7 +281,7 @@
   transition: all 0.3s ease;
 
   p {
-    font-size: 0.9375rem;
+    font-size: 0.9rem;
     color: #4b5563;
     line-height: 1.7;
   }
@@ -384,7 +384,7 @@
   color: white;
   font-family: 'Polin', 'Poppins', sans-serif;
   font-weight: 600;
-  font-size: 0.9375rem;
+  font-size: 0.9rem;
   text-decoration: none;
   transition: opacity 0.2s;
 

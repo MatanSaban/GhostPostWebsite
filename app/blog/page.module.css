@@ -195,7 +195,7 @@
   }
 
   .featuredExcerpt {
-    font-size: 0.9375rem;
+    font-size: 0.9rem;
     color: #4b5563;
     margin-bottom: 1rem;
     max-width: 40rem;
@@ -384,7 +384,7 @@
   text-align: center;
   padding: 4rem 2rem;
   color: #6b7280;
-  font-size: 0.9375rem;
+  font-size: 0.9rem;
 }
 
 :global(.dark) .noResults {

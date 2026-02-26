@@ -75,7 +75,7 @@
   margin-bottom: -2px;
   background: transparent;
   font-family: 'Polin', 'Poppins', sans-serif;
-  font-size: 0.9375rem;
+  font-size: 0.9rem;
   font-weight: 500;
   color: #6b7280;
   cursor: pointer;
@@ -226,7 +226,7 @@
   }
 
   .period {
-    font-size: 0.9375rem;
+    font-size: 0.9rem;
     color: #6b7280;
   }
 
@@ -368,7 +368,7 @@
     background: transparent;
     border: none;
     font-family: 'Polin', 'Poppins', sans-serif;
-    font-size: 0.9375rem;
+    font-size: 0.9rem;
     font-weight: 600;
     color: #111827;
     text-align: left;

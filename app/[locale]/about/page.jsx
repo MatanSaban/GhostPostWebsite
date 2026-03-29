@@ -132,7 +132,7 @@ export default async function AboutPage({ params }) {
               {t.storyParagraph1 || "Ghost Post was founded in 2024 by a team of AI researchers and SEO experts who saw an opportunity to revolutionize how businesses approach search engine optimization."}
             </p>
             <p className={styles.storyText}>
-              {t.storyParagraph2 || "We believed that the future of SEO wasn't about manual optimization or hiring expensive agencies—it was about building intelligent systems that could learn, adapt, and execute SEO strategies autonomously."}
+              {t.storyParagraph2 || "We believed that the future of SEO wasn't about manual optimization or hiring expensive agencies-it was about building intelligent systems that could learn, adapt, and execute SEO strategies autonomously."}
             </p>
             <p className={styles.storyText}>
               {t.storyParagraph3 || "Today, Ghost Post powers SEO for hundreds of businesses worldwide, from startups to enterprise companies, helping them achieve sustainable organic growth without the complexity and cost of traditional SEO."}

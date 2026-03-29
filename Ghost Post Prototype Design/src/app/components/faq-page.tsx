@@ -99,7 +99,7 @@ export function FAQPage({ onNavigate }: { onNavigate?: (page: string) => void })
     {
       category: 'Content & SEO',
       question: 'Will Ghost Post\'s content be detected as AI-generated?',
-      answer: 'Ghost Post creates content that\'s indistinguishable from human writing. Our AI is trained to write naturally, vary sentence structure, use appropriate tone, and include unique insights. Google has stated they don\'t penalize AI content if it\'s helpful and high-quality—which is exactly what Ghost produces.'
+      answer: 'Ghost Post creates content that\'s indistinguishable from human writing. Our AI is trained to write naturally, vary sentence structure, use appropriate tone, and include unique insights. Google has stated they don\'t penalize AI content if it\'s helpful and high-quality-which is exactly what Ghost produces.'
     },
     {
       category: 'Content & SEO',

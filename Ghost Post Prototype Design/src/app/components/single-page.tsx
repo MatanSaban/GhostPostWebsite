@@ -296,8 +296,8 @@ export function SinglePage({ pageType, onNavigate }: { pageType: PageType; onNav
                       <p className="text-gray-700 dark:text-gray-300 mb-2">
                         Our team is here to help you
                       </p>
-                      <a href="mailto:hello@ghostpost.ai" className="text-purple-600 dark:text-purple-400 font-semibold hover:underline">
-                        hello@ghostpost.ai
+                      <a href="mailto:office@ghostpost.co.il" className="text-purple-600 dark:text-purple-400 font-semibold hover:underline">
+                        office@ghostpost.co.il
                       </a>
                     </div>
                   </div>

@@ -8,7 +8,7 @@ const contactInfoKeys = [
     icon: 'email',
     titleKey: 'emailTitle',
     valueKey: 'emailValue',
-    link: 'mailto:hello@ghostpost.ai'
+    link: 'mailto:office@ghostpost.co.il'
   },
   {
     icon: 'phone',

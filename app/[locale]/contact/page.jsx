@@ -94,7 +94,7 @@ export default async function ContactPage({ params }) {
                     <div className={styles.infoContent}>
                       <span className={styles.infoLabel}>{t[item.titleKey] || item.titleKey}</span>
                       {item.link ? (
-                        <a href={item.link} className={styles.infoValue}>
+                        <a href={item.link} className={`${styles.infoValue} ${item.icon === 'phone' ? styles.infoValuePhone : ''}`}>
                           {t[item.valueKey] || item.valueKey}
                         </a>
                       ) : (

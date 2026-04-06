@@ -16,6 +16,17 @@ export async function generateMetadata({ params }) {
   return {
     title: dict.metadata.title,
     description: dict.metadata.description,
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
+    },
   };
 }
 

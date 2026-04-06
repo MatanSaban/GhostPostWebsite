@@ -319,7 +319,7 @@ export function SinglePage({ pageType, onNavigate }: { pageType: PageType; onNav
                         Monday - Friday, 9am - 6pm EST
                       </p>
                       <a href="tel:+15551234567" className="text-purple-600 dark:text-purple-400 font-semibold hover:underline">
-                        +1 (555) 123-4567
+                        +972 52-798-4133
                       </a>
                     </div>
                   </div>

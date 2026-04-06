@@ -6,7 +6,7 @@
 
 import { locales, defaultLocale } from '../i18n/config';
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://ghostpost.io';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://ghostpost.co.il';
 
 // Static pages that exist for all locales
 const staticPages = [

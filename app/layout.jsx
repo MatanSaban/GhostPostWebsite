@@ -6,6 +6,8 @@ export const metadata = {
   description: "The first autonomous AI agent that optimizes, writes, and manages your site's SEO while you sleep.",
   icons: {
     icon: '/ghostpost_logo.png',
+    shortcut: '/ghostpost_logo.png',
+    apple: '/ghostpost_logo.png',
   },
 };
 

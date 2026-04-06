@@ -562,55 +562,59 @@
     "title": "Politique de",
     "titleHighlight": "confidentialité",
     "lastUpdated": "Dernière mise à jour : février 2026",
-    "intro": "Chez Ghost Post, votre vie privée est importante pour nous. Cette Politique de confidentialité explique comment nous collectons, utilisons, divulguons et protégeons vos informations lorsque vous utilisez notre plateforme SEO alimentée par l'IA et les services associés.",
+    "intro": "Chez Ghost Post, votre confidentialité est importante pour nous. Cette politique de confidentialité explique comment nous recueillons, utilisons, divulguons et protégeons vos informations lorsque vous utilisez le site web Ghost Post (ghostpost.io), la plateforme d'application web Ghost Post et les services associés (collectivement, le 'Service'). Ghost Post est développé et exploité par Red Ghost.",
     "sections": [
       {
-        "title": "1. Informations que nous collectons",
-        "content": "Nous collectons les informations que vous fournissez directement, telles que votre nom, adresse e-mail, nom de l'entreprise et informations de paiement lorsque vous créez un compte ou souscrivez à nos services. Nous collectons également automatiquement des données techniques, notamment les adresses IP, le type de navigateur, les informations sur l'appareil et les habitudes d'utilisation via des cookies et des technologies similaires. Lorsque vous connectez votre site Web à notre plateforme, nous pouvons accéder aux données de site Web accessibles au public à des fins d'analyse."
+        "title": "1. Les informations que nous recueillons",
+        "content": "Nous recueillons les informations que vous fournissez directement, telles que votre nom, adresse e-mail, nom d'entreprise et informations de paiement lors de la création d'un compte ou de la souscription à nos services. Nous recueillons également automatiquement des données techniques, y compris les adresses IP, le type de navigateur, les informations sur l'appareil et les habitudes d'utilisation par le biais de cookies et de technologies similaires. Lorsque vous connectez votre site web à la plateforme Ghost Post, nous pouvons accéder aux données du site disponibles publiquement à des fins d'analyse. De plus, lorsque vous choisissez de connecter des services tiers, nous recueillons les données utilisateur Google suivantes avec votre consentement explicite : (a) données Google Analytics comprenant le trafic du site web, le comportement des utilisateurs et les métriques de performance via l'API Google Analytics Data (accès en lecture seule) ; (b) données Google Search Console comprenant les requêtes de recherche, les impressions, les clics et l'état d'indexation via l'API Search Console (accès en lecture seule). Ces données sont collectées uniquement pour fournir et améliorer le Service Ghost Post."
       },
       {
         "title": "2. Comment nous utilisons vos informations",
-        "content": "Nous utilisons vos informations pour : fournir et maintenir le Service ; traiter les transactions et envoyer les informations associées ; analyser votre site Web et générer des recommandations SEO ; améliorer nos modèles d'IA et la qualité du service ; vous envoyer des avis techniques, des mises à jour et des messages d'assistance ; communiquer sur les produits, services et promotions ; respecter les obligations légales ; et protéger contre la fraude et les abus."
+        "content": "Nous utilisons vos informations pour : fournir et maintenir le Service ; traiter les transactions et envoyer les informations associées ; analyser votre site web et générer des recommandations SEO ; afficher vos données de trafic et de performance (Analytics et Search Console) sur vos tableaux de bord ; utiliser ces données comme contexte pour notre moteur d'IA afin de fournir des recommandations personnalisées et de générer du contenu ; améliorer nos modèles d'IA et la qualité du service ; vous envoyer des avis techniques, des mises à jour et des messages d'assistance ; communiquer sur les produits, services et promotions ; respecter les obligations légales ; et protéger contre la fraude et les abus."
       },
       {
-        "title": "3. IA et traitement des données",
-        "content": "Nos systèmes d'IA traitent le contenu de votre site Web et les données analytiques pour générer des recommandations SEO et du contenu. Ce traitement est essentiel pour fournir notre Service. Nous n'utilisons pas votre contenu propriétaire pour entraîner des modèles d'IA pour d'autres clients sans votre consentement explicite. Les insights et contenus générés par l'IA sont produits spécifiquement pour votre compte et ne sont pas partagés avec d'autres utilisateurs."
+        "title": "3. Divulgation de l'utilisation limitée de l'API Google",
+        "content": "L'utilisation et le transfert par Ghost Post à toute autre application des informations reçues des API Google respecteront la Politique relative aux données utilisateur des services d'API Google (https://developers.google.com/terms/api-services-user-data-policy), y compris les exigences d'utilisation limitée. Spécifiquement : (1) Nous n'utilisons les données utilisateur Google que pour fournir et améliorer les fonctionnalités du Service Ghost Post que vous avez demandées ; (2) Nous ne transférons pas les données utilisateur Google à des tiers sauf si nécessaire pour fournir le Service, avec votre consentement, ou comme requis par la loi ; (3) Nous n'utilisons pas les données utilisateur Google pour diffuser des publicités ; (4) Nous ne permettons pas aux humains de lire les données utilisateur Google sauf si nous avons votre consentement explicite, si c'est nécessaire à des fins de sécurité, ou si c'est requis par la loi. Nous ne vendons, ne louons ni n'échangeons vos données Google. Vos données Google Analytics et Search Console sont utilisées strictement pour afficher des informations sur votre tableau de bord personnel au sein de la plateforme Ghost Post et pour servir de contexte à notre moteur d'IA afin de générer des recommandations SEO personnalisées et du contenu pour votre compte uniquement."
       },
       {
-        "title": "4. Partage et divulgation des données",
-        "content": "Nous ne vendons pas vos informations personnelles. Nous pouvons partager vos données avec : des prestataires de services de confiance qui nous aident à exploiter notre plateforme (processeurs de paiement, fournisseurs d'hébergement, services d'analyse) ; les forces de l'ordre lorsque la loi l'exige ; des partenaires commerciaux avec votre consentement ; et dans le cadre d'une fusion, acquisition ou vente d'actifs. Tous les prestataires de services tiers sont contractuellement tenus de protéger vos données."
+        "title": "4. IA et traitement des données",
+        "content": "Nos systèmes d'IA traitent le contenu de votre site web et les données d'analyse pour générer des recommandations SEO et du contenu. Ce traitement est essentiel pour fournir notre service. Nous n'utilisons pas votre contenu exclusif ni vos données Google pour entraîner des modèles d'IA pour d'autres clients sans votre consentement explicite. Les informations et le contenu générés par l'IA sont produits spécifiquement pour votre compte et ne sont pas partagés avec d'autres utilisateurs."
       },
       {
-        "title": "5. Sécurité des données",
-        "content": "Nous mettons en œuvre des mesures de sécurité conformes aux normes de l'industrie pour protéger vos informations, y compris le chiffrement en transit (TLS/SSL) et au repos, des audits de sécurité réguliers, des contrôles d'accès et un stockage sécurisé des données. Bien que nous nous efforcions de protéger vos informations, aucune méthode de transmission sur Internet n'est sécurisée à 100 %, et nous ne pouvons garantir une sécurité absolue."
+        "title": "5. Partage et divulgation des données",
+        "content": "Nous ne vendons pas vos informations personnelles. Nous pouvons partager vos données avec : des prestataires de services de confiance qui aident à exploiter notre plateforme (processeurs de paiement, fournisseurs d'hébergement, services d'analyse) ; les autorités chargées de l'application de la loi lorsque la loi l'exige ; des partenaires commerciaux avec votre consentement ; et dans le cadre d'une fusion, d'une acquisition ou d'une vente d'actifs. Tous les prestataires de services sont contractuellement tenus de protéger vos données et ne sont pas autorisés à utiliser des données tierces (telles que les données Google) à d'autres fins que l'exploitation du Service."
       },
       {
-        "title": "6. Conservation des données",
-        "content": "Nous conservons vos informations personnelles tant que votre compte est actif ou selon les besoins pour fournir le Service. Après la suppression du compte, nous pouvons conserver certaines données jusqu'à 90 jours à des fins de sauvegarde, et pouvons conserver des données anonymisées ou agrégées indéfiniment pour l'analyse et l'amélioration du service. Vous pouvez demander la suppression de vos données à tout moment en nous contactant."
+        "title": "6. Sécurité des données",
+        "content": "Nous mettons en œuvre des mesures de sécurité conformes aux normes de l'industrie pour protéger vos informations, y compris le chiffrement en transit (TLS/SSL) et au repos, des audits de sécurité réguliers, des contrôles d'accès et un stockage sécurisé des données. Bien que nous nous efforcions de protéger vos informations, aucune méthode de transmission sur Internet n'est sûre à 100 % et nous ne pouvons garantir une sécurité absolue."
       },
       {
-        "title": "7. Cookies et suivi",
-        "content": "Nous utilisons des cookies et des technologies de suivi similaires pour améliorer votre expérience, analyser les habitudes d'utilisation et fournir du contenu personnalisé. Les cookies essentiels sont nécessaires au bon fonctionnement du Service. Les cookies analytiques nous aident à comprendre comment le Service est utilisé. Vous pouvez contrôler les préférences des cookies via les paramètres de votre navigateur, bien que la désactivation de certains cookies puisse affecter la fonctionnalité du Service."
+        "title": "7. Conservation des données",
+        "content": "Nous conservons vos informations personnelles tant que votre compte est actif ou selon les besoins pour fournir le Service. Après la suppression du compte, nous pouvons conserver certaines données jusqu'à 90 jours à des fins de sauvegarde, et pouvons conserver des données anonymisées ou agrégées indéfiniment à des fins d'analyse et d'amélioration du service. Vous pouvez demander la suppression de vos données à tout moment en nous contactant. Les connexions aux services Google peuvent être déconnectées à tout moment, et toutes les données d'API enregistrées seront supprimées à votre demande."
       },
       {
-        "title": "8. Vos droits",
-        "content": "Selon votre localisation, vous pouvez avoir le droit de : accéder à vos données personnelles ; corriger des données inexactes ; supprimer vos données ; restreindre le traitement de vos données ; la portabilité des données ; vous opposer au traitement ; et retirer votre consentement. Pour exercer ces droits, veuillez nous contacter à privacy@ghostpost.ai. Nous répondrons à votre demande dans les 30 jours."
+        "title": "8. Cookies et suivi",
+        "content": "Nous utilisons des cookies et des technologies de suivi similaires pour améliorer votre expérience, analyser les habitudes d'utilisation et fournir un contenu personnalisé. Les cookies essentiels sont nécessaires au bon fonctionnement du Service. Les cookies d'analyse nous aident à comprendre comment le Service est utilisé. Vous pouvez contrôler les préférences en matière de cookies via les paramètres de votre navigateur, bien que la désactivation de certains cookies puisse affecter la fonctionnalité du Service."
       },
       {
-        "title": "9. Transferts internationaux",
-        "content": "Vos données peuvent être transférées et traitées dans des pays autres que le vôtre. Nous veillons à ce que ces transferts soient effectués conformément aux lois applicables en matière de protection des données et que des garanties appropriées soient en place, y compris des clauses contractuelles types et des décisions d'adéquation le cas échéant."
+        "title": "9. Vos droits",
+        "content": "Selon votre lieu de résidence, vous pouvez avoir le droit de : accéder à vos données personnelles ; corriger des données inexactes ; supprimer vos données ; limiter le traitement de vos données ; à la portabilité des données ; vous opposer au traitement ; et retirer votre consentement. Pour exercer ces droits, veuillez nous contacter à office@ghostpost.co.il. Nous répondrons à votre demande dans un délai de 30 jours."
       },
       {
-        "title": "10. Vie privée des enfants",
-        "content": "Le Service n'est pas destiné aux enfants de moins de 16 ans. Nous ne collectons pas sciemment d'informations personnelles auprès d'enfants. Si vous pensez que nous avons collecté des informations auprès d'un enfant, veuillez nous contacter immédiatement et nous prendrons des mesures pour supprimer ces informations."
+        "title": "10. Transferts internationaux",
+        "content": "Vos données peuvent être transférées et traitées dans des pays autres que le vôtre. Nous veillons à ce que ces transferts soient effectués conformément aux lois applicables sur la protection des données et que des garanties appropriées soient en place, y compris des clauses contractuelles types et des décisions d'adéquation, le cas échéant."
       },
       {
-        "title": "11. Modifications de cette politique",
-        "content": "Nous pouvons mettre à jour cette Politique de confidentialité de temps à autre. Nous vous informerons de tout changement important en publiant la nouvelle politique sur cette page et en mettant à jour la date de 'dernière mise à jour'. Votre utilisation continue du Service après les modifications constitue une acceptation de la politique mise à jour."
+        "title": "11. Confidentialité des enfants",
+        "content": "Le Service n'est pas destiné aux enfants de moins de 16 ans. Nous ne recueillons pas sciemment d'informations personnelles auprès d'enfants. Si vous pensez que nous avons recueilli des informations auprès d'un enfant, veuillez nous contacter immédiatement et nous prendrons des mesures pour supprimer ces informations."
       },
       {
-        "title": "12. Nous contacter",
-        "content": "Si vous avez des questions ou des préoccupations concernant cette Politique de confidentialité ou nos pratiques en matière de données, veuillez nous contacter à privacy@ghostpost.ai ou via notre page de contact."
+        "title": "12. Modifications de cette politique",
+        "content": "Nous pouvons mettre à jour cette politique de confidentialité de temps à temps. Nous vous informerons des modifications importantes en publiant la nouvelle politique sur cette page et en mettant à jour la date de « Dernière mise à jour ». Votre utilisation continue du Service après modifications constitue une acceptation de la politique mise à jour."
+      },
+      {
+        "title": "13. Nous contacter",
+        "content": "Si vous avez des questions ou des préoccupations concernant cette politique de confidentialité ou nos pratiques en matière de données, veuillez nous contacter à office@ghostpost.co.il ou via notre page de contact."
       }
     ]
   },

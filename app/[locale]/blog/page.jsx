@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getDictionary } from '../../../i18n/get-dictionary';
+import { generatePageMetadata } from '../../../lib/metadata';
 import { Badge } from '../../components/ui/Badge';
 import { BlogContent } from '../../blog/BlogContent';
 import styles from '../../blog/page.module.css';
@@ -77,12 +78,12 @@ const categoryKeys = ["all", "categorySEO", "categoryContent", "categoryTechnica
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
-  const dict = await getDictionary(locale);
   
-  return {
-    title: dict.blog?.metaTitle || "Blog - Ghost Post",
-    description: dict.blog?.metaDescription || "Insights, strategies, and stories about AI-powered SEO",
-  };
+  return await generatePageMetadata({
+    locale,
+    page: 'blog',
+    useDraft: false
+  });
 }
 
 export default async function BlogPage({ params }) {

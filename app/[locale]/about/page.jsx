@@ -1,4 +1,5 @@
 import { getDictionary } from '../../../i18n/get-dictionary';
+import { generatePageMetadata } from '../../../lib/metadata';
 import { Badge } from '../../components/ui/Badge';
 import styles from '../../about/page.module.css';
 
@@ -80,12 +81,12 @@ const icons = {
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
-  const dict = await getDictionary(locale);
   
-  return {
-    title: dict.about?.metaTitle || "About - Ghost Post",
-    description: dict.about?.metaDescription || "Learn about our mission to revolutionize SEO with AI",
-  };
+  return await generatePageMetadata({
+    locale,
+    page: 'about',
+    useDraft: false
+  });
 }
 
 export default async function AboutPage({ params }) {

@@ -1,5 +1,6 @@
 import { getDictionary } from '../../../i18n/get-dictionary';
 import { getPlans, getStaticPlans } from '../../../lib/get-plans';
+import { generatePageMetadata, getBreadcrumbJsonLd, JsonLd } from '../../../lib/metadata';
 import { Badge } from '../../components/ui/Badge';
 import { PricingCards } from '../../pricing/PricingCards';
 import { PricingFAQ } from '../../pricing/PricingFAQ';
@@ -31,12 +32,13 @@ const defaultFaqs = [
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
-  const dict = await getDictionary(locale);
   
-  return {
-    title: dict.pricing?.metaTitle || "Pricing - Ghost Post",
-    description: dict.pricing?.metaDescription || "Simple, transparent pricing for AI-powered SEO",
-  };
+  // Use CMS-powered metadata with fallback
+  return await generatePageMetadata({
+    locale,
+    page: 'pricing',
+    useDraft: false
+  });
 }
 
 export default async function PricingPage({ params }) {

@@ -1,4 +1,5 @@
 import { getDictionary } from '../../../i18n/get-dictionary';
+import { generatePageMetadata } from '../../../lib/metadata';
 import { Badge } from '../../components/ui/Badge';
 import styles from '../../how-it-works/page.module.css';
 
@@ -88,12 +89,12 @@ const icons = {
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
-  const dict = await getDictionary(locale);
   
-  return {
-    title: dict.howItWorks?.metaTitle || "How It Works - Ghost Post",
-    description: dict.howItWorks?.metaDescription || "From setup to success in 6 simple steps",
-  };
+  return await generatePageMetadata({
+    locale,
+    page: 'how-it-works',
+    useDraft: false
+  });
 }
 
 export default async function HowItWorksPage({ params }) {

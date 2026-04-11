@@ -1,4 +1,5 @@
 import { getDictionary } from '../../../i18n/get-dictionary';
+import { generatePageMetadata } from '../../../lib/metadata';
 import { Badge } from '../../components/ui/Badge';
 import { FAQInteractive } from '../../faq/FAQInteractive';
 import styles from '../../faq/page.module.css';
@@ -88,12 +89,12 @@ const defaultFaqs = [
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
-  const dict = await getDictionary(locale);
   
-  return {
-    title: dict.faq?.metaTitle || "FAQ - Ghost Post",
-    description: dict.faq?.metaDescription || "Frequently asked questions about Ghost Post",
-  };
+  return await generatePageMetadata({
+    locale,
+    page: 'faq',
+    useDraft: false
+  });
 }
 
 export default async function FAQPage({ params }) {

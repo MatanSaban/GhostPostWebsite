@@ -15,7 +15,7 @@
   align-items: center;
   gap: 0.5rem;
   color: #6b7280;
-  font-size: 0.8125rem;
+  font-size: 0.875rem;
   font-weight: 500;
   transition: color 0.2s;
 
@@ -54,7 +54,7 @@
   border-radius: 9999px;
   background: linear-gradient(to right, #7c3aed, #2563eb);
   color: white;
-  font-size: 0.8125rem;
+  font-size: 0.875rem;
   font-weight: 600;
 }
 
@@ -63,7 +63,7 @@
   align-items: center;
   gap: 1rem;
   color: #6b7280;
-  font-size: 0.8125rem;
+  font-size: 0.875rem;
 }
 
 .metaItem {
@@ -130,7 +130,7 @@
 }
 
 .authorRole {
-  font-size: 0.8125rem;
+  font-size: 0.875rem;
   color: #6b7280;
 }
 
@@ -260,7 +260,7 @@
   border-radius: 9999px;
   background: rgba(243, 232, 255, 0.8);
   color: #7c3aed;
-  font-size: 0.8125rem;
+  font-size: 0.875rem;
   font-family: 'Polin', 'Poppins', sans-serif;
 }
 
@@ -299,7 +299,7 @@
   border-radius: 0.5rem;
   border: none;
   color: white;
-  font-size: 0.8125rem;
+  font-size: 0.875rem;
   font-weight: 600;
   cursor: pointer;
   transition: opacity 0.2s;
@@ -405,7 +405,7 @@
   font-weight: 700;
   color: #111827;
   margin-top: 0.75rem;
-  font-size: 0.8125rem;
+  font-size: 0.875rem;
   line-height: 1.4;
   display: -webkit-box;
   -webkit-line-clamp: 2;

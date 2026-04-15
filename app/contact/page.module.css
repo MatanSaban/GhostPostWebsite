@@ -21,7 +21,7 @@
     border-radius: 9999px;
     border: 1px solid rgba(233, 213, 255, 1);
     background-color: rgba(243, 232, 255, 0.5);
-    font-size: 0.8125rem;
+    font-size: 0.875rem;
     font-family: 'Polin', 'Poppins', sans-serif;
     font-weight: 600;
     color: #7c3aed;
@@ -177,7 +177,7 @@
 }
 
 .infoValue {
-  font-size: 0.8125rem;
+  font-size: 0.875rem;
   color: #111827;
   text-decoration: none;
   transition: color 0.2s;
@@ -206,7 +206,7 @@
 }
 
 .socialsLabel {
-  font-size: 0.8125rem;
+  font-size: 0.875rem;
   font-weight: 600;
   color: #6b7280;
   display: block;
@@ -290,7 +290,7 @@
 }
 
 .label {
-  font-size: 0.8125rem;
+  font-size: 0.875rem;
   font-weight: 600;
   color: #374151;
 }
@@ -455,7 +455,7 @@
   background: rgba(139, 92, 246, 0.1);
   color: #7c3aed;
   font-weight: 600;
-  font-size: 0.8125rem;
+  font-size: 0.875rem;
   cursor: pointer;
   border: none;
   transition: all 0.2s;

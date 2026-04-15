@@ -22,7 +22,7 @@
     border-radius: 9999px;
     border: 1px solid rgba(233, 213, 255, 1);
     background-color: rgba(243, 232, 255, 0.5);
-    font-size: 0.8125rem;
+    font-size: 0.875rem;
     font-family: 'Polin', 'Poppins', sans-serif;
     font-weight: 600;
     color: #7c3aed;
@@ -106,7 +106,7 @@
     background: rgba(243, 232, 255, 0.5);
     color: #4b5563;
     font-family: 'Polin', 'Poppins', sans-serif;
-    font-size: 0.8125rem;
+    font-size: 0.875rem;
     font-weight: 500;
     white-space: nowrap;
     cursor: pointer;
@@ -206,7 +206,7 @@
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    font-size: 0.8125rem;
+    font-size: 0.875rem;
     color: #6b7280;
     margin-bottom: 1.5rem;
   }
@@ -315,7 +315,7 @@
   }
 
   .postExcerpt {
-    font-size: 0.8125rem;
+    font-size: 0.875rem;
     color: #4b5563;
     margin-bottom: 1rem;
     line-height: 1.6;
@@ -338,7 +338,7 @@
   .postLink {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 0.8125rem;
+    font-size: 0.875rem;
     font-weight: 600;
     color: #7c3aed;
     transition: color 0.2s;

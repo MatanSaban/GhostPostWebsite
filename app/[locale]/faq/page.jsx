@@ -104,12 +104,16 @@ export default async function FAQPage({ params }) {
 
   const t = dict.faq || {};
 
-  // Get localized categories or use defaults
-  const faqCategories = t.categories || defaultFaqCategories;
+  // Get localized categories — dict stores them as {id: label} object, convert to array
+  const faqCategories = Array.isArray(t.categories)
+    ? t.categories
+    : t.categories && typeof t.categories === 'object'
+      ? Object.entries(t.categories).map(([id, label]) => ({ id, label }))
+      : defaultFaqCategories;
   
   // Get localized FAQs from CMS, fallback to dictionary, then defaults
   const apiFaqs = await getFaqs(locale, 'faq');
-  const faqs = apiFaqs || t.items || defaultFaqs;
+  const faqs = Array.isArray(apiFaqs) ? apiFaqs : Array.isArray(t.items) ? t.items : defaultFaqs;
 
   return (
     <div className={styles.page}>

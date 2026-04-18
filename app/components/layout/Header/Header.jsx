@@ -18,7 +18,7 @@ export function Header({ locale, dict }) {
           {/* Language switcher hidden for MVP - Hebrew only */}
           {/* <LanguageSwitcher currentLocale={locale} /> */}
           <ThemeToggle />
-          <AuthButtons dict={dict} />
+          <AuthButtons locale={locale} dict={dict} />
         </div>
 
         <MobileMenu locale={locale} dict={dict} />

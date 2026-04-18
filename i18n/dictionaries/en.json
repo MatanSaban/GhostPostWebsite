@@ -21,7 +21,7 @@
     "title": "Your Website's SEO on",
     "titleHighlight": "Autopilot",
     "subtitle": "The first autonomous AI agent that optimizes, writes, and manages your site's SEO while you sleep. Set it and forget it.",
-    "cta": "Start Free Trial",
+    "cta": "Get Started",
     "secondaryCta": "Watch Demo",
     "trustedBy": "Trusted by 500+ companies worldwide"
   },
@@ -146,7 +146,7 @@
     "dataPointsTracked": "Data Points Tracked",
     "ctaTitle": "Ready to automate your SEO?",
     "ctaDescription": "Start your 14-day free trial and experience the power of AI-driven SEO.",
-    "ctaButton": "Start Free Trial"
+    "ctaButton": "Get Started"
   },
   "howItWorks": {
     "badge": "Simple Process",
@@ -212,7 +212,7 @@
     ],
     "ctaTitle": "Ready to get started?",
     "ctaDescription": "Connect your website and let Ghost handle your SEO automatically.",
-    "ctaButton": "Start Free Trial",
+    "ctaButton": "Get Started",
     "steps": [
       {
         "step": "01",
@@ -243,11 +243,11 @@
     "billedAnnually": "Billed ${amount}/year",
     "custom": "Custom",
     "popularBadge": "Most Popular",
-    "startFreeTrial": "Start Free Trial",
+    "startFreeTrial": "Get Started",
     "contactSales": "Contact Sales",
     "faqTitle": "Frequently Asked Questions",
     "starterName": "Starter",
-    "starterCta": "Start Free Trial",
+    "starterCta": "Get Started",
     "starterDescription": "Perfect for small businesses and startups",
     "starterFeatures": [
       "Up to 10,000 monthly visitors",
@@ -257,7 +257,7 @@
       "Email support"
     ],
     "proName": "Professional",
-    "proCta": "Start Free Trial",
+    "proCta": "Get Started",
     "proDescription": "For growing businesses serious about SEO",
     "proFeatures": [
       "Up to 100,000 monthly visitors",
@@ -313,7 +313,7 @@
           "Technical SEO automation",
           "Email support"
         ],
-        "cta": "Start Free Trial",
+        "cta": "Get Started",
         "popular": false
       },
       {
@@ -329,7 +329,7 @@
           "Link building assistance",
           "Priority support"
         ],
-        "cta": "Start Free Trial",
+        "cta": "Get Started",
         "popular": true
       },
       {
@@ -378,7 +378,7 @@
   "cta": {
     "title": "Ready to Automate Your SEO?",
     "description": "Join hundreds of businesses growing their organic traffic with Ghost Post",
-    "button": "Start Free Trial"
+    "button": "Get Started"
   },
   "about": {
     "badge": "Our Story",
@@ -807,7 +807,7 @@
   "common": {
     "learnMore": "Learn More",
     "getStarted": "Get Started",
-    "startFreeTrial": "Start Free Trial",
+    "startFreeTrial": "Get Started",
     "contactUs": "Contact Us",
     "readMore": "Read More"
   }

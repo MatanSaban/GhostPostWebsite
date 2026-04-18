@@ -17,7 +17,7 @@
       color: var(--color-gray-900);
 
       @media (min-width: 768px) {
-        font-size: 2.875rem;
+        font-size: 2.9rem;
       }
 
       .titleGradient {

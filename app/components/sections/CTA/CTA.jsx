@@ -14,7 +14,7 @@ export function CTA({ dict, locale }) {
             <p className={styles.description}>
               {t.description || "Join hundreds of businesses growing their organic traffic with Ghost Post"}
             </p>
-            <Button href={`/${locale}/register`} variant="primary" size="large">
+            <Button href={`/${locale}/pricing`} variant="primary" size="large">
               {t.button || "Start Free Trial"}
               <svg className={styles.icon} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />

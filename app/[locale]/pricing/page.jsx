@@ -1,7 +1,7 @@
 import { getDictionary } from '../../../i18n/get-dictionary';
 import { getPlans, getStaticPlans } from '../../../lib/get-plans';
+import { getFaqs } from '../../../lib/get-faqs';
 import { generatePageMetadata, getBreadcrumbJsonLd, JsonLd } from '../../../lib/metadata';
-import { Badge } from '../../components/ui/Badge';
 import { PricingCards } from '../../pricing/PricingCards';
 import { PricingFAQ } from '../../pricing/PricingFAQ';
 import styles from '../../pricing/page.module.css';
@@ -66,19 +66,21 @@ export default async function PricingPage({ params }) {
     formattedPrice: plan.formattedPrice || null,
     period: plan.period || null,
     currency: plan.currency || 'USD',
-    cta: plan.cta || (plan.popular ? (t.startFreeTrial || "Start Free Trial") : 
-         (plan.monthlyPrice ? (t.startFreeTrial || "Start Free Trial") : (t.contactSales || "Contact Sales"))),
+    ilsMonthlyPrice: plan.ilsMonthlyPrice || null,
+    ilsYearlyPrice: plan.ilsYearlyPrice || null,
+    cta: plan.cta || (plan.popular ? (t.startFreeTrial || "Get Started") : 
+         (plan.monthlyPrice ? (t.startFreeTrial || "Get Started") : (t.contactSales || "Contact Sales"))),
   }));
 
-  // Get localized FAQs or use defaults
-  const faqs = t.faqs || defaultFaqs;
+  // Get localized FAQs from CMS, fallback to dictionary, then defaults
+  const apiFaqs = await getFaqs(locale, 'pricing');
+  const faqs = apiFaqs || t.faqs || defaultFaqs;
 
   return (
     <div className={styles.page}>
       {/* Hero Section */}
       <section className={styles.hero}>
         <div className={styles.container}>
-          <Badge>{t.badge || "14-Day Free Trial"}</Badge>
           <h1 className={styles.title}>
             {t.titlePrefix || "Simple,"} <span className={styles.gradient}>{t.titleHighlight || "Transparent Pricing"}</span>
           </h1>

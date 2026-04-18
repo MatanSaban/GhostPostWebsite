@@ -1,7 +1,7 @@
 import Link from "next/link";
 import styles from "./PricingCard.module.css";
 
-export function PricingCard({ name, price, period, description, features, limitations, cta, popular, popularLabel }) {
+export function PricingCard({ name, price, period, description, features, limitations, cta, popular, popularLabel, ilsMonthlyPrice, locale }) {
   return (
     <div className={`${styles.card} ${popular ? styles.popular : ""}`}>
       {popular && <div className={styles.popularBadge}>{popularLabel || "Most Popular"}</div>}
@@ -13,6 +13,11 @@ export function PricingCard({ name, price, period, description, features, limita
           <span className={styles.price}>{price}</span>
           <span className={styles.period}>{period}</span>
         </div>
+        {ilsMonthlyPrice && (
+          <p className={styles.ilsNote}>
+            ≈ ₪{ilsMonthlyPrice}/{locale === 'he' ? 'חודש' : 'mo'} {locale === 'he' ? 'כולל מע״מ' : 'incl. VAT'}
+          </p>
+        )}
         <ul className={styles.features}>
           {/* Limitations */}
           {limitations?.map((limitation, index) => {

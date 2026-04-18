@@ -21,7 +21,7 @@
     "title": "Le SEO de votre site en",
     "titleHighlight": "Pilote automatique",
     "subtitle": "Le premier agent IA autonome qui optimise, rédige et gère le SEO de votre site pendant que vous dormez. Configurez-le et oubliez-le.",
-    "cta": "Essai gratuit",
+    "cta": "Commencer",
     "secondaryCta": "Voir la démo",
     "trustedBy": "Plus de 500 entreprises nous font confiance"
   },
@@ -146,7 +146,7 @@
     "dataPointsTracked": "Points de données suivis",
     "ctaTitle": "Prêt à automatiser votre SEO ?",
     "ctaDescription": "Commencez votre essai gratuit de 14 jours et découvrez la puissance du SEO propulsé par l'IA.",
-    "ctaButton": "Commencer l'essai gratuit"
+    "ctaButton": "Commencer"
   },
   "howItWorks": {
     "badge": "Processus simple",
@@ -183,7 +183,7 @@
     "billedAnnually": "Facturé ${amount}/an",
     "custom": "Sur mesure",
     "popularBadge": "Plus populaire",
-    "startFreeTrial": "Essai gratuit",
+    "startFreeTrial": "Commencer",
     "contactSales": "Contacter les ventes",
     "plans": [
       {
@@ -198,7 +198,7 @@
           "Automatisation SEO technique",
           "Support par email"
         ],
-        "cta": "Essai gratuit",
+        "cta": "Commencer",
         "popular": false
       },
       {
@@ -214,7 +214,7 @@
           "Assistance création de liens",
           "Support prioritaire"
         ],
-        "cta": "Essai gratuit",
+        "cta": "Commencer",
         "popular": true
       },
       {
@@ -263,7 +263,7 @@
   "cta": {
     "title": "Prêt à automatiser votre SEO ?",
     "description": "Rejoignez des centaines d'entreprises qui développent leur trafic organique avec Ghost Post",
-    "button": "Essai gratuit"
+    "button": "Commencer"
   },
   "about": {
     "badge": "Notre histoire",
@@ -621,7 +621,7 @@
   "common": {
     "learnMore": "En savoir plus",
     "getStarted": "Commencer",
-    "startFreeTrial": "Essai gratuit",
+    "startFreeTrial": "Commencer",
     "contactUs": "Contactez-nous",
     "readMore": "Lire la suite"
   }

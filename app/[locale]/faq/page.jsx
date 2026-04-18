@@ -1,4 +1,5 @@
 import { getDictionary } from '../../../i18n/get-dictionary';
+import { getFaqs } from '../../../lib/get-faqs';
 import { generatePageMetadata } from '../../../lib/metadata';
 import { Badge } from '../../components/ui/Badge';
 import { FAQInteractive } from '../../faq/FAQInteractive';
@@ -106,8 +107,9 @@ export default async function FAQPage({ params }) {
   // Get localized categories or use defaults
   const faqCategories = t.categories || defaultFaqCategories;
   
-  // Get localized FAQs or use defaults
-  const faqs = t.items || defaultFaqs;
+  // Get localized FAQs from CMS, fallback to dictionary, then defaults
+  const apiFaqs = await getFaqs(locale, 'faq');
+  const faqs = apiFaqs || t.items || defaultFaqs;
 
   return (
     <div className={styles.page}>

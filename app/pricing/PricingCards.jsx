@@ -1,14 +1,30 @@
 "use client";
 
 import { useState } from "react";
+import { useAuthModal } from "../context/auth-modal-context";
 import styles from "./page.module.css";
 
 export function PricingCards({ plans, dict, locale = 'en' }) {
   const [isAnnual, setIsAnnual] = useState(false);
+  const { openRegister } = useAuthModal();
 
-  const formatPrice = (price) => {
+  const CURRENCY_SYMBOLS = { USD: '$', ILS: '₪', EUR: '€', GBP: '£' };
+
+  const formatPrice = (price, currency) => {
     if (!price && price !== 0) return null;
-    return `$${price}`;
+    const symbol = CURRENCY_SYMBOLS[currency] || '$';
+    return `${symbol}${price}`;
+  };
+
+  // Fallback ILS conversion for when API doesn't return ilsMonthlyPrice
+  const FALLBACK_USD_TO_ILS = 3.6;
+  const VAT_RATE = 1.18;
+  const getIlsPrice = (plan, field) => {
+    if (plan[field]) return plan[field];
+    // Always convert as USD → ILS + VAT
+    const price = field === 'ilsMonthlyPrice' ? plan.monthlyPrice : plan.annualPrice;
+    if (!price) return null;
+    return Math.round(price * FALLBACK_USD_TO_ILS * VAT_RATE);
   };
 
   return (
@@ -52,7 +68,7 @@ export function PricingCards({ plans, dict, locale = 'en' }) {
                       <span className={styles.price}>
                         {plan.formattedPrice && !isAnnual
                           ? plan.formattedPrice
-                          : formatPrice(monthlyPrice)}
+                          : formatPrice(monthlyPrice, 'USD')}
                       </span>
                       <span className={styles.period}>{plan.period || dict?.perMonth || "/month"}</span>
                     </>
@@ -62,9 +78,24 @@ export function PricingCards({ plans, dict, locale = 'en' }) {
                     </span>
                   )}
                 </div>
+                {plan.monthlyPrice ? (() => {
+                  const ilsMonthly = getIlsPrice(plan, 'ilsMonthlyPrice');
+                  const ilsYearly = getIlsPrice(plan, 'ilsYearlyPrice');
+                  if (!ilsMonthly) return null;
+                  const mo = locale === 'he' ? 'חודש' : 'mo';
+                  const yr = locale === 'he' ? 'שנה' : 'yr';
+                  const vatLabel = locale === 'he' ? 'כולל מע״מ' : 'incl. VAT';
+                  return (
+                    <p className={styles.ilsNote}>
+                      {isAnnual && ilsYearly
+                        ? `≈ ₪${Math.round(ilsYearly / 12)}/${mo} (₪${ilsYearly}/${yr}) ${vatLabel}`
+                        : `≈ ₪${ilsMonthly}/${mo} ${vatLabel}`}
+                    </p>
+                  );
+                })() : null}
                 {isAnnual && plan.annualPrice && (
                   <p className={styles.annualNote}>
-                    {(dict?.billedAnnually || "Billed ${amount}/year").replace('${amount}', formatPrice(plan.annualPrice))}
+                    {(dict?.billedAnnually || "Billed ${amount}/year").replace('${amount}', formatPrice(plan.annualPrice, 'USD'))}
                   </p>
                 )}
                 <ul className={styles.featureList}>
@@ -93,12 +124,18 @@ export function PricingCards({ plans, dict, locale = 'en' }) {
                     );
                   })}
                 </ul>
-                <a
-                  href={plan.popular ? `/${locale}/register` : plan.monthlyPrice ? `/${locale}/register` : `/${locale}/contact`}
+                <button
+                  onClick={() => {
+                    if (!plan.monthlyPrice && !plan.popular) {
+                      window.location.href = `/${locale}/contact`;
+                    } else {
+                      openRegister(plan);
+                    }
+                  }}
                   className={`${styles.ctaButton} ${plan.popular ? styles.primaryButton : styles.secondaryButton}`}
                 >
                   {plan.cta}
-                </a>
+                </button>
               </div>
               );
             })}

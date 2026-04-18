@@ -73,12 +73,13 @@ export function MobileMenu({ locale, dict }) {
             >
               {dict?.nav?.login || "Login"}
             </button>
-            <button 
-              onClick={() => { openRegister(); closeMobileMenu(); }} 
+            <Link 
+              href={`/${locale}/pricing`}
+              onClick={closeMobileMenu}
               className={styles.mobileSignupButton}
             >
               {dict?.nav?.signUp || "Sign Up"}
-            </button>
+            </Link>
           </nav>
         </div>
       )}

@@ -95,7 +95,7 @@
 
 .title {
   font-family: 'Polin', 'Poppins', sans-serif;
-  font-size: 1.625rem;
+  font-size: 1.6875rem;
   font-weight: 700;
   color: #111827;
   margin-bottom: 0.5rem;
@@ -106,7 +106,7 @@
 }
 
 .subtitle {
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   color: #6b7280;
 }
 
@@ -135,7 +135,7 @@
   border: none;
   border-radius: 0.375rem;
   font-family: 'Polin', 'Poppins', sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   font-weight: 600;
   color: #6b7280;
   background: transparent;
@@ -179,7 +179,7 @@
 
 .label {
   font-family: 'Polin', 'Poppins', sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   font-weight: 600;
   color: #374151;
 }
@@ -192,7 +192,7 @@
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   font-family: 'Polin', 'Poppins', sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   background: white;
   border: 1px solid #e5e7eb;
   color: #111827;
@@ -235,7 +235,7 @@
 
 .forgotLink {
   font-family: 'Polin', 'Poppins', sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   color: #7c3aed;
   background: none;
   border: none;
@@ -270,7 +270,7 @@
 }
 
 .termsLabel {
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   color: #6b7280;
 }
 
@@ -308,7 +308,7 @@
   color: white;
   font-family: 'Polin', 'Poppins', sans-serif;
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   cursor: pointer;
   transition: opacity 0.2s, transform 0.2s;
 
@@ -359,7 +359,7 @@
 
 .dividerText {
   font-family: 'Polin', 'Poppins', sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   color: #6b7280;
   white-space: nowrap;
 }
@@ -384,7 +384,7 @@
   border: 1px solid #e5e7eb;
   color: #111827;
   font-family: 'Polin', 'Poppins', sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   cursor: pointer;
   transition: all 0.2s;
 

@@ -29,7 +29,7 @@
   }
 
   .navLink {
-    font-size: 0.9rem;
+    font-size: 0.75rem;
     font-family: 'Polin', 'Poppins', sans-serif;
     color: #4b5563;
     transition: color 0.2s;
@@ -56,7 +56,7 @@
   }
 
   .loginButton {
-    font-size: 0.9rem;
+    font-size: 0.75rem;
     font-family: 'Polin', 'Poppins', sans-serif;
     font-weight: 500;
     color: #374151;
@@ -72,7 +72,7 @@
   }
 
   .signupButton {
-    font-size: 0.9rem;
+    font-size: 0.75rem;
     font-family: 'Polin', 'Poppins', sans-serif;
     font-weight: 600;
     color: white;
@@ -140,7 +140,7 @@
   }
 
   .mobileNavLink {
-    font-size: 0.9rem;
+    font-size: 0.75rem;
     font-family: 'Polin', 'Poppins', sans-serif;
     color: #374151;
     text-decoration: none;
@@ -167,7 +167,7 @@
   }
 
   .mobileLoginButton {
-    font-size: 0.9rem;
+    font-size: 0.75rem;
     font-family: 'Polin', 'Poppins', sans-serif;
     font-weight: 500;
     color: #374151;
@@ -186,7 +186,7 @@
   }
 
   .mobileSignupButton {
-    font-size: 0.9rem;
+    font-size: 0.75rem;
     font-family: 'Polin', 'Poppins', sans-serif;
     font-weight: 600;
     color: white;

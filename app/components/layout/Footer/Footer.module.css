@@ -31,13 +31,13 @@
 
     .logoText {
       font-family: 'Polin', 'Poppins', sans-serif;
-      font-size: 1rem;
+      font-size: 1.0625rem;
       font-weight: 700;
       color: #111827;
     }
 
     .description {
-      font-size: 0.9rem;
+      font-size: 0.75rem;
       color: #4b5563;
     }
   }
@@ -57,7 +57,7 @@
     }
 
     .link {
-      font-size: 0.9rem;
+      font-size: 0.75rem;
       color: #4b5563;
       transition: color 0.2s;
 
@@ -81,7 +81,7 @@
     }
 
     .copyright {
-      font-size: 0.9rem;
+      font-size: 0.75rem;
       color: #4b5563;
     }
 

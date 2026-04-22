@@ -104,7 +104,7 @@ export default async function FAQPage({ params }) {
 
   const t = dict.faq || {};
 
-  // Get localized categories — dict stores them as {id: label} object, convert to array
+  // Get localized categories - dict stores them as {id: label} object, convert to array
   const faqCategories = Array.isArray(t.categories)
     ? t.categories
     : t.categories && typeof t.categories === 'object'

@@ -77,7 +77,7 @@
 }
 
 .chatListTitle {
-  font-size: 0.75rem;
+  font-size: 0.8125rem;
   font-weight: 600;
   color: var(--text-primary);
   margin: 0;
@@ -273,7 +273,7 @@
 }
 
 .agentName {
-  font-size: 0.75rem;
+  font-size: 0.8125rem;
   font-weight: 600;
   color: var(--text-primary);
   margin: 0;
@@ -552,7 +552,7 @@
 }
 
 .sectionTitle {
-  font-size: 0.75rem;
+  font-size: 0.8125rem;
   font-weight: 600;
   color: var(--text-primary);
   margin: 0 0 0.75rem 0;

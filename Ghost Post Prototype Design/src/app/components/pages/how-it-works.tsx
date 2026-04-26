@@ -185,7 +185,7 @@ export function HowItWorks({ onNavigate }: { onNavigate?: (page: string) => void
             <span className="text-sm font-['Poppins'] text-purple-700 dark:text-purple-300">Your SEO, Automated</span>
           </div>
           <h1 className="font-['Poppins'] text-5xl md:text-6xl font-bold mb-6 leading-tight">
-            How Ghost Post{' '}
+            How GhostSEO{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-blue-400 to-purple-600">
               Works
             </span>
@@ -442,7 +442,7 @@ export function HowItWorks({ onNavigate }: { onNavigate?: (page: string) => void
                 Ready to Get Started?
               </h2>
               <p className="text-xl text-gray-700 dark:text-gray-300 mb-8 max-w-2xl mx-auto">
-                Join thousands of businesses growing their organic traffic with Ghost Post's autonomous AI
+                Join thousands of businesses growing their organic traffic with GhostSEO's autonomous AI
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <button 

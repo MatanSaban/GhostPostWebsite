@@ -10,7 +10,7 @@ import styles from '../../pricing/page.module.css';
 const defaultFaqs = [
   {
     question: "How does the free trial work?",
-    answer: "Start with a 14-day free trial on any plan. No credit card required. Experience the full power of Ghost Post with all features unlocked.",
+    answer: "Start with a 14-day free trial on any plan. No credit card required. Experience the full power of GhostSEO with all features unlocked.",
   },
   {
     question: "Can I change plans later?",
@@ -21,7 +21,7 @@ const defaultFaqs = [
     answer: "We'll send you a notification when you're approaching 80% of your limit. You can either upgrade or continue with a small overage fee.",
   },
   {
-    question: "Is Ghost Post safe for my website?",
+    question: "Is GhostSEO safe for my website?",
     answer: "Absolutely. Ghost follows all Google Webmaster Guidelines and uses only white-hat, approved SEO techniques.",
   },
   {

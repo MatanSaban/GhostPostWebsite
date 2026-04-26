@@ -15,7 +15,7 @@ export const runtime = 'edge';
 export async function GET(request) {
   const { searchParams } = new URL(request.url);
   
-  const title = searchParams.get('title') || 'Ghost Post';
+  const title = searchParams.get('title') || 'GhostSEO';
   const description = searchParams.get('description') || 'AI-Powered SEO Automation';
   const page = searchParams.get('page') || 'default';
   const locale = searchParams.get('locale') || 'en';
@@ -86,7 +86,7 @@ export async function GET(request) {
               letterSpacing: '-0.02em',
             }}
           >
-            Ghost Post
+            GhostSEO
           </span>
         </div>
 

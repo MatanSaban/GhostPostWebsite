@@ -1,5 +1,5 @@
 /**
- * Dynamic robots.txt configuration for Ghost Post Website
+ * Dynamic robots.txt configuration for GhostSEO Website
  * @see https://nextjs.org/docs/app/api-reference/file-conventions/metadata/robots
  */
 

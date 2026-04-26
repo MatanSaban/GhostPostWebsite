@@ -32,7 +32,7 @@ export function SinglePage({ pageType, onNavigate }: { pageType: PageType; onNav
             <h1 className="font-['Poppins'] text-5xl md:text-6xl font-bold mb-6 leading-tight">
               About{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-blue-400 to-purple-600">
-                Ghost Post
+                GhostSEO
               </span>
             </h1>
             <p className="text-xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
@@ -205,7 +205,7 @@ export function SinglePage({ pageType, onNavigate }: { pageType: PageType; onNav
               </span>
             </h1>
             <p className="text-xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              Have questions about Ghost Post? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
+              Have questions about GhostSEO? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
             </p>
           </div>
 

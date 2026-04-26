@@ -66,7 +66,7 @@ export function BlogPage({ onNavigate }: { onNavigate?: (page: string, id?: numb
     {
       id: 5,
       title: 'Case Study: 300% Traffic Increase in 6 Months',
-      excerpt: 'How we helped a e-commerce client achieve a 300% increase in organic traffic using Ghost Post\'s AI-powered SEO automation.',
+      excerpt: 'How we helped a e-commerce client achieve a 300% increase in organic traffic using GhostSEO\'s AI-powered SEO automation.',
       category: 'Case Studies',
       date: 'Jan 5, 2026',
       readTime: '7 min read',
@@ -123,7 +123,7 @@ export function BlogPage({ onNavigate }: { onNavigate?: (page: string, id?: numb
           <div className="text-center mb-12">
             <h1 className="font-['Poppins'] text-5xl md:text-6xl font-bold mb-6 leading-tight">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-blue-400 to-purple-600">
-                Ghost Post
+                GhostSEO
               </span>{' '}
               Blog
             </h1>

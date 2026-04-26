@@ -70,7 +70,7 @@ export default async function ContactPage({ params }) {
             {t.title || "Get in"} <span className={styles.gradient}>{t.titleHighlight || "Touch"}</span>
           </h1>
           <p className={styles.subtitle}>
-            {t.subtitle || "Have questions about GhostPost? We'd love to hear from you. Send us a message and we'll respond as soon as possible."}
+            {t.subtitle || "Have questions about GhostSEO? We'd love to hear from you. Send us a message and we'll respond as soon as possible."}
           </p>
         </div>
       </section>

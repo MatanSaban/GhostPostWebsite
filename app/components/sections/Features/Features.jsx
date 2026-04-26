@@ -49,7 +49,7 @@ export function Features({ dict, locale }) {
       <div className={styles.container}>
         <div className={styles.header}>
           <h2 className={styles.title}>
-            {t.titlePrefix || "Why Choose"} <span className={styles.titleGradient}>{t.titleHighlight || "Ghost Post"}</span>
+            {t.titlePrefix || "Why Choose"} <span className={styles.titleGradient}>{t.titleHighlight || "GhostSEO"}</span>
           </h2>
           <p className={styles.subtitle}>
             {t.subtitle || "Powerful features that work together to dominate search rankings"}

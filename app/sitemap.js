@@ -1,5 +1,5 @@
 /**
- * Dynamic sitemap for Ghost Post Website
+ * Dynamic sitemap for GhostSEO Website
  * Automatically generates sitemap entries for all locales and pages
  * @see https://nextjs.org/docs/app/api-reference/file-conventions/metadata/sitemap
  */

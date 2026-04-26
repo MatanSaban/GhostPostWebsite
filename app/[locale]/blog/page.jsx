@@ -101,11 +101,11 @@ export default async function BlogPage({ params }) {
           <h1 className={styles.title}>
             {t.titleBefore ? (
               <>
-                {t.title || "Blog"} <span className={styles.gradient}>{t.titleHighlight || "Ghost Post"}</span>{t.titleSuffix ? ` ${t.titleSuffix}` : ''}
+                {t.title || "Blog"} <span className={styles.gradient}>{t.titleHighlight || "GhostSEO"}</span>{t.titleSuffix ? ` ${t.titleSuffix}` : ''}
               </>
             ) : (
               <>
-                <span className={styles.gradient}>{t.titleHighlight || "Ghost Post"}</span> {t.title || "Blog"}
+                <span className={styles.gradient}>{t.titleHighlight || "GhostSEO"}</span> {t.title || "Blog"}
               </>
             )}
           </h1>

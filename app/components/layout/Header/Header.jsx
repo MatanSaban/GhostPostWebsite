@@ -10,7 +10,7 @@ export function Header({ locale, dict }) {
   return (
     <header className={styles.header}>
       <div className={styles.container}>
-        <Logo />
+        <Logo width={160} />
 
         <NavLinks locale={locale} dict={dict} />
 

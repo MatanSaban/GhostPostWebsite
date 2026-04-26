@@ -1,5 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
+import { Logo } from "../../ui/Logo/Logo";
 import styles from "./Footer.module.css";
 
 export function Footer({ locale, dict }) {
@@ -32,8 +32,7 @@ export function Footer({ locale, dict }) {
         <div className={styles.grid}>
           <div className={styles.brand}>
             <div className={styles.logo}>
-              <Image src="/logo.png" alt="Ghost Post" width={32} height={32} />
-              <span className={styles.logoText}>Ghost Post</span>
+              <Logo size="small" />
             </div>
             <p className={styles.description}>
               {dict?.footer?.description || "Autonomous AI-powered SEO platform for modern businesses."}
@@ -95,7 +94,7 @@ export function Footer({ locale, dict }) {
 
         <div className={styles.bottom}>
           <p className={styles.copyright}>
-            {dict?.footer?.copyright?.replace('{year}', new Date().getFullYear()) || `© ${new Date().getFullYear()} Ghost Post. All rights reserved.`}
+            {dict?.footer?.copyright?.replace('{year}', new Date().getFullYear()) || `© ${new Date().getFullYear()} GhostSEO. All rights reserved.`}
           </p>
           <div className={styles.socials}>
             <a href="#" className={styles.socialLink} aria-label="Twitter">

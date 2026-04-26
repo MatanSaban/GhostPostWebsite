@@ -1,7 +1,7 @@
 
-  # Ghost Post Prototype Design
+  # GhostSEO Prototype Design
 
-  This is a code bundle for Ghost Post Prototype Design. The original project is available at https://www.figma.com/design/ARAPR4VfHOaEOZ0grmtRIm/Ghost-Post-Prototype-Design.
+  This is a code bundle for GhostSEO Prototype Design. The original project is available at https://www.figma.com/design/ARAPR4VfHOaEOZ0grmtRIm/Ghost-Post-Prototype-Design.
 
   ## Running the code
 

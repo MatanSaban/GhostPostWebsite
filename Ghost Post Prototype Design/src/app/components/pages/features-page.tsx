@@ -200,7 +200,7 @@ export function FeaturesPage({ onNavigate }: { onNavigate?: (page: string) => vo
             Complete <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600">SEO Automation</span>
           </h1>
           <p className="text-xl text-gray-700 dark:text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed">
-            Ghost Post combines cutting-edge AI with proven SEO strategies to automate every aspect of search engine optimization. 
+            GhostSEO combines cutting-edge AI with proven SEO strategies to automate every aspect of search engine optimization. 
             From content creation to technical fixes, we handle it all.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -362,7 +362,7 @@ export function FeaturesPage({ onNavigate }: { onNavigate?: (page: string) => vo
               Works With Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600">Tech Stack</span>
             </h2>
             <p className="text-xl text-gray-700 dark:text-gray-300 max-w-2xl mx-auto">
-              Ghost Post integrates seamlessly with your existing tools and platforms
+              GhostSEO integrates seamlessly with your existing tools and platforms
             </p>
           </div>
 
@@ -398,7 +398,7 @@ export function FeaturesPage({ onNavigate }: { onNavigate?: (page: string) => vo
                 Ready to Automate Your SEO?
               </h2>
               <p className="text-xl text-gray-700 dark:text-gray-300 mb-8 max-w-2xl mx-auto">
-                Join thousands of businesses growing their organic traffic with Ghost Post
+                Join thousands of businesses growing their organic traffic with GhostSEO
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <button 

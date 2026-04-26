@@ -18,8 +18,8 @@ export function FAQPage({ onNavigate }: { onNavigate?: (page: string) => void })
   const faqs: FAQItem[] = [
     {
       category: 'Getting Started',
-      question: 'What is Ghost Post and how does it work?',
-      answer: 'Ghost Post is an autonomous AI agent designed to manage your website\'s SEO automatically. It analyzes your site, identifies opportunities, creates optimized content, fixes technical issues, and monitors performance 24/7. Simply connect your website, and Ghost takes care of the rest while you focus on your business.'
+      question: 'What is GhostSEO and how does it work?',
+      answer: 'GhostSEO is an autonomous AI agent designed to manage your website\'s SEO automatically. It analyzes your site, identifies opportunities, creates optimized content, fixes technical issues, and monitors performance 24/7. Simply connect your website, and Ghost takes care of the rest while you focus on your business.'
     },
     {
       category: 'Getting Started',
@@ -28,28 +28,28 @@ export function FAQPage({ onNavigate }: { onNavigate?: (page: string) => void })
     },
     {
       category: 'Getting Started',
-      question: 'Do I need technical knowledge to use Ghost Post?',
-      answer: 'Not at all! Ghost Post is designed to be completely autonomous. Our AI handles all the technical aspects of SEO, from code optimization to content creation. You can monitor progress through our intuitive dashboard without needing any SEO or technical expertise.'
+      question: 'Do I need technical knowledge to use GhostSEO?',
+      answer: 'Not at all! GhostSEO is designed to be completely autonomous. Our AI handles all the technical aspects of SEO, from code optimization to content creation. You can monitor progress through our intuitive dashboard without needing any SEO or technical expertise.'
     },
     {
       category: 'Features',
-      question: 'What types of content can Ghost Post create?',
+      question: 'What types of content can GhostSEO create?',
       answer: 'Ghost can create various types of SEO-optimized content including blog posts, product descriptions, landing pages, meta descriptions, FAQ sections, and more. The AI understands your brand voice and target audience to produce high-quality, engaging content that ranks well in search engines.'
     },
     {
       category: 'Features',
-      question: 'Can Ghost Post integrate with my existing CMS?',
-      answer: 'Yes! Ghost Post integrates with popular CMS platforms including WordPress, Shopify, Wix, Webflow, and custom solutions. Our API allows seamless integration with most content management systems. If you use a custom platform, we can work with your team to set up the integration.'
+      question: 'Can GhostSEO integrate with my existing CMS?',
+      answer: 'Yes! GhostSEO integrates with popular CMS platforms including WordPress, Shopify, Wix, Webflow, and custom solutions. Our API allows seamless integration with most content management systems. If you use a custom platform, we can work with your team to set up the integration.'
     },
     {
       category: 'Features',
-      question: 'Does Ghost Post handle technical SEO?',
+      question: 'Does GhostSEO handle technical SEO?',
       answer: 'Absolutely! Ghost automatically handles technical SEO aspects including site speed optimization, mobile responsiveness, structured data implementation, XML sitemaps, robots.txt optimization, canonical tags, image optimization, and much more. It continuously monitors your site for technical issues and fixes them automatically.'
     },
     {
       category: 'Features',
-      question: 'How does Ghost Post handle link building?',
-      answer: 'Ghost Post uses ethical, white-hat link building strategies. It identifies relevant websites in your industry, creates valuable content that naturally attracts backlinks, and can automate outreach campaigns. The AI ensures all link building activities comply with Google\'s guidelines to avoid penalties.'
+      question: 'How does GhostSEO handle link building?',
+      answer: 'GhostSEO uses ethical, white-hat link building strategies. It identifies relevant websites in your industry, creates valuable content that naturally attracts backlinks, and can automate outreach campaigns. The AI ensures all link building activities comply with Google\'s guidelines to avoid penalties.'
     },
     {
       category: 'Pricing & Billing',
@@ -64,7 +64,7 @@ export function FAQPage({ onNavigate }: { onNavigate?: (page: string) => void })
     {
       category: 'Pricing & Billing',
       question: 'Do you offer refunds?',
-      answer: 'We offer a 30-day money-back guarantee. If you\'re not satisfied with Ghost Post for any reason within the first 30 days, contact our support team for a full refund. After 30 days, we don\'t provide refunds but you can cancel anytime and won\'t be charged for the next billing cycle.'
+      answer: 'We offer a 30-day money-back guarantee. If you\'re not satisfied with GhostSEO for any reason within the first 30 days, contact our support team for a full refund. After 30 days, we don\'t provide refunds but you can cancel anytime and won\'t be charged for the next billing cycle.'
     },
     {
       category: 'Pricing & Billing',
@@ -73,48 +73,48 @@ export function FAQPage({ onNavigate }: { onNavigate?: (page: string) => void })
     },
     {
       category: 'Technical',
-      question: 'Is my data secure with Ghost Post?',
+      question: 'Is my data secure with GhostSEO?',
       answer: 'Absolutely! We use enterprise-grade encryption (AES-256) for data at rest and TLS 1.3 for data in transit. We\'re SOC 2 Type II certified and fully GDPR compliant. Your data is stored in secure data centers with regular backups, and we never share your information with third parties.'
     },
     {
       category: 'Technical',
-      question: 'Will Ghost Post slow down my website?',
-      answer: 'No! Ghost Post works primarily in the background and doesn\'t add any load to your website\'s frontend. In fact, our technical optimizations typically improve your site speed significantly. The AI continuously monitors and optimizes performance metrics like Core Web Vitals.'
+      question: 'Will GhostSEO slow down my website?',
+      answer: 'No! GhostSEO works primarily in the background and doesn\'t add any load to your website\'s frontend. In fact, our technical optimizations typically improve your site speed significantly. The AI continuously monitors and optimizes performance metrics like Core Web Vitals.'
     },
     {
       category: 'Technical',
-      question: 'What if Ghost Post makes a mistake?',
-      answer: 'Ghost Post includes safety mechanisms and human oversight options. You can review content before it\'s published, set approval workflows, and roll back any changes. Our AI is trained on millions of successful SEO campaigns and follows Google\'s guidelines strictly, minimizing the risk of errors.'
+      question: 'What if GhostSEO makes a mistake?',
+      answer: 'GhostSEO includes safety mechanisms and human oversight options. You can review content before it\'s published, set approval workflows, and roll back any changes. Our AI is trained on millions of successful SEO campaigns and follows Google\'s guidelines strictly, minimizing the risk of errors.'
     },
     {
       category: 'Technical',
-      question: 'Can I use Ghost Post on multiple websites?',
+      question: 'Can I use GhostSEO on multiple websites?',
       answer: 'Yes! Our Professional plan supports up to 3 websites, and our Enterprise plan offers unlimited sites. Each website gets its own dedicated AI agent, custom strategy, and separate analytics dashboard. You can manage all your sites from a single account.'
     },
     {
       category: 'Content & SEO',
-      question: 'How does Ghost Post ensure content quality?',
+      question: 'How does GhostSEO ensure content quality?',
       answer: 'Ghost uses advanced AI models trained on high-quality content and SEO best practices. It analyzes your brand voice, understands your audience, checks for plagiarism, ensures proper grammar, and optimizes for readability. You can also set quality guidelines and review content before publishing.'
     },
     {
       category: 'Content & SEO',
-      question: 'Will Ghost Post\'s content be detected as AI-generated?',
-      answer: 'Ghost Post creates content that\'s indistinguishable from human writing. Our AI is trained to write naturally, vary sentence structure, use appropriate tone, and include unique insights. Google has stated they don\'t penalize AI content if it\'s helpful and high-quality-which is exactly what Ghost produces.'
+      question: 'Will GhostSEO\'s content be detected as AI-generated?',
+      answer: 'GhostSEO creates content that\'s indistinguishable from human writing. Our AI is trained to write naturally, vary sentence structure, use appropriate tone, and include unique insights. Google has stated they don\'t penalize AI content if it\'s helpful and high-quality-which is exactly what Ghost produces.'
     },
     {
       category: 'Content & SEO',
       question: 'Can I provide feedback on the AI\'s work?',
-      answer: 'Absolutely! Ghost Post learns from your feedback. You can rate content, suggest improvements, and set preferences. The more feedback you provide, the better Ghost understands your needs and adapts its strategy. This creates a truly personalized SEO solution for your business.'
+      answer: 'Absolutely! GhostSEO learns from your feedback. You can rate content, suggest improvements, and set preferences. The more feedback you provide, the better Ghost understands your needs and adapts its strategy. This creates a truly personalized SEO solution for your business.'
     },
     {
       category: 'Content & SEO',
-      question: 'Does Ghost Post work for local SEO?',
-      answer: 'Yes! Ghost Post excels at local SEO. It optimizes your Google Business Profile, creates location-specific content, manages local citations, monitors local rankings, and implements local schema markup. The AI understands the nuances of local search and tailors strategies for your geographic targets.'
+      question: 'Does GhostSEO work for local SEO?',
+      answer: 'Yes! GhostSEO excels at local SEO. It optimizes your Google Business Profile, creates location-specific content, manages local citations, monitors local rankings, and implements local schema markup. The AI understands the nuances of local search and tailors strategies for your geographic targets.'
     },
     {
       category: 'Content & SEO',
-      question: 'What languages does Ghost Post support?',
-      answer: 'Ghost Post currently supports over 50 languages including English, Spanish, French, German, Italian, Portuguese, Dutch, Hebrew, Arabic, Chinese, Japanese, Korean, and more. The AI can create multilingual content and implement hreflang tags for international SEO.'
+      question: 'What languages does GhostSEO support?',
+      answer: 'GhostSEO currently supports over 50 languages including English, Spanish, French, German, Italian, Portuguese, Dutch, Hebrew, Arabic, Chinese, Japanese, Korean, and more. The AI can create multilingual content and implement hreflang tags for international SEO.'
     }
   ];
 
@@ -146,7 +146,7 @@ export function FAQPage({ onNavigate }: { onNavigate?: (page: string) => void })
               </span>
             </h1>
             <p className="text-xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto">
-              Everything you need to know about Ghost Post and autonomous SEO. Can't find what you're looking for? Contact our support team.
+              Everything you need to know about GhostSEO and autonomous SEO. Can't find what you're looking for? Contact our support team.
             </p>
           </div>
 
@@ -288,7 +288,7 @@ export function FAQPage({ onNavigate }: { onNavigate?: (page: string) => void })
             {[
               {
                 title: 'Getting Started Guide',
-                description: 'Step-by-step instructions to set up Ghost Post and launch your first campaign.',
+                description: 'Step-by-step instructions to set up GhostSEO and launch your first campaign.',
                 link: 'View Guide'
               },
               {

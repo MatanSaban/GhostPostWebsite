@@ -11,8 +11,8 @@ const translations = {
   en: {
     createAccount: 'Create Account',
     systemAccess: 'System Access',
-    joinSubtitle: 'Join Ghost Post and automate your SEO',
-    connectSubtitle: 'Connect to your Ghost Post workspace',
+    joinSubtitle: 'Join GhostSEO and automate your SEO',
+    connectSubtitle: 'Connect to your GhostSEO workspace',
     signUpForPlan: (name) => `Sign up for the ${name} plan`,
     login: 'Login',
     register: 'Register',
@@ -37,8 +37,8 @@ const translations = {
   he: {
     createAccount: 'יצירת חשבון',
     systemAccess: 'התחברות',
-    joinSubtitle: 'הצטרף ל-Ghost Post ואוטומט את ה-SEO שלך',
-    connectSubtitle: 'התחבר לסביבת העבודה שלך ב-Ghost Post',
+    joinSubtitle: 'הצטרף ל-GhostSEO ואוטומט את ה-SEO שלך',
+    connectSubtitle: 'התחבר לסביבת העבודה שלך ב-GhostSEO',
     signUpForPlan: (name) => `הרשמה לתוכנית ${name}`,
     login: 'התחברות',
     register: 'הרשמה',

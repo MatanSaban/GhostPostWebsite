@@ -113,12 +113,12 @@ export default async function HowItWorksPage({ params }) {
             {locale === 'he' ? (
               <>
                 {t.titlePrefix || "איך"}{" "}
-                <span className={styles.gradient}>Ghost Post</span>{" "}
+                <span className={styles.gradient}>GhostSEO</span>{" "}
                 {t.titleHighlight || "עובד"}
               </>
             ) : (
               <>
-                {t.title || "How Ghost Post"}{" "}
+                {t.title || "How GhostSEO"}{" "}
                 <span className={styles.gradient}>{t.titleHighlight || "Works"}</span>
               </>
             )}

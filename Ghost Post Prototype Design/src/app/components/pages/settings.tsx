@@ -295,7 +295,7 @@ Always prioritize user experience and helpfulness over optimization tricks.`,
                           </button>
                         </div>
                         <p className="text-sm text-gray-600 dark:text-gray-400">
-                          Install the Ghost Post plugin on your WordPress site to enable seamless content synchronization and AI-powered publishing.
+                          Install the GhostSEO plugin on your WordPress site to enable seamless content synchronization and AI-powered publishing.
                         </p>
                       </div>
                     </div>

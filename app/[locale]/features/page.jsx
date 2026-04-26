@@ -115,12 +115,12 @@ export default async function FeaturesPage({ params }) {
             {locale === 'he' ? (
               <>
                 {t.pageTitle || "כל התכונות של"}{" "}
-                <span className={styles.gradient}>{t.pageTitleHighlight || "Ghost Post"}</span>
+                <span className={styles.gradient}>{t.pageTitleHighlight || "GhostSEO"}</span>
               </>
             ) : (
               <>
                 {t.pageTitle || t.title || "All Features of"}{" "}
-                <span className={styles.gradient}>{t.pageTitleHighlight || t.titleHighlight || "Ghost Post"}</span>
+                <span className={styles.gradient}>{t.pageTitleHighlight || t.titleHighlight || "GhostSEO"}</span>
               </>
             )}
           </h1>

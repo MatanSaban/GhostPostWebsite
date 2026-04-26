@@ -30,21 +30,21 @@ export function GhostChatPopup({ isOpen, onClose }: GhostChatPopupProps) {
       if (lowerInput.includes('pricing') || lowerInput.includes('cost') || lowerInput.includes('price')) {
         response = "Our pricing starts at $99/month for the Starter plan, which includes automated SEO optimization, content generation, and technical fixes. Would you like me to explain the different plans in detail?";
       } else if (lowerInput.includes('how') && lowerInput.includes('work')) {
-        response = "Ghost Post works autonomously by: 1) Analyzing your website 24/7, 2) Identifying SEO opportunities, 3) Creating optimized content, 4) Fixing technical issues, and 5) Building quality backlinks. All automatically while you focus on your business!";
+        response = "GhostSEO works autonomously by: 1) Analyzing your website 24/7, 2) Identifying SEO opportunities, 3) Creating optimized content, 4) Fixing technical issues, and 5) Building quality backlinks. All automatically while you focus on your business!";
       } else if (lowerInput.includes('trial') || lowerInput.includes('free')) {
-        response = "Yes! We offer a 14-day free trial with full access to all features. No credit card required. You can test Ghost Post risk-free and see real results before committing.";
+        response = "Yes! We offer a 14-day free trial with full access to all features. No credit card required. You can test GhostSEO risk-free and see real results before committing.";
       } else if (lowerInput.includes('content') || lowerInput.includes('write') || lowerInput.includes('blog')) {
         response = "Ghost creates SEO-optimized content including blog posts, product descriptions, meta tags, and more. The AI understands your brand voice and creates high-quality, engaging content that ranks well in search engines.";
       } else if (lowerInput.includes('integrate') || lowerInput.includes('cms') || lowerInput.includes('wordpress') || lowerInput.includes('shopify')) {
-        response = "Ghost Post integrates seamlessly with WordPress, Shopify, Wix, Webflow, and most custom platforms. Setup takes just a few minutes, and we'll help you through the entire process!";
+        response = "GhostSEO integrates seamlessly with WordPress, Shopify, Wix, Webflow, and most custom platforms. Setup takes just a few minutes, and we'll help you through the entire process!";
       } else if (lowerInput.includes('result') || lowerInput.includes('long')) {
         response = "Most clients see improvements within 2-4 weeks, with significant traffic increases after 2-3 months. SEO is a long-term strategy, but Ghost's AI-powered approach accelerates results considerably!";
       } else if (lowerInput.includes('safe') || lowerInput.includes('penalty') || lowerInput.includes('google')) {
-        response = "Absolutely! Ghost Post only uses white-hat, Google-approved SEO techniques. We follow all guidelines strictly to ensure your site stays safe and penalty-free while improving rankings.";
+        response = "Absolutely! GhostSEO only uses white-hat, Google-approved SEO techniques. We follow all guidelines strictly to ensure your site stays safe and penalty-free while improving rankings.";
       } else if (lowerInput.includes('support') || lowerInput.includes('help')) {
-        response = "We offer 24/7 support through chat, email, and our knowledge base. Our team is always ready to help you get the most out of Ghost Post!";
+        response = "We offer 24/7 support through chat, email, and our knowledge base. Our team is always ready to help you get the most out of GhostSEO!";
       } else {
-        response = "That's a great question! Ghost Post is designed to handle all aspects of SEO automatically. Would you like to know more about our pricing, features, or how it works? Feel free to ask anything!";
+        response = "That's a great question! GhostSEO is designed to handle all aspects of SEO automatically. Would you like to know more about our pricing, features, or how it works? Feel free to ask anything!";
       }
       
       setMessages(prev => [...prev, {
@@ -116,7 +116,7 @@ export function GhostChatPopup({ isOpen, onClose }: GhostChatPopupProps) {
             <p className="text-xs text-gray-600 dark:text-gray-400 mb-3 font-['Poppins']">Quick questions:</p>
             <div className="flex flex-wrap gap-2">
               {[
-                'How does Ghost Post work?',
+                'How does GhostSEO work?',
                 'Pricing plans',
                 'Free trial available?',
                 'Integration options'
@@ -147,7 +147,7 @@ export function GhostChatPopup({ isOpen, onClose }: GhostChatPopupProps) {
               value={input}
               onChange={(e) => setInput(e.target.value)}
               onKeyPress={(e) => e.key === 'Enter' && handleSend()}
-              placeholder="Ask me anything about Ghost Post..."
+              placeholder="Ask me anything about GhostSEO..."
               className="flex-1 px-4 py-3 rounded-xl bg-white dark:bg-black/40 border border-purple-200 dark:border-purple-500/20 text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-purple-500/50 transition-all font-['Poppins'] text-sm"
             />
             <button

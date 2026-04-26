@@ -12,7 +12,7 @@ export function CTA({ dict, locale }) {
           <div className={styles.content}>
             <h2 className={styles.title}>{t.title || "Ready to Automate Your SEO?"}</h2>
             <p className={styles.description}>
-              {t.description || "Join hundreds of businesses growing their organic traffic with Ghost Post"}
+              {t.description || "Join hundreds of businesses growing their organic traffic with GhostSEO"}
             </p>
             <Button href={`/${locale}/pricing`} variant="primary" size="large">
               {t.button || "Start Free Trial"}

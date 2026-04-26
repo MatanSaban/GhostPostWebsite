@@ -7,8 +7,8 @@ export async function generateMetadata({ params }) {
   const dict = await getDictionary(locale);
 
   return {
-    title: dict.terms?.metaTitle || "Terms of Service - Ghost Post",
-    description: dict.terms?.metaDescription || "Read Ghost Post's Terms of Service.",
+    title: dict.terms?.metaTitle || "Terms of Service - GhostSEO",
+    description: dict.terms?.metaDescription || "Read GhostSEO's Terms of Service.",
   };
 }
 

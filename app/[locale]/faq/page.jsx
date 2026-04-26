@@ -17,19 +17,19 @@ const defaultFaqs = [
   {
     id: 1,
     category: 'general',
-    question: 'What is GhostPost?',
-    answer: 'GhostPost is an AI-powered SEO platform that helps businesses improve their search engine rankings through automated content creation, keyword optimization, and technical SEO improvements. Our platform uses advanced machine learning to analyze your website and provide actionable recommendations.'
+    question: 'What is GhostSEO?',
+    answer: 'GhostSEO is an AI-powered SEO platform that helps businesses improve their search engine rankings through automated content creation, keyword optimization, and technical SEO improvements. Our platform uses advanced machine learning to analyze your website and provide actionable recommendations.'
   },
   {
     id: 2,
     category: 'general',
-    question: 'How does GhostPost work?',
-    answer: 'GhostPost works in three simple steps: First, we connect to your website and perform a comprehensive audit. Then, our AI analyzes your content and competitors to identify opportunities. Finally, we provide automated optimizations and content suggestions that you can implement with a single click.'
+    question: 'How does GhostSEO work?',
+    answer: 'GhostSEO works in three simple steps: First, we connect to your website and perform a comprehensive audit. Then, our AI analyzes your content and competitors to identify opportunities. Finally, we provide automated optimizations and content suggestions that you can implement with a single click.'
   },
   {
     id: 3,
     category: 'general',
-    question: 'Is my data secure with GhostPost?',
+    question: 'Is my data secure with GhostSEO?',
     answer: 'Absolutely. We take security very seriously. All data is encrypted in transit and at rest using industry-standard encryption protocols. We never share your data with third parties, and you maintain full ownership of all your content and analytics.'
   },
   {
@@ -48,7 +48,7 @@ const defaultFaqs = [
     id: 6,
     category: 'pricing',
     question: 'Do you offer a free trial?',
-    answer: "Yes! We offer a 14-day free trial on all plans. No credit card required. You'll have full access to all features during the trial period so you can see exactly how GhostPost can help your business."
+    answer: "Yes! We offer a 14-day free trial on all plans. No credit card required. You'll have full access to all features during the trial period so you can see exactly how GhostSEO can help your business."
   },
   {
     id: 7,
@@ -59,8 +59,8 @@ const defaultFaqs = [
   {
     id: 8,
     category: 'features',
-    question: 'Can I integrate GhostPost with my existing tools?',
-    answer: 'Yes! GhostPost integrates with popular platforms including WordPress, Shopify, Webflow, Google Analytics, Google Search Console, Ahrefs, SEMrush, and many more. We also offer a REST API for custom integrations.'
+    question: 'Can I integrate GhostSEO with my existing tools?',
+    answer: 'Yes! GhostSEO integrates with popular platforms including WordPress, Shopify, Webflow, Google Analytics, Google Search Console, Ahrefs, SEMrush, and many more. We also offer a REST API for custom integrations.'
   },
   {
     id: 9,
@@ -71,13 +71,13 @@ const defaultFaqs = [
   {
     id: 10,
     category: 'technical',
-    question: 'What CMS platforms does GhostPost support?',
-    answer: 'GhostPost supports all major CMS platforms including WordPress, Shopify, Wix, Squarespace, Webflow, Drupal, and custom-built websites. Our universal JavaScript snippet works on any platform.'
+    question: 'What CMS platforms does GhostSEO support?',
+    answer: 'GhostSEO supports all major CMS platforms including WordPress, Shopify, Wix, Squarespace, Webflow, Drupal, and custom-built websites. Our universal JavaScript snippet works on any platform.'
   },
   {
     id: 11,
     category: 'technical',
-    question: 'Does GhostPost affect my website performance?',
+    question: 'Does GhostSEO affect my website performance?',
     answer: "No. Our optimization scripts are lightweight and load asynchronously, meaning they won't impact your page load times. In fact, our technical SEO recommendations often help improve overall site performance."
   },
   {
@@ -125,7 +125,7 @@ export default async function FAQPage({ params }) {
             {t.title || "Frequently Asked"} <span className={styles.gradient}>{t.titleHighlight || "Questions"}</span>
           </h1>
           <p className={styles.subtitle}>
-            {t.subtitle || "Find answers to common questions about GhostPost. Can't find what you're looking for? Contact our support team."}
+            {t.subtitle || "Find answers to common questions about GhostSEO. Can't find what you're looking for? Contact our support team."}
           </p>
 
           <FAQInteractive categories={faqCategories} faqs={faqs} dict={t} />

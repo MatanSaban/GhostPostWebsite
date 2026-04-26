@@ -152,7 +152,7 @@ export async function generateMetadata({ params }) {
   }
 
   return {
-    title: `${t[post.titleKey] || post.titleKey} - Ghost Post Blog`,
+    title: `${t[post.titleKey] || post.titleKey} - GhostSEO Blog`,
     description: t[post.excerptKey] || post.excerptKey,
   };
 }

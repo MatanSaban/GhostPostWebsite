@@ -136,7 +136,7 @@ export function PricingPage({ onNavigate }: { onNavigate?: (page: string) => voi
   const faqs = [
     {
       question: 'How does the free trial work?',
-      answer: 'Start with a 14-day free trial on any plan. No credit card required. Experience the full power of Ghost Post with all features unlocked. You can cancel anytime during the trial period with no charges.'
+      answer: 'Start with a 14-day free trial on any plan. No credit card required. Experience the full power of GhostSEO with all features unlocked. You can cancel anytime during the trial period with no charges.'
     },
     {
       question: 'Can I change plans later?',
@@ -147,15 +147,15 @@ export function PricingPage({ onNavigate }: { onNavigate?: (page: string) => voi
       answer: 'We\'ll send you a notification when you\'re approaching 80% of your limit. You can either upgrade to the next tier or continue on your current plan with a small overage fee of $0.10 per 1,000 extra visitors. We\'ll never cut off your service.'
     },
     {
-      question: 'Is Ghost Post safe for my website?',
+      question: 'Is GhostSEO safe for my website?',
       answer: 'Absolutely. Ghost follows all Google Webmaster Guidelines and uses only white-hat, approved SEO techniques. Our AI is trained on best practices and will never implement tactics that could result in penalties. We also have safeguards to prevent over-optimization.'
     },
     {
       question: 'Do you offer refunds?',
-      answer: 'Yes, we offer a 30-day money-back guarantee on all plans. If you\'re not satisfied for any reason, we\'ll refund your payment in full, no questions asked. This gives you risk-free time to see the value Ghost Post brings.'
+      answer: 'Yes, we offer a 30-day money-back guarantee on all plans. If you\'re not satisfied for any reason, we\'ll refund your payment in full, no questions asked. This gives you risk-free time to see the value GhostSEO brings.'
     },
     {
-      question: 'Can Ghost Post work with any CMS?',
+      question: 'Can GhostSEO work with any CMS?',
       answer: 'Yes! Ghost integrates seamlessly with WordPress, Shopify, Webflow, Wix, Squarespace, and most major platforms through plugins or our universal JavaScript snippet. For custom setups, we also offer a comprehensive REST API with detailed documentation.'
     },
     {

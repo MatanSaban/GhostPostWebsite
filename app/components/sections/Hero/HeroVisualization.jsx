@@ -67,8 +67,8 @@ export function HeroVisualization({ locale }) {
         <div className={styles.logoContainer}>
           <div className={styles.logoGlow}></div>
           <Image
-            src="/logo.png"
-            alt="Ghost"
+            src="/favicon.svg"
+            alt="GhostSEO"
             width={112}
             height={112}
             className={styles.logo}

@@ -54,8 +54,8 @@ export function DashboardLayout({ children, title, breadcrumb, agentContext }: D
       <aside className="w-72 h-screen sticky top-0 border-r border-gray-200 dark:border-purple-500/10 bg-white dark:bg-gradient-to-b dark:from-[#0f0f1a] dark:to-[#0A0A0A] p-4 flex flex-col transition-colors duration-300 overflow-y-auto">
         {/* Logo */}
         <div className="flex items-center gap-3 mb-8 px-2">
-          <img src={logoIcon} alt="Ghost Post" className="w-10 h-10 object-contain" />
-          <span className="font-['Poppins'] text-xl font-bold tracking-tight text-gray-900 dark:text-white">Ghost Post</span>
+          <img src={logoIcon} alt="GhostSEO" className="w-10 h-10 object-contain" />
+          <span className="font-['Poppins'] text-xl font-bold tracking-tight text-gray-900 dark:text-white">GhostSEO</span>
         </div>
 
         {/* Site Selector */}

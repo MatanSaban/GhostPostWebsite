@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "title": "Ghost Post - Automatisation SEO par IA",
+    "title": "GhostSEO - Automatisation SEO par IA",
     "description": "Le premier agent IA autonome qui optimise, rédige et gère le SEO de votre site pendant que vous dormez."
   },
   "nav": {
@@ -28,7 +28,7 @@
   "features": {
     "badge": "Fonctionnalités puissantes",
     "titlePrefix": "Pourquoi choisir",
-    "titleHighlight": "Ghost Post",
+    "titleHighlight": "GhostSEO",
     "subtitle": "Des fonctionnalités puissantes qui travaillent ensemble pour dominer les classements",
     "items": [
       {
@@ -68,15 +68,15 @@
         "color": "green"
       }
     ],
-    "metaTitle": "Fonctionnalités - Ghost Post",
+    "metaTitle": "Fonctionnalités - GhostSEO",
     "metaDescription": "Découvrez plus de 100 fonctionnalités SEO automatisées propulsées par l'IA",
     "badge": "Plus de 100 fonctionnalités automatisées",
-    "title": "Ghost Post",
+    "title": "GhostSEO",
     "titleHighlight": "Complet",
     "subtitle": "Tout ce dont vous avez besoin pour dominer les classements de recherche, propulsé par une IA autonome qui travaille 24/7.",
     "pageBadge": "Plus de 100 fonctionnalités automatisées",
     "pageTitle": "Toutes les fonctionnalités de",
-    "pageTitleHighlight": "Ghost Post",
+    "pageTitleHighlight": "GhostSEO",
     "pageSubtitle": "Tout ce dont vous avez besoin pour dominer les classements de recherche, propulsé par une IA autonome qui travaille 24/7.",
     "aiContent": "Génération de contenu par IA",
     "aiContentDesc": "Ghost analyse votre niche, vos concurrents et le contenu le mieux classé pour générer automatiquement des articles, descriptions de produits et pages de destination optimisés pour le SEO.",
@@ -250,7 +250,7 @@
           "answer": "Nous vous enverrons une notification et vous pourrez soit passer à un forfait supérieur, soit continuer avec de petits frais."
         },
         {
-          "question": "Ghost Post est-il sûr pour mon site web ?",
+          "question": "GhostSEO est-il sûr pour mon site web ?",
           "answer": "Absolument. Ghost suit toutes les directives Google et utilise uniquement des techniques SEO white-hat."
         },
         {
@@ -262,13 +262,13 @@
   },
   "cta": {
     "title": "Prêt à automatiser votre SEO ?",
-    "description": "Rejoignez des centaines d'entreprises qui développent leur trafic organique avec Ghost Post",
+    "description": "Rejoignez des centaines d'entreprises qui développent leur trafic organique avec GhostSEO",
     "button": "Commencer"
   },
   "about": {
     "badge": "Notre histoire",
     "title": "À propos de",
-    "titleHighlight": "Ghost Post",
+    "titleHighlight": "GhostSEO",
     "subtitle": "Nous avons pour mission de démocratiser le SEO et de le rendre accessible aux entreprises de toutes tailles.",
     "mission": {
       "title": "Notre mission",
@@ -277,8 +277,8 @@
     "story": {
       "title": "Notre histoire",
       "paragraphs": [
-        "Ghost Post a été fondé en 2024 par une équipe d'experts SEO et d'ingénieurs IA frustrés par la complexité et le coût du SEO.",
-        "Nous croyions que l'IA pouvait gérer le travail lourd du SEO tout en offrant de meilleurs résultats que les agences traditionnelles. Après deux ans de développement, Ghost Post est né.",
+        "GhostSEO a été fondé en 2024 par une équipe d'experts SEO et d'ingénieurs IA frustrés par la complexité et le coût du SEO.",
+        "Nous croyions que l'IA pouvait gérer le travail lourd du SEO tout en offrant de meilleurs résultats que les agences traditionnelles. Après deux ans de développement, GhostSEO est né.",
         "Aujourd'hui, nous aidons plus de 500 entreprises à automatiser leur SEO et à développer leur trafic organique. Notre IA a généré plus de 50 000 contenus et amélioré les classements pour des millions de mots-clés."
       ]
     },
@@ -304,7 +304,7 @@
     "badge": "Support 24/7",
     "title": "Contactez-",
     "titleHighlight": "nous",
-    "subtitle": "Vous avez des questions sur GhostPost ? Nous serions ravis de vous entendre. Envoyez-nous un message et nous vous répondrons dès que possible.",
+    "subtitle": "Vous avez des questions sur GhostSEO ? Nous serions ravis de vous entendre. Envoyez-nous un message et nous vous répondrons dès que possible.",
     "info": {
       "title": "Informations de contact",
       "description": "Remplissez le formulaire et notre équipe vous répondra dans les 24 heures.",
@@ -344,7 +344,7 @@
     "badge": "Des questions ?",
     "title": "Questions",
     "titleHighlight": "fréquentes",
-    "subtitle": "Trouvez des réponses aux questions courantes sur GhostPost. Vous ne trouvez pas ce que vous cherchez ? Contactez notre équipe support.",
+    "subtitle": "Trouvez des réponses aux questions courantes sur GhostSEO. Vous ne trouvez pas ce que vous cherchez ? Contactez notre équipe support.",
     "searchPlaceholder": "Rechercher des questions...",
     "categories": {
       "all": "Tout",
@@ -364,7 +364,7 @@
   "blog": {
     "badge": "Dernières actualités",
     "title": "Le blog",
-    "titleHighlight": "Ghost Post",
+    "titleHighlight": "GhostSEO",
     "titleBefore": true,
     "subtitle": "Conseils, astuces et stratégies pour dominer les classements de recherche",
     "readMore": "Lire la suite",
@@ -386,7 +386,7 @@
     "post4Title": "Meilleures pratiques en marketing de contenu",
     "post4Excerpt": "Apprenez à créer du contenu qui se classe, engage et convertit votre audience cible.",
     "post5Title": "Étude de cas : Augmentation du trafic de 300% en 6 mois",
-    "post5Excerpt": "Découvrez comment une entreprise e-commerce a triplé son trafic organique grâce à l'automatisation IA de Ghost Post.",
+    "post5Excerpt": "Découvrez comment une entreprise e-commerce a triplé son trafic organique grâce à l'automatisation IA de GhostSEO.",
     "post6Title": "Comprendre les Core Web Vitals",
     "post6Excerpt": "Tout ce que vous devez savoir sur les Core Web Vitals de Google et comment les optimiser.",
     "post7Title": "La recherche de mots-clés à l'ère de l'IA",
@@ -464,12 +464,12 @@
       "placeholder": "Entrez votre email",
       "button": "S'abonner"
     },
-    "copyright": "© {year} Ghost Post. Tous droits réservés."
+    "copyright": "© {year} GhostSEO. Tous droits réservés."
   },
   "auth": {
     "login": {
       "title": "Bon retour",
-      "subtitle": "Connectez-vous à votre compte Ghost Post",
+      "subtitle": "Connectez-vous à votre compte GhostSEO",
       "email": "Email",
       "password": "Mot de passe",
       "forgotPassword": "Mot de passe oublié ?",
@@ -498,8 +498,8 @@
     }
   },
   "terms": {
-    "metaTitle": "Conditions d'utilisation - Ghost Post",
-    "metaDescription": "Lisez les Conditions d'utilisation de Ghost Post. Comprenez vos droits et obligations lors de l'utilisation de notre plateforme SEO alimentée par l'IA.",
+    "metaTitle": "Conditions d'utilisation - GhostSEO",
+    "metaDescription": "Lisez les Conditions d'utilisation de GhostSEO. Comprenez vos droits et obligations lors de l'utilisation de notre plateforme SEO alimentée par l'IA.",
     "badge": "Juridique",
     "title": "Conditions",
     "titleHighlight": "d'utilisation",
@@ -507,11 +507,11 @@
     "sections": [
       {
         "title": "1. Acceptation des conditions",
-        "content": "En accédant ou en utilisant les services de Ghost Post, le site Web ou toute application associée (collectivement, le 'Service'), vous acceptez d'être lié par ces Conditions d'utilisation ('Conditions'). Si vous n'acceptez pas ces Conditions, vous ne pouvez pas utiliser le Service. Nous nous réservons le droit de mettre à jour ces Conditions à tout moment, et votre utilisation continue du Service constitue une acceptation de tout changement."
+        "content": "En accédant ou en utilisant les services de GhostSEO, le site Web ou toute application associée (collectivement, le 'Service'), vous acceptez d'être lié par ces Conditions d'utilisation ('Conditions'). Si vous n'acceptez pas ces Conditions, vous ne pouvez pas utiliser le Service. Nous nous réservons le droit de mettre à jour ces Conditions à tout moment, et votre utilisation continue du Service constitue une acceptation de tout changement."
       },
       {
         "title": "2. Description du service",
-        "content": "Ghost Post fournit une plateforme d'automatisation SEO alimentée par l'intelligence artificielle qui aide les entreprises à optimiser leur présence en ligne grâce à la création de contenu automatisée, l'optimisation des mots-clés et les améliorations techniques du SEO. Le Service comprend, sans s'y limiter, la génération de contenu par IA, l'analyse de sites Web, les recommandations SEO et les outils de publication automatisés."
+        "content": "GhostSEO fournit une plateforme d'automatisation SEO alimentée par l'intelligence artificielle qui aide les entreprises à optimiser leur présence en ligne grâce à la création de contenu automatisée, l'optimisation des mots-clés et les améliorations techniques du SEO. Le Service comprend, sans s'y limiter, la génération de contenu par IA, l'analyse de sites Web, les recommandations SEO et les outils de publication automatisés."
       },
       {
         "title": "3. Inscription au compte",
@@ -523,11 +523,11 @@
       },
       {
         "title": "5. Contenu généré par l'IA",
-        "content": "Le Service utilise l'intelligence artificielle pour générer du contenu et des recommandations SEO. Bien que nous nous efforcions d'assurer l'exactitude et la qualité, le contenu généré par l'IA peut contenir des erreurs ou des inexactitudes. Vous êtes seul responsable de la révision, de l'édition et de l'approbation de tout contenu avant publication. Ghost Post ne garantit pas de résultats SEO spécifiques, de classements ou d'améliorations du trafic."
+        "content": "Le Service utilise l'intelligence artificielle pour générer du contenu et des recommandations SEO. Bien que nous nous efforcions d'assurer l'exactitude et la qualité, le contenu généré par l'IA peut contenir des erreurs ou des inexactitudes. Vous êtes seul responsable de la révision, de l'édition et de l'approbation de tout contenu avant publication. GhostSEO ne garantit pas de résultats SEO spécifiques, de classements ou d'améliorations du trafic."
       },
       {
         "title": "6. Propriété intellectuelle",
-        "content": "Tout le contenu, les fonctionnalités et les fonctionnalités du Service, y compris, mais sans s'y limiter, le texte, les graphiques, les logos et les logiciels, sont la propriété de Ghost Post ou de ses concédants. Le contenu généré par l'IA pour votre usage devient votre propriété dès sa création, sous réserve des droits de tiers applicables. Vous ne pouvez pas copier, modifier, distribuer ou créer des œuvres dérivées de toute partie du Service sans notre consentement écrit exprès."
+        "content": "Tout le contenu, les fonctionnalités et les fonctionnalités du Service, y compris, mais sans s'y limiter, le texte, les graphiques, les logos et les logiciels, sont la propriété de GhostSEO ou de ses concédants. Le contenu généré par l'IA pour votre usage devient votre propriété dès sa création, sous réserve des droits de tiers applicables. Vous ne pouvez pas copier, modifier, distribuer ou créer des œuvres dérivées de toute partie du Service sans notre consentement écrit exprès."
       },
       {
         "title": "7. Utilisation acceptable",
@@ -539,7 +539,7 @@
       },
       {
         "title": "9. Limitation de responsabilité",
-        "content": "Dans toute la mesure permise par la loi, Ghost Post ne sera pas responsable des dommages indirects, accessoires, spéciaux, consécutifs ou punitifs, y compris, mais sans s'y limiter, la perte de profits, de données ou d'opportunités commerciales, résultant de votre utilisation ou incapacité à utiliser le Service. Notre responsabilité totale pour toute réclamation découlant du Service ne dépassera pas le montant que vous nous avez payé au cours des douze mois précédant la réclamation."
+        "content": "Dans toute la mesure permise par la loi, GhostSEO ne sera pas responsable des dommages indirects, accessoires, spéciaux, consécutifs ou punitifs, y compris, mais sans s'y limiter, la perte de profits, de données ou d'opportunités commerciales, résultant de votre utilisation ou incapacité à utiliser le Service. Notre responsabilité totale pour toute réclamation découlant du Service ne dépassera pas le montant que vous nous avez payé au cours des douze mois précédant la réclamation."
       },
       {
         "title": "10. Résiliation",
@@ -556,17 +556,17 @@
     ]
   },
   "privacy": {
-    "metaTitle": "Politique de confidentialité - Ghost Post",
-    "metaDescription": "Découvrez comment Ghost Post collecte, utilise et protège vos informations personnelles. Votre vie privée nous tient à cœur.",
+    "metaTitle": "Politique de confidentialité - GhostSEO",
+    "metaDescription": "Découvrez comment GhostSEO collecte, utilise et protège vos informations personnelles. Votre vie privée nous tient à cœur.",
     "badge": "Confidentialité",
     "title": "Politique de",
     "titleHighlight": "confidentialité",
     "lastUpdated": "Dernière mise à jour : février 2026",
-    "intro": "Chez Ghost Post, votre confidentialité est importante pour nous. Cette politique de confidentialité explique comment nous recueillons, utilisons, divulguons et protégeons vos informations lorsque vous utilisez le site web Ghost Post (ghostpost.co.il), la plateforme d'application web Ghost Post et les services associés (collectivement, le 'Service'). Ghost Post est développé et exploité par Red Ghost.",
+    "intro": "Chez GhostSEO, votre confidentialité est importante pour nous. Cette politique de confidentialité explique comment nous recueillons, utilisons, divulguons et protégeons vos informations lorsque vous utilisez le site web GhostSEO (ghostpost.co.il), la plateforme d'application web GhostSEO et les services associés (collectivement, le 'Service'). GhostSEO est développé et exploité par Red Ghost.",
     "sections": [
       {
         "title": "1. Les informations que nous recueillons",
-        "content": "Nous recueillons les informations que vous fournissez directement, telles que votre nom, adresse e-mail, nom d'entreprise et informations de paiement lors de la création d'un compte ou de la souscription à nos services. Nous recueillons également automatiquement des données techniques, y compris les adresses IP, le type de navigateur, les informations sur l'appareil et les habitudes d'utilisation par le biais de cookies et de technologies similaires. Lorsque vous connectez votre site web à la plateforme Ghost Post, nous pouvons accéder aux données du site disponibles publiquement à des fins d'analyse. De plus, lorsque vous choisissez de connecter des services tiers, nous recueillons les données utilisateur Google suivantes avec votre consentement explicite : (a) données Google Analytics comprenant le trafic du site web, le comportement des utilisateurs et les métriques de performance via l'API Google Analytics Data (accès en lecture seule) ; (b) données Google Search Console comprenant les requêtes de recherche, les impressions, les clics et l'état d'indexation via l'API Search Console (accès en lecture seule). Ces données sont collectées uniquement pour fournir et améliorer le Service Ghost Post."
+        "content": "Nous recueillons les informations que vous fournissez directement, telles que votre nom, adresse e-mail, nom d'entreprise et informations de paiement lors de la création d'un compte ou de la souscription à nos services. Nous recueillons également automatiquement des données techniques, y compris les adresses IP, le type de navigateur, les informations sur l'appareil et les habitudes d'utilisation par le biais de cookies et de technologies similaires. Lorsque vous connectez votre site web à la plateforme GhostSEO, nous pouvons accéder aux données du site disponibles publiquement à des fins d'analyse. De plus, lorsque vous choisissez de connecter des services tiers, nous recueillons les données utilisateur Google suivantes avec votre consentement explicite : (a) données Google Analytics comprenant le trafic du site web, le comportement des utilisateurs et les métriques de performance via l'API Google Analytics Data (accès en lecture seule) ; (b) données Google Search Console comprenant les requêtes de recherche, les impressions, les clics et l'état d'indexation via l'API Search Console (accès en lecture seule). Ces données sont collectées uniquement pour fournir et améliorer le Service GhostSEO."
       },
       {
         "title": "2. Comment nous utilisons vos informations",
@@ -574,7 +574,7 @@
       },
       {
         "title": "3. Divulgation de l'utilisation limitée de l'API Google",
-        "content": "L'utilisation et le transfert par Ghost Post à toute autre application des informations reçues des API Google respecteront la Politique relative aux données utilisateur des services d'API Google (https://developers.google.com/terms/api-services-user-data-policy), y compris les exigences d'utilisation limitée. Spécifiquement : (1) Nous n'utilisons les données utilisateur Google que pour fournir et améliorer les fonctionnalités du Service Ghost Post que vous avez demandées ; (2) Nous ne transférons pas les données utilisateur Google à des tiers sauf si nécessaire pour fournir le Service, avec votre consentement, ou comme requis par la loi ; (3) Nous n'utilisons pas les données utilisateur Google pour diffuser des publicités ; (4) Nous ne permettons pas aux humains de lire les données utilisateur Google sauf si nous avons votre consentement explicite, si c'est nécessaire à des fins de sécurité, ou si c'est requis par la loi. Nous ne vendons, ne louons ni n'échangeons vos données Google. Vos données Google Analytics et Search Console sont utilisées strictement pour afficher des informations sur votre tableau de bord personnel au sein de la plateforme Ghost Post et pour servir de contexte à notre moteur d'IA afin de générer des recommandations SEO personnalisées et du contenu pour votre compte uniquement."
+        "content": "L'utilisation et le transfert par GhostSEO à toute autre application des informations reçues des API Google respecteront la Politique relative aux données utilisateur des services d'API Google (https://developers.google.com/terms/api-services-user-data-policy), y compris les exigences d'utilisation limitée. Spécifiquement : (1) Nous n'utilisons les données utilisateur Google que pour fournir et améliorer les fonctionnalités du Service GhostSEO que vous avez demandées ; (2) Nous ne transférons pas les données utilisateur Google à des tiers sauf si nécessaire pour fournir le Service, avec votre consentement, ou comme requis par la loi ; (3) Nous n'utilisons pas les données utilisateur Google pour diffuser des publicités ; (4) Nous ne permettons pas aux humains de lire les données utilisateur Google sauf si nous avons votre consentement explicite, si c'est nécessaire à des fins de sécurité, ou si c'est requis par la loi. Nous ne vendons, ne louons ni n'échangeons vos données Google. Vos données Google Analytics et Search Console sont utilisées strictement pour afficher des informations sur votre tableau de bord personnel au sein de la plateforme GhostSEO et pour servir de contexte à notre moteur d'IA afin de générer des recommandations SEO personnalisées et du contenu pour votre compte uniquement."
       },
       {
         "title": "4. IA et traitement des données",

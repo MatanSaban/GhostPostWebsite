@@ -68,7 +68,7 @@ export async function getSiteSeo() {
   
   // Return defaults if CMS unavailable
   return {
-    siteName: { en: 'Ghost Post', he: 'גוסט פוסט', fr: 'Ghost Post' },
+    siteName: { en: 'GhostSEO', he: 'GhostSEO', fr: 'GhostSEO' },
     siteUrl: 'https://ghostpost.co.il',
     defaultOgImage: '/og/default.png',
     twitterHandle: '@ghostpost',
@@ -103,7 +103,7 @@ export async function getPageSeo(locale, page, useDraft = false) {
   
   // Return minimal defaults
   return {
-    title: 'Ghost Post',
+    title: 'GhostSEO',
     description: 'AI-Powered SEO Automation',
     canonical: page === 'home' ? '/' : `/${page}`,
     robots: 'index, follow'

@@ -1,47 +1,29 @@
 .logo {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 0.75rem;
   cursor: pointer;
   text-decoration: none;
-
-  /* In RTL, reverse the order so icon is on left, text on right */
-  :global([dir="rtl"]) & {
-    flex-direction: row-reverse;
-  }
-
-  .image {
-    object-fit: contain;
-  }
-
-  .text {
-    font-family: 'Polin', 'Poppins', sans-serif;
-    font-weight: 700;
-    letter-spacing: -0.025em;
-    color: #111827;
-  }
-
-  &.small {
-    .text {
-      font-size: 0.75rem;
-    }
-  }
-
-  &.medium {
-    .text {
-      font-size: 1.1875rem;
-    }
-  }
-
-  &.large {
-    .text {
-      font-size: 1.4375rem;
-    }
-  }
+  width: 160px;
 }
 
-:global(.dark) .logo {
-  .text {
-    color: white;
-  }
+.image {
+  object-fit: contain;
+  width: auto;
+  height: auto;
+}
+
+.lightLogo {
+  display: block;
+}
+
+.darkLogo {
+  display: none;
+}
+
+:global(.dark) .lightLogo {
+  display: none;
+}
+
+:global(.dark) .darkLogo {
+  display: block;
 }

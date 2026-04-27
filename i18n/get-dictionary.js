@@ -111,45 +111,61 @@ export async function getPageSeo(locale, page, useDraft = false) {
 }
 
 /**
- * Get dictionary for a locale
- * Tries CMS first, falls back to static files
+ * Get dictionary for a locale.
+ *
+ * Merge strategy: load the static dictionary, then layer CMS content on
+ * top. CMS-managed sections (home, about, contact...) override the static
+ * file; sections the CMS doesn't know about (bot, future docs pages)
+ * fall through to their localized strings from the static file.
+ *
+ * Previous behavior replaced the static dict entirely with CMS content,
+ * which meant any key not yet imported into the CMS lost its translations
+ * on production - that broke /bot in Hebrew/French.
+ *
  * @param {string} locale - The locale to get
  * @param {boolean} useDraft - Whether to fetch draft content
  * @returns {Promise<object>} - The dictionary object
  */
 export const getDictionary = async (locale, useDraft = false) => {
   const validLocale = staticDictionaries[locale] ? locale : 'he';
-  
-  // Try to fetch from CMS first
+
+  const staticDict = await staticDictionaries[validLocale]();
   const cmsData = await fetchLocaleFromCMS(validLocale, useDraft);
+
   if (cmsData?.content && Object.keys(cmsData.content).length > 0) {
-    return cmsData.content;
+    // Top-level merge: CMS section objects replace the static section
+    // wholesale (sections are managed as one editable unit in the CMS),
+    // but sections only the static file declares pass through unchanged.
+    return { ...staticDict, ...cmsData.content };
   }
-  
-  // Fallback to static files if CMS is unavailable
+
   console.warn(`[i18n] Using static fallback for locale ${validLocale}`);
-  return staticDictionaries[validLocale]();
+  return staticDict;
 };
 
 /**
- * Get both dictionary and SEO for a locale
- * Useful for pages that need both
+ * Get both dictionary and SEO for a locale.
+ * Useful for pages that need both.
+ *
+ * Same merge strategy as getDictionary - CMS sections override static,
+ * static-only sections fall through.
+ *
  * @param {string} locale - The locale
  * @param {boolean} useDraft - Whether to fetch draft content
  * @returns {Promise<{content: object, seo: object}>}
  */
 export async function getLocaleData(locale, useDraft = false) {
   const validLocale = staticDictionaries[locale] ? locale : 'he';
-  
+
+  const staticDict = await staticDictionaries[validLocale]();
   const cmsData = await fetchLocaleFromCMS(validLocale, useDraft);
-  if (cmsData?.content) {
+
+  if (cmsData?.content && Object.keys(cmsData.content).length > 0) {
     return {
-      content: cmsData.content,
-      seo: cmsData.seo || {}
+      content: { ...staticDict, ...cmsData.content },
+      seo: cmsData.seo || {},
     };
   }
-  
-  // Fallback
-  const content = await staticDictionaries[validLocale]();
-  return { content, seo: {} };
+
+  return { content: staticDict, seo: {} };
 }

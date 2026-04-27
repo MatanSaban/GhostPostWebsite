@@ -1,0 +1,299 @@
+.page {
+  min-height: 100vh;
+}
+
+/* Hero - matches gp-ws's other pages so the brand is consistent on
+   first scroll, then the article content drops into the focused
+   reading layout below. */
+.hero {
+  padding: 6rem 1.5rem 2rem;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Polin', 'Poppins', sans-serif;
+  font-size: clamp(2.4375rem, 5vw, 3.6875rem);
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #111827;
+}
+
+:global(.dark) .title {
+  color: white;
+}
+
+.subtitle {
+  font-size: 1.0625rem;
+  color: #4b5563;
+  max-width: 42rem;
+  margin: 0 auto;
+  line-height: 1.65;
+}
+
+:global(.dark) .subtitle {
+  color: #9ca3af;
+}
+
+/* Article body - narrow column, sober design (not marketing-y).
+   Mirrors what was previously in gp-platform/app/bot. */
+.article {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.section h2 {
+  font-family: 'Polin', 'Poppins', sans-serif;
+  font-size: 1.4375rem;
+  font-weight: 700;
+  margin: 0;
+  color: #111827;
+  letter-spacing: -0.01em;
+}
+
+:global(.dark) .section h2 {
+  color: white;
+}
+
+.section h3 {
+  font-family: 'Polin', 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+  color: #111827;
+}
+
+:global(.dark) .section h3 {
+  color: white;
+}
+
+.section p {
+  font-size: 0.9375rem;
+  line-height: 1.7;
+  color: #374151;
+  margin: 0;
+}
+
+:global(.dark) .section p {
+  color: #d1d5db;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-inline-start: 1.25rem;
+  margin: 0;
+  list-style: disc;
+}
+
+.list li {
+  font-size: 0.9375rem;
+  line-height: 1.65;
+  color: #374151;
+}
+
+:global(.dark) .list li {
+  color: #d1d5db;
+}
+
+.list li::marker {
+  color: #7c3aed;
+}
+
+.listNeg li::marker {
+  color: #ef4444;
+}
+
+/* User-Agent code block. Monospace, muted background with a soft purple
+   tint - same affordance as the gp-platform version. */
+.codeBlock {
+  background: rgba(243, 232, 255, 0.5);
+  border: 1px solid rgba(139, 92, 246, 0.2);
+  border-radius: 0.75rem;
+  padding: 0.875rem 1rem;
+  overflow-x: auto;
+}
+
+:global(.dark) .codeBlock {
+  background: rgba(124, 58, 237, 0.1);
+  border-color: rgba(139, 92, 246, 0.3);
+}
+
+.codeBlock code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.8125rem;
+  color: #111827;
+  word-break: break-all;
+  direction: ltr;
+  text-align: left;
+  background: transparent;
+  padding: 0;
+}
+
+:global(.dark) .codeBlock code {
+  color: #e5e7eb;
+}
+
+/* Definition list for bot metadata (name / version / contact). */
+.metaList {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+  margin: 0.5rem 0 0 0;
+}
+
+.metaList > div {
+  display: flex;
+  gap: 0.75rem;
+  align-items: baseline;
+  font-size: 0.875rem;
+}
+
+.metaList dt {
+  font-weight: 600;
+  color: #6b7280;
+  min-width: 6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.6875rem;
+}
+
+:global(.dark) .metaList dt {
+  color: #9ca3af;
+}
+
+.metaList dd {
+  margin: 0;
+  color: #111827;
+  font-size: 0.875rem;
+}
+
+:global(.dark) .metaList dd {
+  color: white;
+}
+
+/* Warning callout for the "scope narrowly" guidance. Soft amber stripe
+   on the inline-start edge - matches the WAF panel inside gp-platform
+   so users see the same visual cue in both places. */
+.scopeCallout {
+  border-inline-start: 3px solid #f59e0b;
+  background: rgba(245, 158, 11, 0.08);
+  padding: 1rem 1.125rem;
+  border-radius: 0 0.75rem 0.75rem 0;
+}
+
+:global(.dark) .scopeCallout {
+  background: rgba(245, 158, 11, 0.12);
+}
+
+.scopeCallout strong {
+  display: block;
+  font-family: 'Polin', 'Poppins', sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  margin-bottom: 0.375rem;
+  color: #111827;
+}
+
+:global(.dark) .scopeCallout strong {
+  color: white;
+}
+
+.scopeCallout p {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #4b5563;
+  line-height: 1.65;
+}
+
+:global(.dark) .scopeCallout p {
+  color: #9ca3af;
+}
+
+/* Plugin cards - one per WAF integration. Subtle bordered cards
+   with an h3 title and a steps paragraph. */
+.pluginCard {
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(233, 213, 255, 0.6);
+  border-radius: 0.75rem;
+  padding: 1.125rem 1.25rem;
+}
+
+:global(.dark) .pluginCard {
+  background: rgba(0, 0, 0, 0.3);
+  border-color: rgba(139, 92, 246, 0.2);
+}
+
+.pluginCard p {
+  font-size: 0.875rem;
+  color: #4b5563;
+  line-height: 1.7;
+  margin: 0;
+  white-space: pre-line;
+}
+
+:global(.dark) .pluginCard p {
+  color: #9ca3af;
+}
+
+/* Inline links inside the article. Scoped to .article so we don't
+   leak global anchor styling. */
+.article a {
+  color: #7c3aed;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  transition: color 0.2s;
+}
+
+.article a:hover {
+  color: #6d28d9;
+  text-decoration-thickness: 2px;
+}
+
+:global(.dark) .article a {
+  color: #a78bfa;
+}
+
+:global(.dark) .article a:hover {
+  color: #c4b5fd;
+}
+
+/* RTL handling - keep the code block text LTR (UAs / URLs are
+   left-to-right by nature) and align meta list labels to the start. */
+:global([dir="rtl"]) .metaList dt {
+  text-align: right;
+}
+
+:global([dir="rtl"]) .codeBlock code {
+  text-align: left;
+}
+
+@media (max-width: 640px) {
+  .hero {
+    padding: 4rem 1rem 1.5rem;
+  }
+
+  .article {
+    padding: 1rem 1rem 4rem;
+  }
+
+  .metaList > div {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .metaList dt {
+    min-width: 0;
+  }
+}

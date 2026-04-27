@@ -2243,7 +2243,7 @@ export const InterviewWizard = forwardRef(function InterviewWizard({ onClose, on
           <div className={styles.header}>
             <div className={styles.headerContent}>
               <div className={styles.headerIcon}>
-                <Image src="/ghostpost_logo.png" alt="Ghost" width={20} height={20} className={styles.logo} />
+                <Image src="/favicon.svg" alt="Ghost" width={20} height={20} className={styles.logo} />
               </div>
               <div className={styles.headerText}>
                 <h2 className={styles.headerTitle}>{t('interviewWizard.title')}</h2>
@@ -2278,7 +2278,7 @@ export const InterviewWizard = forwardRef(function InterviewWizard({ onClose, on
                   {/* Avatar */}
                   <div className={`${styles.avatar} ${message.type === 'agent' ? styles.agentAvatar : styles.userAvatar}`}>
                     {message.type === 'agent' ? (
-                      <Image src="/ghostpost_logo.png" alt="Ghost" width={16} height={16} className={styles.logo} />
+                      <Image src="/favicon.svg" alt="Ghost" width={16} height={16} className={styles.logo} />
                     ) : (
                       <div className={styles.userDot}></div>
                     )}
@@ -2419,7 +2419,7 @@ export const InterviewWizard = forwardRef(function InterviewWizard({ onClose, on
               <div className={`${styles.messageRow} ${styles.agentRow}`}>
                 <div className={`${styles.messageWrapper} ${styles.agentWrapper}`}>
                   <div className={`${styles.avatar} ${styles.agentAvatar}`}>
-                    <Image src="/ghostpost_logo.png" alt="Ghost" width={16} height={16} className={styles.logo} />
+                    <Image src="/favicon.svg" alt="Ghost" width={16} height={16} className={styles.logo} />
                   </div>
                   <div className={`${styles.messageBubble} ${styles.agentBubble}`}>
                     <div className={styles.typingIndicator}>

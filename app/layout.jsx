@@ -1,5 +1,6 @@
 import "./globals.css";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/next";
 import { ThemeProvider } from "./context/theme-context";
 
 export const metadata = {
@@ -43,6 +44,7 @@ export default function RootLayout({ children }) {
         <ThemeProvider>
           {children}
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );

@@ -456,7 +456,7 @@
   },
   "bot": {
     "title": "GhostSEOBot",
-    "subtitle": "The automated site analyzer used by the GhostSEO platform. If GhostSEOBot is hitting your site, it's because someone connected your domain to a GhostSEO account — this page explains what it does and how to allowlist it in your firewall.",
+    "subtitle": "The automated site analyzer used by the GhostSEO platform. If GhostSEOBot is hitting your site, it's because someone connected your domain to a GhostSEO account - this page explains what it does and how to allowlist it in your firewall.",
     "whatIsHeading": "What is GhostSEOBot?",
     "whatIsBody": "GhostSEOBot is the platform's outbound HTTP fetcher. It runs read-only audits on customer websites: technical SEO, page speed, sitemap parsing, render verification after edits, and image / metadata extraction. It does not log in, submit forms, or make any state-changing requests.",
     "userAgentHeading": "User-Agent",
@@ -487,7 +487,7 @@
     "scopeHeading": "Recommended scope",
     "scopeBody": "Scope the allowlist narrowly: bypass rate-limiting and bot-detection rules only. Do NOT disable SQLi/XSS protection, login brute-force protection, or malicious-traffic rules. GhostSEOBot only does GETs of public pages, so it doesn't need any of those exemptions.",
     "pluginsWordfenceTitle": "Wordfence",
-    "pluginsWordfenceSteps": "Wordfence → All Options → Whitelisted URLs / User Agents → add \"GhostSEOBot\". Bypass rate limiting and live-traffic logging only — leave brute-force protection and malicious-file scans active. Save.",
+    "pluginsWordfenceSteps": "Wordfence → All Options → Whitelisted URLs / User Agents → add \"GhostSEOBot\". Bypass rate limiting and live-traffic logging only - leave brute-force protection and malicious-file scans active. Save.",
     "pluginsCloudflareTitle": "Cloudflare",
     "pluginsCloudflareSteps": "Security → WAF → Custom rules → Create rule. When: \"User Agent contains GhostSEOBot\". Then: action \"Skip\" → tick \"Rate Limiting Rules\" and \"Bot Fight Mode\" only. Do not tick Managed Rules. Deploy.",
     "pluginsSucuriTitle": "Sucuri / other plugins",
@@ -495,7 +495,7 @@
     "removalHeading": "If GhostSEO isn't yours",
     "removalBody": "If you don't recognize GhostSEO and didn't authorize an account on your domain, we don't want to bother your site either. Email us with your domain and we'll add it to our internal block list so the bot stops fetching from it.",
     "contactHeading": "Contact",
-    "contactBody": "Questions, abuse reports, or allowlist help — reach us at"
+    "contactBody": "Questions, abuse reports, or allowlist help - reach us at"
   },
   "contact": {
     "badge": "24/7 Support",

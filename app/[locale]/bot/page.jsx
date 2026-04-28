@@ -2,7 +2,7 @@ import { getDictionary } from '../../../i18n/get-dictionary';
 import { generatePageMetadata } from '../../../lib/metadata';
 import styles from './page.module.css';
 
-// Bot identity constants — kept in sync with gp-platform/lib/bot-identity.js.
+// Bot identity constants - kept in sync with gp-platform/lib/bot-identity.js.
 // If GhostSEOBot's name/version changes there, mirror it here.
 const GHOSTSEO_BOT_NAME = 'GhostSEOBot';
 const GHOSTSEO_BOT_VERSION = '1.0';
@@ -22,7 +22,7 @@ export async function generateMetadata({ params }) {
       // Indexable so external admins (and search engines) can find the page
       // when investigating an unknown UA in their server logs.
       robots: 'index, follow',
-      title: `${t.title || 'GhostSEOBot'} — ${t.allowlistHeading || 'Bot identity & allowlist guide'}`,
+      title: `${t.title || 'GhostSEOBot'} - ${t.allowlistHeading || 'Bot identity & allowlist guide'}`,
       description: t.subtitle || 'GhostSEOBot is the GhostSEO platform automated site analyzer. Learn what it does, how often it crawls, and how to allowlist it in your firewall.',
     },
   });

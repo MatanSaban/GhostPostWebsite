@@ -302,7 +302,7 @@
   },
   "bot": {
     "title": "GhostSEOBot",
-    "subtitle": "L'analyseur automatisé de sites utilisé par la plateforme GhostSEO. Si GhostSEOBot accède à votre site, c'est parce que quelqu'un a connecté votre domaine à un compte GhostSEO — cette page explique ce qu'il fait et comment l'autoriser dans votre pare-feu.",
+    "subtitle": "L'analyseur automatisé de sites utilisé par la plateforme GhostSEO. Si GhostSEOBot accède à votre site, c'est parce que quelqu'un a connecté votre domaine à un compte GhostSEO - cette page explique ce qu'il fait et comment l'autoriser dans votre pare-feu.",
     "whatIsHeading": "Qu'est-ce que GhostSEOBot ?",
     "whatIsBody": "GhostSEOBot est le récupérateur HTTP sortant de la plateforme. Il effectue des audits en lecture seule sur les sites des clients : SEO technique, vitesse de page, analyse de sitemap, vérification du rendu après modifications, et extraction d'images / métadonnées. Il ne se connecte pas, ne soumet aucun formulaire et n'effectue aucune requête modifiant l'état.",
     "userAgentHeading": "User-Agent",
@@ -333,7 +333,7 @@
     "scopeHeading": "Portée recommandée",
     "scopeBody": "Limitez l'autorisation : contournez uniquement les règles de limitation de débit et de détection de bots. Ne désactivez PAS la protection SQLi/XSS, la protection contre les attaques par force brute sur la connexion, ou les règles de trafic malveillant. GhostSEOBot n'effectue que des GET sur des pages publiques, il n'a besoin d'aucune de ces exemptions.",
     "pluginsWordfenceTitle": "Wordfence",
-    "pluginsWordfenceSteps": "Wordfence → All Options → Whitelisted URLs / User Agents → ajoutez \"GhostSEOBot\". Contournez uniquement la limitation de débit et la journalisation du trafic en direct — laissez la protection contre la force brute et les analyses de fichiers malveillants actives. Enregistrer.",
+    "pluginsWordfenceSteps": "Wordfence → All Options → Whitelisted URLs / User Agents → ajoutez \"GhostSEOBot\". Contournez uniquement la limitation de débit et la journalisation du trafic en direct - laissez la protection contre la force brute et les analyses de fichiers malveillants actives. Enregistrer.",
     "pluginsCloudflareTitle": "Cloudflare",
     "pluginsCloudflareSteps": "Security → WAF → Custom rules → Create rule. Quand : \"User Agent contains GhostSEOBot\". Action : \"Skip\" → cochez uniquement \"Rate Limiting Rules\" et \"Bot Fight Mode\". Ne cochez pas Managed Rules. Déployer.",
     "pluginsSucuriTitle": "Sucuri / autres plugins",
@@ -341,7 +341,7 @@
     "removalHeading": "Si GhostSEO n'est pas le vôtre",
     "removalBody": "Si vous ne reconnaissez pas GhostSEO et n'avez pas autorisé un compte sur votre domaine, nous ne voulons pas non plus déranger votre site. Envoyez-nous un email avec votre domaine et nous l'ajouterons à notre liste de blocage interne pour que le bot cesse de s'y rendre.",
     "contactHeading": "Contact",
-    "contactBody": "Questions, signalements d'abus ou aide pour l'autorisation — écrivez-nous à"
+    "contactBody": "Questions, signalements d'abus ou aide pour l'autorisation - écrivez-nous à"
   },
   "contact": {
     "badge": "Support 24/7",

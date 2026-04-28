@@ -452,7 +452,7 @@
   },
   "bot": {
     "title": "GhostSEOBot",
-    "subtitle": "הסורק האוטומטי של פלטפורמת GhostSEO. אם GhostSEOBot מגיע לאתר שלך — זה כי מישהו חיבר את הדומיין לחשבון GhostSEO. הדף הזה מסביר מה הבוט עושה ואיך להוסיף אותו לרשימת ההיתר בחומת האש.",
+    "subtitle": "הסורק האוטומטי של פלטפורמת GhostSEO. אם GhostSEOBot מגיע לאתר שלך - זה כי מישהו חיבר את הדומיין לחשבון GhostSEO. הדף הזה מסביר מה הבוט עושה ואיך להוסיף אותו לרשימת ההיתר בחומת האש.",
     "whatIsHeading": "מה זה GhostSEOBot?",
     "whatIsBody": "GhostSEOBot הוא ה-fetcher היוצא של הפלטפורמה. הוא מריץ בדיקות (audit) קריאה-בלבד על אתרי לקוחות: SEO טכני, מהירות עמודים, פרסור Sitemap, אימות רינדור אחרי עריכות, וחילוץ מטא-דאטה ותמונות. הוא לא מתחבר, לא שולח טפסים, ולא מבצע אף בקשה שמשנה state.",
     "userAgentHeading": "User-Agent",
@@ -481,17 +481,17 @@
     "allowlistHeading": "איך מוסיפים את GhostSEOBot לרשימת ההיתר",
     "allowlistIntro": "אם תוסף האבטחה או ה-CDN שלך חוסם אותנו עם 403, הוסף לרשימת ההיתר את ה-User-Agent למעלה. ההגדרה תלויה בחומת האש שאתה משתמש בה:",
     "scopeHeading": "טווח מומלץ",
-    "scopeBody": "הגבל את ה-allowlist בצמצום: דלג רק על Rate Limiting וזיהוי בוטים. אל תכבה הגנת SQLi/XSS, הגנת brute-force על התחברות, או חוקי תעבורה זדונית. GhostSEOBot מבצע רק GET של עמודים ציבוריים — הוא לא צריך אף אחד מהפטורים האלה.",
+    "scopeBody": "הגבל את ה-allowlist בצמצום: דלג רק על Rate Limiting וזיהוי בוטים. אל תכבה הגנת SQLi/XSS, הגנת brute-force על התחברות, או חוקי תעבורה זדונית. GhostSEOBot מבצע רק GET של עמודים ציבוריים - הוא לא צריך אף אחד מהפטורים האלה.",
     "pluginsWordfenceTitle": "Wordfence",
-    "pluginsWordfenceSteps": "Wordfence ← All Options ← Whitelisted URLs / User Agents ← הוסף \"GhostSEOBot\". סמן רק bypass rate limiting ו-live traffic logging — השאר Brute Force ו-Malicious File Scan פעילים. שמור.",
+    "pluginsWordfenceSteps": "Wordfence ← All Options ← Whitelisted URLs / User Agents ← הוסף \"GhostSEOBot\". סמן רק bypass rate limiting ו-live traffic logging - השאר Brute Force ו-Malicious File Scan פעילים. שמור.",
     "pluginsCloudflareTitle": "Cloudflare",
     "pluginsCloudflareSteps": "Security ← WAF ← Custom rules ← Create rule. תנאי: \"User Agent contains GhostSEOBot\". פעולה: \"Skip\" ← סמן רק \"Rate Limiting Rules\" ו-\"Bot Fight Mode\". אל תסמן Managed Rules. פרסם.",
     "pluginsSucuriTitle": "Sucuri / תוספים אחרים",
     "pluginsSucuriSteps": "Sucuri Settings ← Whitelist ← הוסף כלל User-Agent עם הערך \"GhostSEOBot\". בתוספים אחרים, חפש מקטע Allowlist / Whitelist / Bypass שמקבל User-Agent, והגבל את הדילוג ל-rate limiting וזיהוי בוטים בלבד.",
     "removalHeading": "אם GhostSEO לא קשור אליך",
-    "removalBody": "אם אינך מזהה את GhostSEO ולא אישרת חשבון על הדומיין שלך — אנחנו גם לא רוצים להטריד את האתר שלך. שלח לנו אימייל עם הדומיין ונוסיף אותו לרשימת חסימה פנימית כדי שהבוט יפסיק לפנות אליו.",
+    "removalBody": "אם אינך מזהה את GhostSEO ולא אישרת חשבון על הדומיין שלך - אנחנו גם לא רוצים להטריד את האתר שלך. שלח לנו אימייל עם הדומיין ונוסיף אותו לרשימת חסימה פנימית כדי שהבוט יפסיק לפנות אליו.",
     "contactHeading": "ליצירת קשר",
-    "contactBody": "שאלות, דיווחי שימוש לרעה, או עזרה ב-allowlist — אנחנו זמינים בכתובת"
+    "contactBody": "שאלות, דיווחי שימוש לרעה, או עזרה ב-allowlist - אנחנו זמינים בכתובת"
   },
   "contact": {
     "badge": "תמיכה 24/7",

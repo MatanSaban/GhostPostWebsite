@@ -1,7 +1,7 @@
 'use client';
 
 /**
- * GCoinIcon — the brand mark for Ai-GCoins.
+ * GCoinIcon - the brand mark for Ai-GCoins.
  * Renders /public/gcoin.svg so the artwork matches gp-platform exactly. Pass
  * `size` (px, applied to width and height), an optional className, and an
  * optional accessible `title`.

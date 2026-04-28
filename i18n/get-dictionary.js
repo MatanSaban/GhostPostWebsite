@@ -69,7 +69,7 @@ export async function getSiteSeo() {
   // Return defaults if CMS unavailable
   return {
     siteName: { en: 'GhostSEO', he: 'GhostSEO', fr: 'GhostSEO' },
-    siteUrl: 'https://ghostpost.co.il',
+    siteUrl: 'https://ghostseo.ai',
     defaultOgImage: '/og/default.png',
     twitterHandle: '@ghostpost',
     defaultRobots: 'index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1'

@@ -149,7 +149,7 @@ export async function GET(request) {
               color: 'rgba(255,255,255,0.8)',
             }}
           >
-            ghostpost.co.il
+            ghostseo.ai
           </span>
         </div>
 

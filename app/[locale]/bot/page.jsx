@@ -6,8 +6,8 @@ import styles from './page.module.css';
 // If GhostSEOBot's name/version changes there, mirror it here.
 const GHOSTSEO_BOT_NAME = 'GhostSEOBot';
 const GHOSTSEO_BOT_VERSION = '1.0';
-const GHOSTSEO_BOT_CONTACT = 'support@ghostpost.co.il';
-const GHOSTSEO_BOT_UA = `Mozilla/5.0 (compatible; ${GHOSTSEO_BOT_NAME}/${GHOSTSEO_BOT_VERSION}; +https://ghostpost.co.il/en/bot)`;
+const GHOSTSEO_BOT_CONTACT = 'support@ghostseo.ai';
+const GHOSTSEO_BOT_UA = `Mozilla/5.0 (compatible; ${GHOSTSEO_BOT_NAME}/${GHOSTSEO_BOT_VERSION}; +https://ghostseo.ai/en/bot)`;
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;

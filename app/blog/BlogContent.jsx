@@ -71,7 +71,7 @@ export function BlogContent({ blogPosts, categoryKeys, dict, locale }) {
                 <span>•</span>
                 <span>{featuredPost.readTime} {t.minRead || "min read"}</span>
               </div>
-              <Link href={`/${locale}/blog/${featuredPost.id}`} className={styles.readMore}>
+              <Link href={`/${locale}/blog/${featuredPost.slug}`} className={styles.readMore}>
                 {t.readArticle || "Read Article"}
                 <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -88,7 +88,7 @@ export function BlogContent({ blogPosts, categoryKeys, dict, locale }) {
           {regularPosts.length > 0 ? (
             <div className={styles.postsGrid}>
               {regularPosts.map((post) => (
-                <article key={post.id} className={styles.postCard}>
+                <article key={post.slug} className={styles.postCard}>
                   <span className={styles.postCategory}>
                     {t[post.categoryKey] || post.categoryKey}
                   </span>
@@ -103,7 +103,7 @@ export function BlogContent({ blogPosts, categoryKeys, dict, locale }) {
                     <span>•</span>
                     <span>{post.readTime} {t.minRead || "min read"}</span>
                   </div>
-                  <Link href={`/${locale}/blog/${post.id}`} className={styles.postLink}>
+                  <Link href={`/${locale}/blog/${post.slug}`} className={styles.postLink}>
                     {t.readMore || "Read More"} {isRtl ? '←' : '→'}
                   </Link>
                 </article>

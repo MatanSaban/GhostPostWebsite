@@ -1,8 +1,9 @@
 import Link from "next/link";
+import { notFound } from "next/navigation";
 import { getDictionary } from '../../../../i18n/get-dictionary';
+import { blogPosts, getBlogPostBySlug, getRelatedBlogPosts } from '../../../../lib/blog-posts';
 import styles from '../../../blog/post.module.css';
 
-// Helper function to format date based on locale
 function formatDate(dateString, locale) {
   const date = new Date(dateString);
   const localeMap = {
@@ -17,136 +18,16 @@ function formatDate(dateString, locale) {
   });
 }
 
-// Blog posts data (in a real app, this would come from a CMS or database)
-const blogPostsData = {
-  1: {
-    titleKey: "post1Title",
-    excerptKey: "post1Excerpt",
-    categoryKey: "categoryAI",
-    date: "2026-01-15",
-    readTime: 8,
-    author: {
-      name: "Sarah Chen",
-      role: "headOfSEO",
-      avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80"
-    },
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&q=80",
-    tagsKeys: ["tagAI", "tagSEO", "tagAutomation", "tagFuture"],
-    contentKey: "post1Content"
-  },
-  2: {
-    titleKey: "post2Title",
-    excerptKey: "post2Excerpt",
-    categoryKey: "categorySEO",
-    date: "2026-01-12",
-    readTime: 6,
-    author: {
-      name: "Michael Torres",
-      role: "seoSpecialist",
-      avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&q=80"
-    },
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80",
-    tagsKeys: ["tagSEO", "tagStrategy", "tagRankings"],
-    contentKey: "post2Content"
-  },
-  3: {
-    titleKey: "post3Title",
-    excerptKey: "post3Excerpt",
-    categoryKey: "categoryTechnical",
-    date: "2026-01-10",
-    readTime: 12,
-    author: {
-      name: "Alex Kim",
-      role: "technicalLead",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80"
-    },
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
-    tagsKeys: ["tagTechnical", "tagSEO", "tagGuide"],
-    contentKey: "post3Content"
-  },
-  4: {
-    titleKey: "post4Title",
-    excerptKey: "post4Excerpt",
-    categoryKey: "categoryContent",
-    date: "2026-01-08",
-    readTime: 10,
-    author: {
-      name: "Emily Watson",
-      role: "contentStrategist",
-      avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&q=80"
-    },
-    image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&q=80",
-    tagsKeys: ["tagContent", "tagMarketing", "tagStrategy"],
-    contentKey: "post4Content"
-  },
-  5: {
-    titleKey: "post5Title",
-    excerptKey: "post5Excerpt",
-    categoryKey: "categoryCaseStudies",
-    date: "2026-01-05",
-    readTime: 7,
-    author: {
-      name: "David Park",
-      role: "caseStudyAuthor",
-      avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80"
-    },
-    image: "https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&q=80",
-    tagsKeys: ["tagCaseStudy", "tagSuccess", "tagGrowth"],
-    contentKey: "post5Content"
-  },
-  6: {
-    titleKey: "post6Title",
-    excerptKey: "post6Excerpt",
-    categoryKey: "categoryTechnical",
-    date: "2026-01-03",
-    readTime: 9,
-    author: {
-      name: "Lisa Chang",
-      role: "performanceExpert",
-      avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
-    },
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80",
-    tagsKeys: ["tagTechnical", "tagPerformance", "tagGoogle"],
-    contentKey: "post6Content"
-  },
-  7: {
-    titleKey: "post7Title",
-    excerptKey: "post7Excerpt",
-    categoryKey: "categorySEO",
-    date: "2025-12-28",
-    readTime: 11,
-    author: {
-      name: "James Wilson",
-      role: "seoResearcher",
-      avatar: "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=200&q=80"
-    },
-    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&q=80",
-    tagsKeys: ["tagKeywords", "tagAI", "tagResearch"],
-    contentKey: "post7Content"
-  },
-  8: {
-    titleKey: "post8Title",
-    excerptKey: "post8Excerpt",
-    categoryKey: "categoryContent",
-    date: "2025-12-25",
-    readTime: 8,
-    author: {
-      name: "Rachel Green",
-      role: "contentManager",
-      avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&q=80"
-    },
-    image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1200&q=80",
-    tagsKeys: ["tagContent", "tagPlanning", "tagStrategy"],
-    contentKey: "post8Content"
-  }
-};
+export function generateStaticParams() {
+  return blogPosts.map((post) => ({ slug: post.slug }));
+}
 
 export async function generateMetadata({ params }) {
-  const { locale, id } = await params;
+  const { locale, slug } = await params;
   const dict = await getDictionary(locale);
   const t = dict.blog || {};
-  const post = blogPostsData[id];
-  
+  const post = getBlogPostBySlug(slug);
+
   if (!post) {
     return { title: "Post Not Found" };
   }
@@ -158,31 +39,19 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function BlogPostPage({ params }) {
-  const { locale, id } = await params;
+  const { locale, slug } = await params;
   const dict = await getDictionary(locale);
   const isRtl = locale === 'he';
 
   const t = dict.blog || {};
   const tp = dict.blogPost || {};
-  const post = blogPostsData[id];
+  const post = getBlogPostBySlug(slug);
 
   if (!post) {
-    return (
-      <div className={styles.page}>
-        <div className={styles.container}>
-          <h1>{tp.notFound || "Post not found"}</h1>
-          <Link href={`/${locale}/blog`} className={styles.backLink}>
-            {isRtl ? '→' : '←'} {tp.backToBlog || "Back to Blog"}
-          </Link>
-        </div>
-      </div>
-    );
+    notFound();
   }
 
-  // Get related posts (excluding current post)
-  const relatedPostIds = Object.keys(blogPostsData)
-    .filter(postId => postId !== id)
-    .slice(0, 3);
+  const relatedPosts = getRelatedBlogPosts(post.slug, 3);
 
   return (
     <div className={styles.page}>
@@ -229,8 +98,8 @@ export default async function BlogPostPage({ params }) {
           {/* Author & Actions */}
           <div className={styles.authorSection}>
             <div className={styles.author}>
-              <img 
-                src={post.author.avatar} 
+              <img
+                src={post.author.avatar}
                 alt={post.author.name}
                 className={styles.authorAvatar}
               />
@@ -258,8 +127,8 @@ export default async function BlogPostPage({ params }) {
         {/* Featured Image */}
         <div className={styles.featuredImage}>
           <div className={styles.imageGlow}></div>
-          <img 
-            src={post.image} 
+          <img
+            src={post.image}
             alt={t[post.titleKey] || post.titleKey}
             className={styles.image}
           />
@@ -270,7 +139,7 @@ export default async function BlogPostPage({ params }) {
           <p className={styles.excerpt}>
             {t[post.excerptKey] || post.excerptKey}
           </p>
-          
+
           <p>
             {tp.contentPlaceholder || "This is where the full article content would be displayed. In a production environment, this content would be fetched from a CMS or database and rendered with proper formatting, including headings, paragraphs, lists, quotes, and images."}
           </p>
@@ -331,32 +200,29 @@ export default async function BlogPostPage({ params }) {
       <section className={styles.relatedSection}>
         <h2 className={styles.relatedTitle}>{tp.relatedArticles || "Related Articles"}</h2>
         <div className={styles.relatedGrid}>
-          {relatedPostIds.map((postId) => {
-            const relatedPost = blogPostsData[postId];
-            return (
-              <Link 
-                key={postId}
-                href={`/${locale}/blog/${postId}`}
-                className={styles.relatedCard}
-              >
-                <div className={styles.relatedImageContainer}>
-                  <img 
-                    src={relatedPost.image} 
-                    alt={t[relatedPost.titleKey] || relatedPost.titleKey}
-                    className={styles.relatedImage}
-                  />
-                </div>
-                <div className={styles.relatedContent}>
-                  <span className={styles.relatedCategory}>
-                    {t[relatedPost.categoryKey] || relatedPost.categoryKey}
-                  </span>
-                  <h3 className={styles.relatedPostTitle}>
-                    {t[relatedPost.titleKey] || relatedPost.titleKey}
-                  </h3>
-                </div>
-              </Link>
-            );
-          })}
+          {relatedPosts.map((relatedPost) => (
+            <Link
+              key={relatedPost.slug}
+              href={`/${locale}/blog/${relatedPost.slug}`}
+              className={styles.relatedCard}
+            >
+              <div className={styles.relatedImageContainer}>
+                <img
+                  src={relatedPost.image}
+                  alt={t[relatedPost.titleKey] || relatedPost.titleKey}
+                  className={styles.relatedImage}
+                />
+              </div>
+              <div className={styles.relatedContent}>
+                <span className={styles.relatedCategory}>
+                  {t[relatedPost.categoryKey] || relatedPost.categoryKey}
+                </span>
+                <h3 className={styles.relatedPostTitle}>
+                  {t[relatedPost.titleKey] || relatedPost.titleKey}
+                </h3>
+              </div>
+            </Link>
+          ))}
         </div>
       </section>
     </div>

@@ -190,7 +190,7 @@ export function AuthModal({ locale, dict }) {
               <input
                 type="email"
                 id="auth-email"
-                defaultValue={mode === 'login' ? 'demo@ghostpost.ai' : ''}
+                defaultValue={mode === 'login' ? 'demo@ghostseo.ai' : ''}
                 placeholder={mode === 'register' ? t.emailPlaceholder : ''}
                 className={styles.input}
                 readOnly={mode === 'login'}

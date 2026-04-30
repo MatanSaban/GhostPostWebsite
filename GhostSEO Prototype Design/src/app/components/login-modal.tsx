@@ -117,7 +117,7 @@ export function LoginModal({ isOpen, onClose, initialMode = 'login' }: LoginModa
               <input
                 type="email"
                 id="email"
-                defaultValue={mode === 'login' ? 'demo@ghostpost.ai' : ''}
+                defaultValue={mode === 'login' ? 'demo@ghostseo.ai' : ''}
                 placeholder={mode === 'register' ? 'your@email.com' : ''}
                 className="w-full px-4 py-3 rounded-lg bg-white dark:bg-black/40 border border-gray-300 dark:border-purple-500/30 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none focus:border-purple-500 dark:focus:border-[#00FF9D] focus:ring-2 focus:ring-purple-500/20 dark:focus:ring-[#00FF9D]/20 transition-all font-['Poppins']"
                 readOnly={mode === 'login'}

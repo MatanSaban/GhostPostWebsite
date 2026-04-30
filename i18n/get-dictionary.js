@@ -71,7 +71,7 @@ export async function getSiteSeo() {
     siteName: { en: 'GhostSEO', he: 'GhostSEO', fr: 'GhostSEO' },
     siteUrl: 'https://ghostseo.ai',
     defaultOgImage: '/og/default.png',
-    twitterHandle: '@ghostpost',
+    twitterHandle: '@ghostseo',
     defaultRobots: 'index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1'
   };
 }

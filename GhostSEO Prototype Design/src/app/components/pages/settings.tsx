@@ -95,7 +95,7 @@ Always prioritize user experience and helpfulness over optimization tricks.`,
     weeklyReports: true,
     rankingChanges: false,
     backlinkNotifications: true,
-    notificationEmail: 'demo@ghostpost.ai',
+    notificationEmail: 'demo@ghostseo.ai',
     slackWebhook: '',
     slackEnabled: false,
   });
@@ -125,9 +125,9 @@ Always prioritize user experience and helpfulness over optimization tricks.`,
 
   // Team Settings
   const [teamMembers] = useState([
-    { id: 1, name: 'Demo Account', email: 'demo@ghostpost.ai', role: 'Owner', status: 'Active' },
-    { id: 2, name: 'Sarah Chen', email: 'sarah@ghostpost.ai', role: 'Admin', status: 'Active' },
-    { id: 3, name: 'Mike Rodriguez', email: 'mike@ghostpost.ai', role: 'Editor', status: 'Active' },
+    { id: 1, name: 'Demo Account', email: 'demo@ghostseo.ai', role: 'Owner', status: 'Active' },
+    { id: 2, name: 'Sarah Chen', email: 'sarah@ghostseo.ai', role: 'Admin', status: 'Active' },
+    { id: 3, name: 'Mike Rodriguez', email: 'mike@ghostseo.ai', role: 'Editor', status: 'Active' },
   ]);
 
   // Subscription Settings
@@ -1203,7 +1203,7 @@ Always prioritize user experience and helpfulness over optimization tricks.`,
                         </label>
                         <input
                           type="email"
-                          defaultValue="demo@ghostpost.ai"
+                          defaultValue="demo@ghostseo.ai"
                           className="w-full px-4 py-3 rounded-lg bg-gray-100 dark:bg-black/60 border border-gray-300 dark:border-purple-500/20 text-gray-900 dark:text-white focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-200 dark:focus:ring-purple-500/20 transition-all"
                         />
                       </div>

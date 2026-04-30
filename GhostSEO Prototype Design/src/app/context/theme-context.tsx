@@ -12,12 +12,12 @@ const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 export function ThemeProvider({ children }: { children: ReactNode }) {
   const [theme, setTheme] = useState<Theme>(() => {
     // Check localStorage or default to dark
-    const savedTheme = localStorage.getItem('ghost-post-theme') as Theme;
+    const savedTheme = localStorage.getItem('ghostseo-theme') as Theme;
     return savedTheme || 'dark';
   });
 
   useEffect(() => {
-    localStorage.setItem('ghost-post-theme', theme);
+    localStorage.setItem('ghostseo-theme', theme);
     // Update document class for global theme styles
     document.documentElement.classList.remove('light', 'dark');
     document.documentElement.classList.add(theme);

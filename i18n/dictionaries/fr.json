@@ -507,7 +507,9 @@
       "placeholder": "Entrez votre email",
       "button": "S'abonner"
     },
-    "copyright": "© {year} GhostSEO. Tous droits réservés."
+    "copyright": "© {year} GhostSEO. Tous droits réservés.",
+    "builtBy": "Conçu et développé par",
+    "builtByAnchor": "Red Ghost - Studio de développement web"
   },
   "auth": {
     "login": {

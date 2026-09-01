@@ -80,9 +80,36 @@
       justify-content: space-between;
     }
 
+    .bottomText {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+      text-align: center;
+
+      @media (min-width: 768px) {
+        text-align: start;
+      }
+    }
+
     .copyright {
       font-size: 0.75rem;
       color: #4b5563;
+    }
+
+    .builtBy {
+      font-size: 0.75rem;
+      color: #4b5563;
+    }
+
+    .builtByLink {
+      color: inherit;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+      transition: color 0.2s;
+
+      &:hover {
+        color: #7c3aed;
+      }
     }
 
     .socials {
@@ -139,6 +166,16 @@
 
     .copyright {
       color: #9ca3af;
+    }
+
+    .builtBy {
+      color: #9ca3af;
+    }
+
+    .builtByLink {
+      &:hover {
+        color: #a78bfa;
+      }
     }
 
     .socialLink {

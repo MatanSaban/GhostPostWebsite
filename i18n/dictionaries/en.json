@@ -693,7 +693,9 @@
       "placeholder": "Enter your email",
       "button": "Subscribe"
     },
-    "copyright": "© {year} GhostSEO. All rights reserved."
+    "copyright": "© {year} GhostSEO. All rights reserved.",
+    "builtBy": "Built by",
+    "builtByAnchor": "Red Ghost - Web Development Studio"
   },
   "auth": {
     "login": {

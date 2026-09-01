@@ -93,9 +93,17 @@ export function Footer({ locale, dict }) {
         </div>
 
         <div className={styles.bottom}>
-          <p className={styles.copyright}>
-            {dict?.footer?.copyright?.replace('{year}', new Date().getFullYear()) || `© ${new Date().getFullYear()} GhostSEO. All rights reserved.`}
-          </p>
+          <div className={styles.bottomText}>
+            <p className={styles.copyright}>
+              {dict?.footer?.copyright?.replace('{year}', new Date().getFullYear()) || `© ${new Date().getFullYear()} GhostSEO. All rights reserved.`}
+            </p>
+            <p className={styles.builtBy}>
+              {dict?.footer?.builtBy || "Built by"}{" "}
+              <a href="https://red-ghost.co.il" className={styles.builtByLink}>
+                {dict?.footer?.builtByAnchor || "Red Ghost - Web Development Studio"}
+              </a>
+            </p>
+          </div>
           <div className={styles.socials}>
             <a href="#" className={styles.socialLink} aria-label="Twitter">
               <svg className={styles.socialIcon} fill="currentColor" viewBox="0 0 24 24">

@@ -689,7 +689,9 @@
       "placeholder": "הכנס את האימייל שלך",
       "button": "הרשמה"
     },
-    "copyright": "© {year} GhostSEO. כל הזכויות שמורות."
+    "copyright": "© {year} GhostSEO. כל הזכויות שמורות.",
+    "builtBy": "נבנה ופותח על ידי",
+    "builtByAnchor": "Red Ghost - חברה לבניית אתרים"
   },
   "auth": {
     "login": {

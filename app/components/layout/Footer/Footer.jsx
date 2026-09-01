@@ -2,7 +2,22 @@ import Link from "next/link";
 import { Logo } from "../../ui/Logo/Logo";
 import styles from "./Footer.module.css";
 
+// The build credit, per locale.
+//
+// It cannot live in the `footer` section of the dictionaries alone: the CMS
+// owns that section, and getDictionary() replaces a CMS-managed section
+// wholesale rather than merging into it (see i18n/get-dictionary.js), so a key
+// added only to the static JSON silently disappears on production. The static
+// keys are still read first, so the credit stays editable the day it is added
+// to the CMS - this map is what renders until then.
+const BUILT_BY = {
+  he: { prefix: "נבנה ופותח על ידי", anchor: "Red Ghost - חברה לבניית אתרים" },
+  en: { prefix: "Built by", anchor: "Red Ghost - Web Development Studio" },
+  fr: { prefix: "Conçu et développé par", anchor: "Red Ghost - Studio de développement web" },
+};
+
 export function Footer({ locale, dict }) {
+  const builtBy = BUILT_BY[locale] || BUILT_BY.en;
   const productLinks = [
     { href: `/${locale}/features`, label: dict?.footer?.links?.features || "Features" },
     { href: `/${locale}/pricing`, label: dict?.footer?.links?.pricing || "Pricing" },
@@ -98,9 +113,9 @@ export function Footer({ locale, dict }) {
               {dict?.footer?.copyright?.replace('{year}', new Date().getFullYear()) || `© ${new Date().getFullYear()} GhostSEO. All rights reserved.`}
             </p>
             <p className={styles.builtBy}>
-              {dict?.footer?.builtBy || "Built by"}{" "}
+              {dict?.footer?.builtBy || builtBy.prefix}{" "}
               <a href="https://red-ghost.co.il" className={styles.builtByLink}>
-                {dict?.footer?.builtByAnchor || "Red Ghost - Web Development Studio"}
+                {dict?.footer?.builtByAnchor || builtBy.anchor}
               </a>
             </p>
           </div>
